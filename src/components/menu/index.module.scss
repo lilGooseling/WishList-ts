@@ -1,0 +1,21 @@
+.active {
+  color: plum !important;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+
+  .link {
+    padding-right: 8px;
+    margin-right: 8px;
+
+    >*{
+      font-size: 16px !important;
+      color: black ;
+    }
+
+  }
+}
