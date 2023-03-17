@@ -1,6 +1,9 @@
 import React from 'react';
-import {IPage} from "../../interfaces/data";
+import {IPage, PageTypeEnum} from "../../interfaces/data";
 import Menu from "../menu";
+import styles from './index.module.scss'
+import classNames from "classnames";
+import Section from "../section";
 
 
 interface PageProps {
@@ -8,10 +11,18 @@ interface PageProps {
 }
 
 const Page: React.FC<PageProps> = ({page}) => {
+    const pageType = page.type || PageTypeEnum.LEFT;
 
     return <div>
         <Menu/>
-        {page.title}
+        <div className={classNames(styles.title, {
+            [styles.left]: pageType === PageTypeEnum.LEFT,
+            [styles.right]: pageType === PageTypeEnum.RIGHT,
+            [styles.center]: pageType === PageTypeEnum.CENTER,
+        })}>
+            {page.title}
+        </div>
+        {page.sections.map(section => <Section section={section} key={section.title}/>)}
     </div>
 
 };

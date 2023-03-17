@@ -1,0 +1,78 @@
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.cardWrapper {
+  width: 100%;
+  height: 500px;
+}
+
+.cardHolder {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: 500px;
+
+  &:hover{
+    .right{
+      .img{
+        transform: scale(1.3);
+      }
+    }
+  }
+
+  .left {
+    width: 400px;
+    flex: 0 0 auto;
+    padding: 24px;
+
+    .cardTitle{
+      font-size: 22px;
+      font-weight: bold;
+      font-style: italic;
+      margin-bottom: 16px;
+    }
+
+    .cardDesc{
+      font-size: 14px;
+      font-weight: lighter;
+      font-style: italic;
+      opacity: 0.6;
+      margin-bottom: 24px;
+    }
+
+    .button{
+      width: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: plum;
+      opacity: 0.9;
+      padding: 4px 8px;
+      border-radius: 5px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+  }
+
+  .right {
+    overflow: hidden;
+    position: relative;
+    flex: 1 1 auto;
+
+    .img{
+      position: absolute;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition-duration: 1s;
+      background-position: center;
+    }
+  }
+}

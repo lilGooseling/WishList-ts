@@ -1,3 +1,15 @@
+export enum PageTypeEnum {
+    LEFT = 'left',
+    RIGHT = 'right',
+    CENTER = 'center',
+}
+
+export enum SectionTemplateEnum {
+    SLIDER,
+    PARALLAX,
+    GRID,
+}
+
 export interface IData {
     title: string,
     description: string,
@@ -6,6 +18,7 @@ export interface IData {
 
 export interface IPage {
     title: string,
+    type?: PageTypeEnum,
     description: string,
     url: string,
     sections: ISection[]
@@ -14,6 +27,7 @@ export interface IPage {
 export interface ISection {
     title: string,
     description: string,
+    template: SectionTemplateEnum,
     cards: ICard[]
 }
 
