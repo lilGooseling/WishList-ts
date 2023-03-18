@@ -5,7 +5,9 @@ export enum PageTypeEnum {
 }
 
 export enum SectionTemplateEnum {
-    SLIDER,
+    SOLOSLIDER,
+    DUOSLIDER,
+    MULTISLIDER,
     PARALLAX,
     GRID,
 }
@@ -21,6 +23,7 @@ export interface IPage {
     type?: PageTypeEnum,
     description: string,
     url: string,
+    fullScreen?: boolean
     sections: ISection[]
 }
 
@@ -28,7 +31,8 @@ export interface ISection {
     title: string,
     description: string,
     template: SectionTemplateEnum,
-    cards: ICard[]
+    cards: ICard[],
+    fullScreen?: boolean
 }
 
 export interface ICard {

@@ -1,9 +1,11 @@
 import React from 'react';
 import styles from './index.module.scss';
-import {ISection} from "../../../interfaces/data";
+import {ISection, SectionTemplateEnum} from "../../../interfaces/data";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import sliderConfig from "./sliderConfig";
+import classNames from "classnames";
 
 
 interface SliderSectionProps {
@@ -12,18 +14,13 @@ interface SliderSectionProps {
 
 
 const SliderSection: React.FC<SliderSectionProps> = ({section}) => {
+    let settings = sliderConfig(section.template);
 
-    let settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        fade: true,
-        cssEase: 'linear'
-    }
-
-    return <div className={styles.slider}>
+    return <div className={classNames(styles.slider, {
+        [styles.solo]: section.template === SectionTemplateEnum.SOLOSLIDER,
+        [styles.duo]: section.template === SectionTemplateEnum.DUOSLIDER,
+        [styles.multi]: section.template === SectionTemplateEnum.MULTISLIDER
+    })}>
         <Slider {...settings}>
             {section.cards.map(card => <div key={card.title} className={styles.cardWrapper}>
                 <div className={styles.cardHolder}>

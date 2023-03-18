@@ -1,0 +1,33 @@
+@import '../../styles/_partials';
+@import '../../styles/_mixins';
+
+.container{
+  margin: 0 auto;
+
+  @include respond-to(xs, xs) {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: $breakpoint-xs-max;
+  }
+  @include respond-to(sm, sm) {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: $breakpoint-sm-max;
+  }
+  @include respond-to(md, md) {
+    width: 950px;
+
+    &.fullScreen{
+      width: 100%;
+    }
+  }
+  @include respond-to(lg) {
+    width: 1180px;
+
+    &.fullScreen{
+      width: 100%;
+    }
+  }
+}
