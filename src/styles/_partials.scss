@@ -1,0 +1,32 @@
+
+/* Массив (map) с начальными и конечными точками каждого шага адаптива */
+$breakpoints-map: (
+        xs: (
+                0px,
+                670px
+        ),
+        sm: (
+                671px,
+                960px
+        ),
+        md: (
+                961px,
+                1280px
+        ),
+        lg: (
+                1281px,
+                infinite
+        ),
+
+);
+
+/* Настройки media-queries */
+$breakpoint-xs-min: nth(map_get($breakpoints-map, xs), 1); // (0)
+$breakpoint-sm-min: nth(map_get($breakpoints-map, sm), 1); // (671)
+$breakpoint-md-min: nth(map_get($breakpoints-map, md), 1); // (961)
+$breakpoint-lg-min: nth(map_get($breakpoints-map, lg), 1); // (1281)
+
+$breakpoint-xs-max: nth(map_get($breakpoints-map, xs), 2); // (670)
+$breakpoint-sm-max: nth(map_get($breakpoints-map, sm), 2); // (960)
+$breakpoint-md-max: nth(map_get($breakpoints-map, md), 2); // (1280)
+$breakpoint-lg-max: nth(map_get($breakpoints-map, lg), 2); // ()
