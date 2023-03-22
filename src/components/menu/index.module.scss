@@ -1,5 +1,5 @@
 .active {
-  color: plum !important;
+  color: #c27b7f !important;
 }
 
 .menu {
@@ -7,14 +7,18 @@
   align-items: center;
   justify-content: center;
   padding: 8px;
+  margin-bottom: 50px;
+
+
 
   .link {
     padding-right: 8px;
     margin-right: 8px;
+    margin-bottom: 5px;
 
     >*{
       font-size: 16px !important;
-      color: black ;
+      color: #2f4858; ;
     }
 
   }

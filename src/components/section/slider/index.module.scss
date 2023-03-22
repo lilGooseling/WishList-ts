@@ -29,10 +29,11 @@
     padding: 24px;
 
     .cardTitle{
-      font-size: 22px;
+      font-size: 20px;
       font-weight: bold;
       font-style: italic;
       margin-bottom: 16px;
+      color: #2f4858;
     }
 
     .cardDesc{
@@ -41,20 +42,25 @@
       font-style: italic;
       opacity: 0.6;
       margin-bottom: 24px;
+      color: #2f4858;
     }
 
     .button{
+      pointer-events: auto;
+      cursor: pointer;
       width: 100px;
       display: flex;
       align-items: center;
       justify-content: center;
-      background: plum;
+      background: #c27b7f;
       opacity: 0.9;
-      padding: 4px 8px;
+      padding: 10px 20px;
       border-radius: 5px;
+      border: none;
       text-decoration: none;
       color: white;
       font-weight: bold;
+      position: relative;
     }
   }
 
@@ -73,6 +79,7 @@
       background-size: cover;
       transition-duration: 1s;
       background-position: center;
+      object-fit: cover;
     }
   }
 }
