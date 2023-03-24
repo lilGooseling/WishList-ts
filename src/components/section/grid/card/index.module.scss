@@ -1,0 +1,154 @@
+@import '../../../../styles/_partials';
+@import '../../../../styles/_mixins';
+
+.card {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 8px;
+
+  &.material {
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    overflow: hidden;
+    min-width: 275px;
+
+    .text{
+      padding: 16px;
+    }
+
+    .title{
+      margin-bottom: 12px;
+      font-weight: 400;
+      font-size: 1.5rem;
+      line-height: 1.334;
+      letter-spacing: 0em;
+    }
+
+    .desc{
+      margin-bottom: 12px;
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.43;
+      letter-spacing: 0.01071em;
+    }
+
+    .button{
+      display: inline-flex;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+      position: relative;
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+      outline: 0px;
+      border: 0px;
+      margin: 0px;
+      cursor: pointer;
+      user-select: none;
+      vertical-align: middle;
+      appearance: none;
+      text-decoration: none;
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 0.875rem;
+      line-height: 1.75;
+      letter-spacing: 0.02857em;
+      text-transform: uppercase;
+      min-width: 64px;
+      padding: 6px 16px;
+      border-radius: 4px;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      color: rgb(255, 255, 255);
+      background-color: $main_color;
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+
+      &:hover{
+        text-decoration: none;
+        background-color: $main_color;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+      }
+    }
+  }
+
+  &.shadow {
+    border-radius: 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -16px;
+
+    .img{
+      transition-duration: 900ms;
+      background-position: center;
+      background-size: cover;
+      transform: scale(1);
+      transition-timing-function: ease-out;
+
+      &:hover{
+        transform: scale(1.2);
+      }
+    }
+
+    .text{
+      padding: 24px;
+    }
+
+    .title{
+      font-size: 1.6rem;
+      letter-spacing: 0.06em;
+      margin-bottom: 18px;
+    }
+
+    .desc{
+      font-size: 1rem;
+      line-height: 1.6rem;
+      margin-bottom: 18px;
+    }
+
+    .buttonWrap{
+      width: fit-content;
+      position: relative;
+
+      &:hover{
+        .arrow{
+          left: 100%;
+          opacity: 1;
+        }
+      }
+
+      .arrow{
+        position: absolute;
+        left: 80%;
+        top: 2px;
+        width: 25px;
+        opacity: 0;
+        transition-duration: 500ms;
+        transition-timing-function: ease-out;
+
+        >svg{
+          >path{
+            fill: $main_color;
+          }
+        }
+      }
+
+      .button{
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        color: $main_color;
+        text-decoration: none;
+      }
+    }
+  }
+
+}
+
+.imgWrap{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
