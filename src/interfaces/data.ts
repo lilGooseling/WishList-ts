@@ -9,7 +9,8 @@ export enum SectionTemplateEnum {
     DUOSLIDER,
     MULTISLIDER,
     PARALLAX,
-    GRID,
+    GRID_MATERIAL,
+    GRID_SHADOW
 }
 
 export interface IData {
