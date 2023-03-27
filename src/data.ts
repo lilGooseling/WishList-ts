@@ -12,7 +12,7 @@ export const globalData: IData= {
             sections: [{
                 title: 'Косметика',
                 description: '',
-                template: SectionTemplateEnum.GRID_SHADOW,
+                template: SectionTemplateEnum.GRID_STICKER,
                 cards: [
                     {
                     title: 'GUCCI the alchemist\'s garden moonlight serenade',

@@ -10,7 +10,8 @@ export enum SectionTemplateEnum {
     MULTISLIDER,
     PARALLAX,
     GRID_MATERIAL,
-    GRID_SHADOW
+    GRID_SHADOW,
+    GRID_STICKER
 }
 
 export interface IData {

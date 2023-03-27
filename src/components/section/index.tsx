@@ -14,7 +14,7 @@ const sectionReducer = (section: ISection):ReactElement<any,any> => {
     switch (true) {
         case [SectionTemplateEnum.DUOSLIDER, SectionTemplateEnum.MULTISLIDER, SectionTemplateEnum.SOLOSLIDER].includes(section.template):
             return <SliderSection section={section}/>
-        case [SectionTemplateEnum.GRID_MATERIAL, SectionTemplateEnum.GRID_SHADOW].includes(section.template):
+        case [SectionTemplateEnum.GRID_MATERIAL, SectionTemplateEnum.GRID_SHADOW, SectionTemplateEnum.GRID_STICKER].includes(section.template):
             return <GridSection section={section}/>
         default:
             return <div/>
@@ -22,7 +22,7 @@ const sectionReducer = (section: ISection):ReactElement<any,any> => {
 }
 
 const Section: React.FC<SectionProps> = ({section}) => {
-   return <Container fullScreen={[SectionTemplateEnum.GRID_MATERIAL, SectionTemplateEnum.GRID_SHADOW].includes(section.template) ? false : section.fullScreen}>
+   return <Container fullScreen={[SectionTemplateEnum.GRID_MATERIAL, SectionTemplateEnum.GRID_SHADOW, SectionTemplateEnum.GRID_STICKER].includes(section.template) ? false : section.fullScreen}>
        {sectionReducer(section)}
    </Container>
 };
