@@ -19,7 +19,8 @@ const Card: React.FC<CardProps> = ({card, sectionTemplate}) => {
     return <div className={classNames(styles.card, {
         [styles.material]: sectionTemplate === SectionTemplateEnum.GRID_MATERIAL,
         [styles.shadow]: sectionTemplate === SectionTemplateEnum.GRID_SHADOW,
-        [styles.sticker]: sectionTemplate === SectionTemplateEnum.GRID_STICKER
+        [styles.sticker]: sectionTemplate === SectionTemplateEnum.GRID_STICKER,
+        [styles.gradient]: sectionTemplate === SectionTemplateEnum.GRID_GRADIENT
     })}
     style={(sectionTemplate == SectionTemplateEnum.GRID_STICKER ? {transform: randomRotate()} : {})}
     >

@@ -11,7 +11,8 @@ export enum SectionTemplateEnum {
     PARALLAX,
     GRID_MATERIAL,
     GRID_SHADOW,
-    GRID_STICKER
+    GRID_STICKER,
+    GRID_GRADIENT
 }
 
 export interface IData {
