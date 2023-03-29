@@ -4,6 +4,7 @@ export enum PageTypeEnum {
     CENTER = 'center',
 }
 
+
 export enum SectionTemplateEnum {
     SOLOSLIDER,
     DUOSLIDER,
@@ -26,8 +27,10 @@ export interface IPage {
     type?: PageTypeEnum,
     description: string,
     url: string,
-    fullScreen?: boolean
+    fullScreen?: boolean,
+    backgroundColor?: string,
     sections: ISection[]
+
 }
 
 export interface ISection {
@@ -35,7 +38,8 @@ export interface ISection {
     description: string,
     template: SectionTemplateEnum,
     cards: ICard[],
-    fullScreen?: boolean
+    fullScreen?: boolean,
+    backgroundColor?: string
 }
 
 export interface ICard {

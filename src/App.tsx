@@ -17,13 +17,7 @@ function App() {
     }]);
 
   return (
-    <div className="App">
-      <div className={styles.title}>
-        {globalData.title}
-      </div>
-      <div className={styles.description}>
-          {globalData.description}
-      </div>
+    <div className={styles.app}>
       <RouterProvider router={router} />
     </div>
   );

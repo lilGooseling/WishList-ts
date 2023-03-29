@@ -3,6 +3,7 @@ import {ISection, SectionTemplateEnum} from "../../interfaces/data";
 import SliderSection from "./slider";
 import Container from "../container";
 import GridSection from "./grid";
+import Color from "../backgroundColor";
 
 
 interface SectionProps {
@@ -21,9 +22,12 @@ const sectionReducer = (section: ISection):ReactElement<any,any> => {
 }
 
 const Section: React.FC<SectionProps> = ({section}) => {
-   return <Container fullScreen={[SectionTemplateEnum.GRID_MATERIAL, SectionTemplateEnum.GRID_SHADOW, SectionTemplateEnum.GRID_STICKER, SectionTemplateEnum.GRID_GRADIENT].includes(section.template) ? false : section.fullScreen}>
-       {sectionReducer(section)}
-   </Container>
+   return <Color backgroundColor={section.backgroundColor}>
+       <Container fullScreen={[SectionTemplateEnum.GRID_MATERIAL, SectionTemplateEnum.GRID_SHADOW, SectionTemplateEnum.GRID_STICKER, SectionTemplateEnum.GRID_GRADIENT].includes(section.template) ? false : section.fullScreen}>
+           {sectionReducer(section)}
+       </Container>
+       </Color>
+
 };
 
 export default Section;

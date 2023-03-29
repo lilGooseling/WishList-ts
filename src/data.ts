@@ -9,10 +9,11 @@ export const globalData: IData= {
             type: PageTypeEnum.LEFT,
             description: '',
             url: 'beauty',
+            backgroundColor: '#f5ebe6',
             sections: [{
-                title: 'Косметика',
-                description: '',
-                template: SectionTemplateEnum.GRID_GRADIENT,
+                title: 'Fragrance',
+                description: 'Love it',
+                template: SectionTemplateEnum.GRID_MATERIAL,
                 cards: [
                     {
                     title: 'GUCCI the alchemist\'s garden moonlight serenade',

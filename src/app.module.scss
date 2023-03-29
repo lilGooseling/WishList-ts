@@ -1,19 +1,11 @@
-body *{
+body {
+  margin: 0 !important;
+}
+
+body * {
   box-sizing: border-box !important;
 }
 
-.title {
-  text-align: center;
-  font-size: 44px;
-  margin-bottom: 8px;
-  font-weight: bold;
-  color: #c27b7f;
-}
-
-.description {
-  font-size: 14px;
-  font-style: italic;
-  margin-bottom: 8px;
-  text-align: center;
-  color: #2f4858;
+.app{
+  width: 100%;
 }
