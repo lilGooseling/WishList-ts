@@ -4,6 +4,7 @@ import SliderSection from "./slider";
 import Container from "../container";
 import GridSection from "./grid";
 import Color from "../backgroundColor";
+import BackgroundImage from "../backgroundImage";
 
 
 interface SectionProps {
