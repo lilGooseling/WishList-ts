@@ -35,6 +35,7 @@ export interface IPage {
     fullScreen?: boolean,
     backgroundColor?: string,
     backgroundImage?: string,
+    imageTemplate?: BackgroundImageEnum,
     sections: ISection[]
 
 }
@@ -43,6 +44,7 @@ export interface ISection {
     title: string,
     description: string,
     template: SectionTemplateEnum,
+    imageTemplate?: BackgroundImageEnum,
     cards: ICard[],
     fullScreen?: boolean,
     backgroundColor?: string,

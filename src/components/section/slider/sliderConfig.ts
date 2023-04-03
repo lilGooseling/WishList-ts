@@ -11,7 +11,7 @@ const sliderConfig = (template: SectionTemplateEnum): any =>{
                 slidesToScroll: 1,
                 fade: true,
                 cssEase: 'linear'
-            }
+            };
         case SectionTemplateEnum.DUOSLIDER:
             return {
                 dots: true,
@@ -21,7 +21,7 @@ const sliderConfig = (template: SectionTemplateEnum): any =>{
                 slidesToScroll: 1,
                 fade: true,
                 cssEase: 'linear'
-            }
+            };
         case SectionTemplateEnum.MULTISLIDER:
             return {
                 dots: true,

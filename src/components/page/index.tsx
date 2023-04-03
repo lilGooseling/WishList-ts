@@ -18,7 +18,7 @@ const Page: React.FC<PageProps> = ({page}) => {
     const pageType = page.type || PageTypeEnum.LEFT;
 
     return  <Color backgroundColor={page.backgroundColor}>
-            <BackgroundImage backgroundImage={page.backgroundImage}>
+            <BackgroundImage backgroundImage={page.backgroundImage} imageTemplate={page.imageTemplate}>
                 <Container fullScreen={page.fullScreen}>
                     <div className={styles.site_title}>
                         {globalData.title}
