@@ -1,4 +1,4 @@
-import {IData, PageTypeEnum, SectionTemplateEnum} from "./interfaces/data";
+import {BackgroundImageEnum, IData, PageTypeEnum, SectionTemplateEnum} from "./interfaces/data";
 
 export const globalData: IData= {
     title: 'WishList',
@@ -15,6 +15,7 @@ export const globalData: IData= {
                 title: 'Fragrance',
                 description: 'Love it',
                 template: SectionTemplateEnum.GRID_GRADIENT,
+                imageTemplate: BackgroundImageEnum.COVER,
                 cards: [
                     {
                     title: 'GUCCI the alchemist\'s garden moonlight serenade',
