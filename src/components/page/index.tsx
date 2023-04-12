@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {IPage, PageTypeEnum} from "../../interfaces/data";
 import Menu from "../menu";
 import styles from './index.module.scss'
