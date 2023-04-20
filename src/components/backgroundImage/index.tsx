@@ -12,7 +12,7 @@ interface BackgroundImageProps {
 
 const BackgroundImage: React.FC<BackgroundImageProps> = ({children, backgroundImage}) => {
 
-    return <div style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover'}}>
+    return <div style={{backgroundImage: `url(${backgroundImage})`, backgroundRepeat: 'repeat'}}>
         {children}
     </div>
 

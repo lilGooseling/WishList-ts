@@ -6,7 +6,8 @@ export enum PageTypeEnum {
 
 export enum BackgroundImageEnum {
     CONTAIN,
-    COVER
+    COVER,
+    REPEAT
 }
 
 
@@ -52,6 +53,13 @@ export interface ISection {
 }
 
 export interface ICard {
+    title: string,
+    description: string,
+    url: string,
+    img: string
+}
+
+export type ICard2 = {
     title: string,
     description: string,
     url: string,

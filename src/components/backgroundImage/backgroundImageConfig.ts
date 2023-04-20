@@ -14,6 +14,10 @@ const BackgroundImageConfig = (imageTemplate: BackgroundImageEnum): response => 
             return {
                 backgroundAttachment: 'local'
             }
+        case BackgroundImageEnum.REPEAT:
+            return {
+                backgroundRepeat: 'repeat'
+            }
     }
 };
 
