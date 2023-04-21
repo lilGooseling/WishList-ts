@@ -15,7 +15,6 @@ export enum SectionTemplateEnum {
     SOLOSLIDER,
     DUOSLIDER,
     MULTISLIDER,
-    PARALLAX,
     GRID_MATERIAL,
     GRID_SHADOW,
     GRID_STICKER,
