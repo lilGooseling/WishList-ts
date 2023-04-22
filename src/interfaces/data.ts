@@ -57,10 +57,3 @@ export interface ICard {
     url: string,
     img: string
 }
-
-export type ICard2 = {
-    title: string,
-    description: string,
-    url: string,
-    img: string
-}
