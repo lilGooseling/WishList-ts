@@ -10,6 +10,10 @@ export enum BackgroundImageEnum {
     REPEAT
 }
 
+export enum BackgroundEffectEnum {
+    PARALLAX
+}
+
 
 export enum SectionTemplateEnum {
     SOLOSLIDER,
@@ -35,6 +39,7 @@ export interface IPage {
     fullScreen?: boolean,
     backgroundColor?: string,
     backgroundImage?: string,
+    BackgroundEffect?: BackgroundEffectEnum,
     imageTemplate?: BackgroundImageEnum,
     sections: ISection[]
 
@@ -45,6 +50,7 @@ export interface ISection {
     description: string,
     template: SectionTemplateEnum,
     imageTemplate?: BackgroundImageEnum,
+    BackgroundEffect?: BackgroundEffectEnum,
     cards: ICard[],
     fullScreen?: boolean,
     backgroundColor?: string,
