@@ -10,7 +10,7 @@ export const globalData: IData= {
             description: '',
             url: 'beauty',
             backgroundColor: '#f5ebe6',
-            backgroundImage: 'https://images.unsplash.com/photo-1607035508437-1489f1067f0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+            backgroundImage: 'https://images.unsplash.com/photo-1680717762678-6ce2261c5b12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGJlYXV0aWZ1bCUyMHBsYW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
             sections: [{
                 title: 'Fragrance',
                 description: 'Love it',
