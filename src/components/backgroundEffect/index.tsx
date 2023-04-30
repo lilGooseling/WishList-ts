@@ -10,9 +10,9 @@ interface BackgroundEffectProps {
 
 }
 
-const BackgroundEffect: React.FC<BackgroundEffectProps> = ({children}) => {
+const BackgroundEffect: React.FC<BackgroundEffectProps> = ({children, backgroundEffect}) => {
 
-    return <div >
+    return <div>
         {children}
     </div>
 
