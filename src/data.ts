@@ -1,4 +1,4 @@
-import {BackgroundImageEnum, IData, PageTypeEnum, SectionTemplateEnum} from "./interfaces/data";
+import {BackgroundEffectEnum, BackgroundImageEnum, IData, PageTypeEnum, SectionTemplateEnum} from "./interfaces/data";
 
 export const globalData: IData= {
     title: 'WishList',
@@ -10,12 +10,14 @@ export const globalData: IData= {
             description: '',
             url: 'beauty',
             backgroundColor: '#f5ebe6',
+            backgroundEffect: BackgroundEffectEnum.PARALLAX,
             backgroundImage: 'https://images.unsplash.com/photo-1615801627253-eae9c5be334e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjU1fHxiZWF1dGlmdWwlMjBwbGFudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
             sections: [{
                 title: 'Fragrance',
                 description: 'Love it',
                 template: SectionTemplateEnum.GRID_GRADIENT,
                 imageTemplate: BackgroundImageEnum.COVER,
+                backgroundEffect: BackgroundEffectEnum.PARALLAX,
                 cards: [
                     {
                     title: 'GUCCI the alchemist\'s garden moonlight serenade',
