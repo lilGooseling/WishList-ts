@@ -1,20 +1,41 @@
-import React from 'react';
+import React, {ReactElement} from 'react';
 import {BackgroundEffectEnum} from "../../interfaces/data";
-
+import {Parallax} from "react-parallax";
 
 
 interface BackgroundEffectProps {
-    backgroundEffect: BackgroundEffectEnum,
+    backgroundEffect?: BackgroundEffectEnum,
     children: any
-
 
 }
 
+const image1 = 'https://wallpaperaccess.com/full/31189.jpg';
+
+
+
 const BackgroundEffect: React.FC<BackgroundEffectProps> = ({children, backgroundEffect}) => {
 
-    return <div>
-        {children}
-    </div>
+    const effect = () => {
+           switch (backgroundEffect) {
+               case BackgroundEffectEnum.PARALLAX:
+                   return <div>
+                       <Parallax bgImage={image1} strength={500}>
+                           <div style={{height: '100vh'}}>
+                               <div>
+                                   {children}
+                               </div>
+                           </div>
+                       </Parallax>
+                       <div style={{height: '100vh'}}></div>
+                   </div>;
+               default:
+                   return <div>
+                       {children}
+                   </div>
+           }
+    }
+
+    return effect();
 
 };
 
