@@ -5,6 +5,7 @@ import Container from "../container";
 import GridSection from "./grid";
 import Color from "../backgroundColor";
 import BackgroundImage from "../backgroundImage";
+import BackgroundEffect from "../backgroundEffect";
 
 
 interface SectionProps {
@@ -24,11 +25,13 @@ const sectionReducer = (section: ISection):ReactElement<any,any> => {
 
 const Section: React.FC<SectionProps> = ({section}) => {
    return <Color backgroundColor={section.backgroundColor}>
-       <BackgroundImage backgroundImage={section.backgroundImage} imageTemplate={section.imageTemplate}>
-           <Container fullScreen={[SectionTemplateEnum.GRID_MATERIAL, SectionTemplateEnum.GRID_SHADOW, SectionTemplateEnum.GRID_STICKER, SectionTemplateEnum.GRID_GRADIENT].includes(section.template) ? false : section.fullScreen}>
-               {sectionReducer(section)}
-           </Container>
-       </BackgroundImage>
+       <BackgroundEffect backgroundEffect={section.backgroundEffect} >
+           <BackgroundImage backgroundImage={section.backgroundImage} imageTemplate={section.imageTemplate}>
+               <Container fullScreen={[SectionTemplateEnum.GRID_MATERIAL, SectionTemplateEnum.GRID_SHADOW, SectionTemplateEnum.GRID_STICKER, SectionTemplateEnum.GRID_GRADIENT].includes(section.template) ? false : section.fullScreen}>
+                   {sectionReducer(section)}
+               </Container>
+           </BackgroundImage>
+       </BackgroundEffect>
        </Color>
 
 };
