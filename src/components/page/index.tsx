@@ -19,7 +19,6 @@ const Page: React.FC<PageProps> = ({page}) => {
     const pageType = page.type || PageTypeEnum.LEFT;
 
     return  <Color backgroundColor={page.backgroundColor}>
-            <BackgroundEffect backgroundEffect={page.backgroundEffect} >
                 <BackgroundImage backgroundImage={page.backgroundImage} imageTemplate={page.imageTemplate}>
                     <Container fullScreen={page.fullScreen}>
                         <div className={styles.site_title}>
@@ -39,7 +38,6 @@ const Page: React.FC<PageProps> = ({page}) => {
                     </Container>
                     {page.sections.map(section => <Section section={section} key={section.title}/>)}
                 </BackgroundImage>
-            </BackgroundEffect>
         </Color>
 
 };
