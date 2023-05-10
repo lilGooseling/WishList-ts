@@ -26,7 +26,6 @@ const BackgroundEffect: React.FC<BackgroundEffectProps> = ({children, background
                                </div>
                            </div>
                        </Parallax>
-                       <div style={{height: '100vh'}}></div>
                    </div>;
                default:
                    return <div>
