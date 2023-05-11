@@ -124,30 +124,42 @@ export const globalData: IData= {
                             url:'https://goldapple.ru/89880300004-pore-scaling-serii-love-mode'
                         },
                         {
-                            title: 'Жилет с молнией',
-                            description: 'Вязаный жилет с высоким воротником и широкими проймами.',
-                            img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/top/121928/63d3749aed007-23-01-20230505.jpg',
-                            url:'https://12storeez.com/catalog/trikotaz/womencollection/zilet-s-molniej-121928'
+                            title: 'GUERLAIN météorites perles',
+                            description: 'Нежный аромат фиалки, неподражаемый и восхитительный!',
+                            img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/3/3/3346470416659_1_ml4xicn3bq02i4uf.jpg',
+                            url:'https://goldapple.ru/10009-14095400001-meteorites-perles#sku=14095400002'
                         },
                         {
-                            title: 'Футболка',
-                            description: 'Трикотажная футболка в полоску.',
-                            img: 'https://e930f744-2554-4589-81f4-fda27b4a4a59.selcdn.net/iblock/f8c/f8cbefc9e1946b1a20f6b0e382b280e9/65a99149c894ad87cd9261110642158b.jpg',
-                            url:'https://www.lusio.ru/catalog/lscw_070044_trikotazhnaya_bluza/?pid=115616'
-                        },
-                        {
-                            title: 'Жилет с молнией',
-                            description: 'Вязаный жилет с высоким воротником и широкими проймами.',
-                            img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/top/121928/63d3749aed007-23-01-20230505.jpg',
-                            url:'https://12storeez.com/catalog/trikotaz/womencollection/zilet-s-molniej-121928'
-                        },
-                        {
-                            title: 'Футболка',
-                            description: 'Трикотажная футболка в полоску.',
-                            img: 'https://e930f744-2554-4589-81f4-fda27b4a4a59.selcdn.net/iblock/f8c/f8cbefc9e1946b1a20f6b0e382b280e9/65a99149c894ad87cd9261110642158b.jpg',
-                            url:'https://www.lusio.ru/catalog/lscw_070044_trikotazhnaya_bluza/?pid=115616'
+                            title: 'DR. CEURACLE hyal reyouth hydrogel eye mask',
+                            description: 'Гидрогелевые патчи для глаз.',
+                            img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/8/8806133614570_1_xhg27m7w37ndaqe9.jpg',
+                            url:'https://goldapple.ru/19000012321-hyal-reyouth-hydrogel-eye-mask'
                         }
                     ]
+                },
+                {
+                    title: 'Bath',
+                    description: 'Time to relax',
+                    template: SectionTemplateEnum.SOLOSLIDER,
+                    cards: [
+                        {
+                            title: 'NOTEM bath bombs',
+                            description: 'БОМБОЧКА ДЛЯ ВАННЫ',
+                            img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/4/6/4673734888372_1_ejfbctlrc83lyins.jpg',
+                            url:'https://goldapple.ru/19000070824-bath-bombs-rose'
+                        },
+                        {
+                            title: 'Tranquillity, Comfort Zone',
+                            description: 'Успокаивающий гель для душа',
+                            img: 'https://vetermagazine.ru/wp-content/uploads/2021/07/uspokaivajushhij-gel-dlja-dusha-tranquility-comfort-zone.jpg',
+                            url:'https://vetermagazine.ru/shop/beauty/for-the-bath/uspokaivajushhij-gel-dlja-dusha-tranquility-comfort-zone/'
+                        },
+                        {
+                            title: 'HOSA body wash',
+                            description: 'Нежный гель для душа HOSA',
+                            img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/8/8809051282036_1_2gvkbetdarmhtaqn.jpg',
+                            url:'https://goldapple.ru/89860200002-body-wash'
+                        }]
                 }
 
             ]
