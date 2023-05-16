@@ -21,28 +21,27 @@ export const globalData: IData= {
                 cards: [
                     {
                     title: 'GUCCI moonlight serenade',
-                    description: 'Gucci открывает новую страницу в истории ароматов Дома, полную волшебства и таинства, воплощенных в новой коллекции The Alchemist’s Garden.\n' +
-                        'Вдохновленный алхимией Алессандро Микеле превращает в искусство получения ароматов и создает семь композиций парфюмерной воды.',
-                    img: 'https://images.unsplash.com/photo-1532152562158-bb5400e012f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjg0fHxyb3NlJTIwZmxvd2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
-                    url:'https://images.unsplash.com/photo-1532152562158-bb5400e012f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjg0fHxyb3NlJTIwZmxvd2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
+                    description: '«Лунная серенада» – это лавандовая душистая вода. Ее винтажный аккорд, поистине бодрящий, придаёт парфюмерной воде бодрящие ароматические оттенки.',
+                    img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/3/6/3614227575981_1_v0fl6jcjrlqmilqw.jpg',
+                    url:'https://goldapple.ru/19000004564-the-alchemist-s-garden-moonlight-serenade-acqua-profumata'
                 },
                     {
-                    title: 'BYREDO young rose',
-                    description: 'Прочтение традиции глазами нового поколения. Young Rose представляет собой оду вечной бурной молодости: ольфакторный дневник тех, кто сам пишет свое будущее. База из дамасской розы в огранке нот огненного сычуаньского перца - этот аромат бросает вызов условностям, представляя свежий взгляд на классический образ романтики.',
-                    img: 'https://images.unsplash.com/photo-1602958658949-f84cb01b2726?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTc0fHxmbG93ZXJzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
-                    url:'https://images.unsplash.com/photo-1602958658949-f84cb01b2726?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTc0fHxmbG93ZXJzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60'
+                    title: 'BYREDO bal d\'afrique',
+                    description: ' Композиция: бергамот, лимон, нероли, африканская календула, фиалка, лепестки жасмина, цикламен, черный янтарь, мускус, ветивер, марроканский кедр.',
+                    img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/7/3/7340032806038_1.jpg',
+                    url:'https://goldapple.ru/10207048-bal-d-afrique'
                 },
                     {
                     title: 'LE LABO neroli 36',
-                    description: 'Масло нероли — одно из названий эссенции цветков апельсина. Неповторимое качество этого ингредиента объясняется его солнечным цветочным характером и невероятно теплой основой. Его идеально дополняют ноты розы, жасмина, ванили, оттенки мандарина и другие эссенции, которые придают непринужденность и очарование!',
-                    img: 'https://images.unsplash.com/photo-1504198266287-1659872e6590?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fHdoaXRlJTIwZmxvd2VyfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
-                    url:'https://images.unsplash.com/photo-1504198266287-1659872e6590?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fHdoaXRlJTIwZmxvd2VyfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60'
+                    description: 'Масло нероли — одно из названий эссенции цветков апельсина. ',
+                    img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/1/811901022974_1_bnevadsf8c78vjyx.jpg',
+                    url:'https://goldapple.ru/11466-19000012709-neroli-36'
                 },
                 {
                     title: 'PENHALIGON\'S LUNA',
-                    description: 'Luna ― это новый свежий цветочный аромат от Penhaligon\'s, Вдохновленный блистательным светом полумесяца, аромат передаёт образ мистической Богини Луны. Раскрываясь горьковатой свежестью померанца, сердце композиции оборачивается хрупкой легкостью можжевеловых ягод, и всё это в окружении темной древесной базы.',
-                    img: 'https://images.unsplash.com/photo-1518105570919-e342af1a8275?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTN8fGZsb3dlcnN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
-                    url:'https://images.unsplash.com/photo-1518105570919-e342af1a8275?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTN8fGZsb3dlcnN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
+                    description: 'Раскрываясь горьковатой свежестью померанца, сердце композиции оборачивается хрупкой легкостью можжевеловых ягод, и всё это в окружении темной древесной базы.',
+                    img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/5/0/5056245021435_1_pq6bcx4yiofnmj6r.jpg',
+                    url:'https://goldapple.ru/10251-19000125037-luna'
                 }]
             },
                 {
