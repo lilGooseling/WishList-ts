@@ -1,5 +1,5 @@
 import React, {ReactElement} from 'react';
-import {BackgroundImageEnum, ISection, SectionTemplateEnum} from "../../interfaces/data";
+import {ISection, SectionTemplateEnum} from "../../interfaces/data";
 import SliderSection from "./slider";
 import Container from "../container";
 import GridSection from "./grid";
