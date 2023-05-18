@@ -20,7 +20,7 @@ const BackgroundEffect: React.FC<BackgroundEffectProps> = ({children, background
                case BackgroundEffectEnum.PARALLAX:
                    return <div>
                        <Parallax bgImage={image1} strength={500}>
-                           <div style={{height: '100vh'}}>
+                           <div style={{height: '100%'}}>
                                <div>
                                    {children}
                                </div>
