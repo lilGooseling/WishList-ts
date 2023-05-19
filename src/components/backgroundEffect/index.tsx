@@ -9,7 +9,7 @@ interface BackgroundEffectProps {
 
 }
 
-const image1 = 'https://wallpaperaccess.com/full/31189.jpg';
+const image1 = 'https://images.unsplash.com/photo-1525169087805-031a4da0623c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFjZSUyMGZhYnJpY3xlbnwwfHwwfHw%3D&w=1000&q=80';
 
 
 
