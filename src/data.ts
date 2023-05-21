@@ -164,10 +164,39 @@ export const globalData: IData= {
             ]
         },
         {
-            title: 'Hobby',
+            title: 'Hobby & inspiration ',
+            type: PageTypeEnum.LEFT,
+            backgroundColor: '#f5ebe6',
             description: '',
             url: 'hobby',
-            sections: []
+            sections: [
+                {
+                    title: 'Boardgames',
+                    description: 'Time with family',
+                    backgroundColor: '#f5ebe6',
+                    template: SectionTemplateEnum.SOLOSLIDER,
+                    cards: [
+                        {
+                            title: 'Wingspan asia',
+                            description: 'expansion',
+                            img: 'https://images.squarespace-cdn.com/content/v1/5ca03db673304600013d111e/a3da15c5-384b-44f2-9296-12eff02c8e15/Wingspan+Asia+Duet+Mode.jpg',
+                            url:'https://cdek.shopping/p/481604/nastolnaya-igra-stonemaier-games-wingspan-asia'
+                        },
+                        {
+                            title: 'Flourish',
+                            description: 'Красивая, уникальная игра по созданию сада',
+                            img: 'https://ksr-ugc.imgix.net/assets/030/625/525/99dfdc3f15c060e5e66f79792abe9148_original.png?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1600268716&auto=format&frame=1&q=92&s=8110caec6f2bcab8cd23b0f5d3375439',
+                            url:'https://cdek.shopping/p/482243/nastolnaya-igra-starling-games-flourish-signature-edition'
+                        },
+                        {
+                            title: 'HOSA body wash',
+                            description: 'Нежный гель для душа HOSA',
+                            img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/8/8809051282036_1_2gvkbetdarmhtaqn.jpg',
+                            url:'https://goldapple.ru/89860200002-body-wash'
+                        }]
+                },
+
+            ]
         },
         {
             title: 'Home',
