@@ -189,11 +189,18 @@ export const globalData: IData= {
                             url:'https://cdek.shopping/p/482243/nastolnaya-igra-starling-games-flourish-signature-edition'
                         },
                         {
-                            title: 'HOSA body wash',
-                            description: 'Нежный гель для душа HOSA',
-                            img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/8/8809051282036_1_2gvkbetdarmhtaqn.jpg',
-                            url:'https://goldapple.ru/89860200002-body-wash'
-                        }]
+                            title: 'Woodcraft',
+                            description: 'Управляйте своей мастерской',
+                            img: 'https://boardgameslv.files.wordpress.com/2022/10/dsc_0096_wood.jpg',
+                            url:'https://rusboardgame.ru/product/bron-woodcraft'
+                        },
+                        {
+                            title: 'Hickory Dickory',
+                            description: 'Еще одна игра от Plaid Hat Games',
+                            img: 'https://www.hickorydickorygame.com/photos/Hickory%20Dickory-004.jpg',
+                            url:'https://rusboardgame.ru/'
+                        }
+                        ]
                 },
 
             ]
