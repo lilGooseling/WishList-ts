@@ -15,19 +15,19 @@ export const globalData: IData= {
             sections: [{
                 title: 'Fragrance',
                 description: 'Love it',
-                template: SectionTemplateEnum.GRID_STICKER,
+                template: SectionTemplateEnum.GRID_MATERIAL,
                 imageTemplate: BackgroundImageEnum.COVER,
                 backgroundEffect: BackgroundEffectEnum.PARALLAX,
                 cards: [
                     {
-                    title: 'GUCCI moonlight serenade',
-                    description: '«Лунная серенада» – это лавандовая душистая вода. Ее винтажный аккорд, поистине бодрящий, придаёт парфюмерной воде бодрящие ароматические оттенки.',
+                    title: 'GUCCI moonlight',
+                    description: '«Лунная серенада» – это лавандовая душистая вода.',
                     img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/3/6/3614227575981_1_v0fl6jcjrlqmilqw.jpg',
                     url:'https://goldapple.ru/19000004564-the-alchemist-s-garden-moonlight-serenade-acqua-profumata'
                 },
                     {
                     title: 'BYREDO bal d\'afrique',
-                    description: ' Композиция: бергамот, лимон, нероли, африканская календула, фиалка, лепестки жасмина, цикламен, черный янтарь, мускус, ветивер, марроканский кедр.',
+                    description: 'Бергамот, лимон, нероли, африканская календула, фиалка, жасмин, кедр.',
                     img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/7/3/7340032806038_1.jpg',
                     url:'https://goldapple.ru/10207048-bal-d-afrique'
                 },
@@ -39,7 +39,7 @@ export const globalData: IData= {
                 },
                 {
                     title: 'PENHALIGON\'S LUNA',
-                    description: 'Раскрываясь горьковатой свежестью померанца, сердце композиции оборачивается хрупкой легкостью можжевеловых ягод, и всё это в окружении темной древесной базы.',
+                    description: 'Померанец, можжевеловые ягоды, древесная база.',
                     img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/5/0/5056245021435_1_pq6bcx4yiofnmj6r.jpg',
                     url:'https://goldapple.ru/10251-19000125037-luna'
                 }]
