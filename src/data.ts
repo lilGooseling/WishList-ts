@@ -11,7 +11,6 @@ export const globalData: IData= {
             url: 'beauty',
             backgroundColor: '#f5ebe6',
             backgroundEffect: BackgroundEffectEnum.PARALLAX,
-            backgroundImage: 'https://images.unsplash.com/photo-1615801627253-eae9c5be334e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjU1fHxiZWF1dGlmdWwlMjBwbGFudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
             sections: [{
                 title: 'Fragrance',
                 description: 'Love it',
@@ -202,6 +201,143 @@ export const globalData: IData= {
                         }
                         ]
                 },
+                {
+                    title: 'Sport',
+                    description: 'Do my best',
+                    template: SectionTemplateEnum.GRID_GRADIENT,
+                    cards: [
+                        {
+                            title: 'Футболка Relaxed',
+                            description: 'Relaxed меланж, Футболка с коротким рукавом, можно парочку',
+                            img: 'https://image.12storeez.com/images/750xP_90_out/uploads/images/CATALOG/dresses/106852/6049d4fc73f35-24-02-202153122.jpg',
+                            url:'https://12storeez.com/catalog/t-shirts/futbolka-relaxed-melanz-107302'
+                        },
+                        {
+                            title: 'Бейсболка',
+                            description: 'Карамельная бейсболка с жестким козырьком.',
+                            img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/Accessories/122188/63dd0740ea53d-28-01-20230019-2.jpg',
+                            url:'https://12storeez.com/catalog/bags/womencollection/bejsbolka-122188'
+                        },
+                        {
+                            title: 'Шорты джинсовые',
+                            description: 'Шорты из органического хлопка с отворотами.',
+                            img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/shirts/113820/623a51be53977-17-03-202254988.jpg',
+                            url:'https://12storeez.com/catalog/bruki/womencollection/sorty-dzinsovye-s-otvorotami-113820'
+                        },
+                        {
+                            title: 'Сумка',
+                            description: 'Спортивная теннисная сумка Wilson Team RG 3.',
+                            img: 'https://cdn.sportmaster.ru/upload/resize_cache/iblock/37d/800_800_1/59026310299.jpg',
+                            url:'https://www.sportmaster.ru/product/26409910299/'
+                        },
+                        {
+                            title: 'Мячи',
+                            description: 'Набор мячей Wilson US Open XD TBall',
+                            img: 'https://cdn.sportmaster.ru/upload/resize_cache/iblock/40e/800_800_1/57976040299.jpg',
+                            url:'https://www.sportmaster.ru/product/18263400299/'
+                        },
+                        {
+                            title: 'Коврик',
+                            description: 'Ковры JADE HARMONY. Подходит для ежедневных практик.',
+                            img: 'https://jadeyoga.ru/wp-content/uploads/2021/06/product-main-pic-new.jpg',
+                            url:'https://jadeyoga.ru/product/jade-harmony/'
+                        },
+                        {
+                            title: 'Жилет с молнией',
+                            description: 'Жилет с высоким воротником и широкими проймами.',
+                            img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/top/121928/63d3749aed007-23-01-20230505.jpg',
+                            url:'https://12storeez.com/catalog/trikotaz/womencollection/zilet-s-molniej-121928'
+                        },
+                        {
+                            title: 'Футболка',
+                            description: 'Трикотажная футболка в полоску.',
+                            img: 'https://e930f744-2554-4589-81f4-fda27b4a4a59.selcdn.net/iblock/f8c/f8cbefc9e1946b1a20f6b0e382b280e9/65a99149c894ad87cd9261110642158b.jpg',
+                            url:'https://www.lusio.ru/catalog/lscw_070044_trikotazhnaya_bluza/?pid=115616'
+                        }
+
+                    ]
+                },
+                {
+                    title: 'Books',
+                    description: 'For collection',
+                    template: SectionTemplateEnum.GRID_STICKER,
+                    imageTemplate: BackgroundImageEnum.REPEAT,
+                    backgroundImage: 'https://cdn.shopify.com/s/files/1/3097/3722/products/media_cd68dfd7-4450-4b9b-8c63-e1252cf98287_1200x1200.jpg?v=1683718058',
+                    cards: [
+                        {
+                            title: 'Little Women',
+                            description: 'Луиза Мэй Олкотт, Серия Exclusive Classics.',
+                            img: 'https://cdn.img-gorod.ru/310x500/nomenclature/29/250/2925075.jpg',
+                            url:'https://www.chitai-gorod.ru/product/little-women-2925075'
+                        },
+                        {
+                            title: 'Anne of Green Gables',
+                            description: 'L.M. Montgomery, Люси Монтгомери, Серия Wordsworth Classics.',
+                            img: 'https://cdn.img-gorod.ru/310x500/nomenclature/27/248/2724882.jpg',
+                            url:'https://www.chitai-gorod.ru/product/anne-of-green-gables-2724882'
+                        },
+                        {
+                            title: 'The Secret Garden',
+                            description: 'Фрэнсис Ходжсон Бернетт, Серия Collector`s Editions. ',
+                            img: 'https://cdn.img-gorod.ru/310x500/nomenclature/27/248/2724893.jpg',
+                            url:'https://www.chitai-gorod.ru/product/the-secret-garden-2724893'
+                        },
+                        {
+                            title: 'The Jungle Book',
+                            description: 'Joseph Kipling, Серия Collector`s Editions.',
+                            img: 'https://cdn.img-gorod.ru/310x500/nomenclature/27/248/2724885.jpg',
+                            url:'https://www.chitai-gorod.ru/product/the-jungle-book-2724885?productShelf=&shelfIndex=0&productIndex=3'
+                        },
+                        {
+                            title: 'The Wind in the Willows',
+                            description: 'Kenneth Grahame, Серия Palmyra Classics.',
+                            img: 'https://cdn.img-gorod.ru/310x500/nomenclature/29/777/2977759.jpg',
+                            url:'https://www.chitai-gorod.ru/product/the-wind-in-the-willows-2977759?productShelf=&shelfIndex=0&productIndex=4'
+                        },
+                        {
+                            title: 'Pride and Prejudice',
+                            description: 'Джейн Остен, Эксмо. ',
+                            img: 'https://cdn.img-gorod.ru/310x500/nomenclature/26/094/2609407.jpg',
+                            url:'https://www.chitai-gorod.ru/product/gordost-i-predubezhdenie-pride-and-prejudice-2609407'
+                        },
+                        {
+                            title: 'Little Dorrit',
+                            description: 'Charles Dickens, Penguin Books.',
+                            img: 'https://cdn.img-gorod.ru/310x500/nomenclature/23/855/2385597.jpg',
+                            url:'https://www.chitai-gorod.ru/product/little-dorrit-2385597'
+                        },
+                        {
+                            title: 'Таинственный сад',
+                            description: 'Фрэнсис Ходжсон Бернетт, АСТ.',
+                            img: 'https://cdn.img-gorod.ru/310x500/nomenclature/25/620/2562084.jpg',
+                            url:'https://www.chitai-gorod.ru/product/tainstvennyy-sad-2562084'
+                        },
+                        {
+                            title: 'Регата Лисьего Леса',
+                            description: ' Патерсон Брайан, Издательство: Качели.',
+                            img: 'https://img4.labirint.ru/rc/9a3cba6bf540de122f2e93522690fa68/363x561q80/books47/460440/cover.png?1670855115',
+                            url:'https://www.labirint.ru/books/460440/'
+                        },
+                        {
+                            title: 'Эрнест и Селестина',
+                            description: 'Праздник каждый день, Венсан Габриэль.',
+                            img: 'https://ir.ozone.ru/multimedia/wc700/1024316072.jpg',
+                            url:'https://www.ozon.ru/product/ernest-i-selestina-prazdnik-kazhdyy-den-vensan-gabriel-258606781/?_bctx=CAUQh5qiDQ&asb=QqttJJLddoC2WQd4B18al7kNl%252BRQjvZebeC6IEMzgvs%253D&asb2=Z952oywW3_b5yqWcjYuKAG7pZnTnp9WcJ5SF16aLejc-E7UCPBvePQuXbQgs3Rvu&avtc=1&avte=2&avts=1684930063&sh=viUNDsdEag'
+                        },
+                        {
+                            title: 'Ботанические сказки',
+                            description: 'Мамин-Сибиряк, Куприн, Андерсен, ЭНАС-КНИГА.',
+                            img: 'https://img3.labirint.ru/rc/95583423e732c13508689de61c7a22dd/363x561q80/books60/599813/cover.png?1664353518',
+                            url:'https://www.labirint.ru/books/599813/'
+                        },
+                        {
+                            title: 'Книга Нового года и Рождества',
+                            description: 'Нестерова Наталия Петровна, Манн, Иванов и Фербер.',
+                            img: 'https://img3.labirint.ru/rc/ea2cff46e3585742cd23987ed3b7c66e/363x561q80/books46/458915/cover.jpg?1414517146',
+                            url:'https://www.labirint.ru/books/458915/'
+                        }
+                    ]
+                }
 
             ]
         },
@@ -209,6 +345,8 @@ export const globalData: IData= {
             title: 'Home',
             description: '',
             url: 'home',
+            backgroundImage: 'https://i.pinimg.com/736x/99/02/9c/99029c3c79cb2e6280e6cdbebd952afd--beatrix-potter-bunny.jpg',
+            imageTemplate: BackgroundImageEnum.COVER,
             sections: []
         }
 
