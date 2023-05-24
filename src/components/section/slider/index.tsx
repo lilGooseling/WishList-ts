@@ -16,30 +16,35 @@ interface SliderSectionProps {
 const SliderSection: React.FC<SliderSectionProps> = ({section}) => {
     let settings = sliderConfig(section.template);
 
-    return <div className={classNames(styles.slider, {
-        [styles.solo]: section.template === SectionTemplateEnum.SOLOSLIDER,
-        [styles.duo]: section.template === SectionTemplateEnum.DUOSLIDER,
-        [styles.multi]: section.template === SectionTemplateEnum.MULTISLIDER
-    })}>
-        <Slider {...settings}>
-            {section.cards.map(card => <div key={card.title} className={styles.cardWrapper}>
-                <div className={styles.cardHolder}>
-                    <div className={styles.left}>
-                        <div className={styles.cardTitle}>{card.title}</div>
-                        <div className={styles.cardDesc}>{card.description}</div>
-                        <a className={styles.button} href={card.url} target={'_blank'} rel={'nofollow'}>
-                            Перейти
-                        </a>
-                    </div>
-                    <div className={styles.right}>
-                        <div className={styles.img} style={({backgroundImage: `url("${card.img}")`})}/>
+    return <>
+        <div className={styles.title}>{section.title}</div>
+        <div className={styles.description}>{section.description}</div>
+        <div className={classNames(styles.slider, {
+            [styles.solo]: section.template === SectionTemplateEnum.SOLOSLIDER,
+            [styles.duo]: section.template === SectionTemplateEnum.DUOSLIDER,
+            [styles.multi]: section.template === SectionTemplateEnum.MULTISLIDER,
+        })}>
+            <Slider {...settings}>
+                {section.cards.map(card => <div key={card.title} className={styles.cardWrapper}>
+                    <div className={styles.cardHolder}>
+                        <div className={styles.left}>
+                            <div className={styles.cardTitle}>{card.title}</div>
+                            <div className={styles.cardDesc}>{card.description}</div>
+                            <a className={styles.button} href={card.url} target={'_blank'} rel={'nofollow'}>
+                                Перейти
+                            </a>
+                        </div>
+                        <div className={styles.right}>
+                            <div className={styles.img} style={({backgroundImage: `url("${card.img}")`})}/>
+                        </div>
+
                     </div>
 
-                </div>
+                </div>)}
+            </Slider>
+        </div>
+    </>
 
-            </div>)}
-        </Slider>
-    </div>
 
 }
 
