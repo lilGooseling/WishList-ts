@@ -4,7 +4,7 @@ interface response {
     [name: string]: string | number
 }
 
-const BackgroundImageConfig = (imageTemplate: BackgroundImageEnum): response => {
+const BackgroundImageConfig = (imageTemplate: BackgroundImageEnum | undefined): response => {
     switch (imageTemplate) {
         case BackgroundImageEnum.CONTAIN:
             return {
@@ -18,6 +18,8 @@ const BackgroundImageConfig = (imageTemplate: BackgroundImageEnum): response => 
             return {
                 backgroundRepeat: 'repeat'
             }
+        default:
+            return {}
     }
 };
 

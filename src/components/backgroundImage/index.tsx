@@ -11,9 +11,9 @@ interface BackgroundImageProps {
 
 }
 
-const BackgroundImage: React.FC<BackgroundImageProps> = ({children, backgroundImage}) => {
+const BackgroundImage: React.FC<BackgroundImageProps> = ({children, backgroundImage, imageTemplate}) => {
 
-    return <div style={{backgroundImage: `url(${backgroundImage})`, backgroundAttachment: 'fixed'}}>
+    return <div style={{backgroundImage: `url(${backgroundImage})`, ...backgroundImageConfig(imageTemplate)}}>
         {children}
     </div>
 
