@@ -1,5 +1,6 @@
 import React from 'react';
 import {BackgroundImageEnum} from "../../interfaces/data";
+import backgroundImageConfig from "./backgroundImageConfig";
 
 
 interface BackgroundImageProps {
@@ -12,7 +13,7 @@ interface BackgroundImageProps {
 
 const BackgroundImage: React.FC<BackgroundImageProps> = ({children, backgroundImage}) => {
 
-    return <div style={{backgroundImage: `url(${backgroundImage})`, backgroundRepeat: 'repeat'}}>
+    return <div style={{backgroundImage: `url(${backgroundImage})`, backgroundAttachment: 'fixed'}}>
         {children}
     </div>
 
