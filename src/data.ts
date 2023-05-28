@@ -261,7 +261,7 @@ export const globalData: IData= {
                     title: 'Books',
                     description: 'For collection',
                     template: SectionTemplateEnum.GRID_STICKER,
-                    imageTemplate: BackgroundImageEnum.REPEAT,
+                    imageTemplate: BackgroundImageEnum.CONTAIN,
                     backgroundImage: 'https://cdn.shopify.com/s/files/1/3097/3722/products/media_cd68dfd7-4450-4b9b-8c63-e1252cf98287_1200x1200.jpg?v=1683718058',
                     cards: [
                         {
@@ -337,6 +337,62 @@ export const globalData: IData= {
                             url:'https://www.labirint.ru/books/458915/'
                         }
                     ]
+                },
+                {
+                    title: 'Painting & miniatures',
+                    description: 'Do my best',
+                    template: SectionTemplateEnum.GRID_SHADOW,
+                    cards: [
+                        {
+                            title: 'Футболка Relaxed',
+                            description: 'Relaxed меланж, Футболка с коротким рукавом, можно парочку',
+                            img: 'https://image.12storeez.com/images/750xP_90_out/uploads/images/CATALOG/dresses/106852/6049d4fc73f35-24-02-202153122.jpg',
+                            url:'https://12storeez.com/catalog/t-shirts/futbolka-relaxed-melanz-107302'
+                        },
+                        {
+                            title: 'Бейсболка',
+                            description: 'Карамельная бейсболка с жестким козырьком.',
+                            img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/Accessories/122188/63dd0740ea53d-28-01-20230019-2.jpg',
+                            url:'https://12storeez.com/catalog/bags/womencollection/bejsbolka-122188'
+                        },
+                        {
+                            title: 'Шорты джинсовые',
+                            description: 'Шорты из органического хлопка с отворотами.',
+                            img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/shirts/113820/623a51be53977-17-03-202254988.jpg',
+                            url:'https://12storeez.com/catalog/bruki/womencollection/sorty-dzinsovye-s-otvorotami-113820'
+                        },
+                        {
+                            title: 'Сумка',
+                            description: 'Спортивная теннисная сумка Wilson Team RG 3.',
+                            img: 'https://cdn.sportmaster.ru/upload/resize_cache/iblock/37d/800_800_1/59026310299.jpg',
+                            url:'https://www.sportmaster.ru/product/26409910299/'
+                        },
+                        {
+                            title: 'Мячи',
+                            description: 'Набор мячей Wilson US Open XD TBall',
+                            img: 'https://cdn.sportmaster.ru/upload/resize_cache/iblock/40e/800_800_1/57976040299.jpg',
+                            url:'https://www.sportmaster.ru/product/18263400299/'
+                        },
+                        {
+                            title: 'Коврик',
+                            description: 'Ковры JADE HARMONY. Подходит для ежедневных практик.',
+                            img: 'https://jadeyoga.ru/wp-content/uploads/2021/06/product-main-pic-new.jpg',
+                            url:'https://jadeyoga.ru/product/jade-harmony/'
+                        },
+                        {
+                            title: 'Жилет с молнией',
+                            description: 'Жилет с высоким воротником и широкими проймами.',
+                            img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/top/121928/63d3749aed007-23-01-20230505.jpg',
+                            url:'https://12storeez.com/catalog/trikotaz/womencollection/zilet-s-molniej-121928'
+                        },
+                        {
+                            title: 'Футболка',
+                            description: 'Трикотажная футболка в полоску.',
+                            img: 'https://e930f744-2554-4589-81f4-fda27b4a4a59.selcdn.net/iblock/f8c/f8cbefc9e1946b1a20f6b0e382b280e9/65a99149c894ad87cd9261110642158b.jpg',
+                            url:'https://www.lusio.ru/catalog/lscw_070044_trikotazhnaya_bluza/?pid=115616'
+                        }
+
+                    ]
                 }
 
             ]
@@ -345,9 +401,66 @@ export const globalData: IData= {
             title: 'Home',
             description: '',
             url: 'home',
-            backgroundImage: 'https://i.pinimg.com/736x/99/02/9c/99029c3c79cb2e6280e6cdbebd952afd--beatrix-potter-bunny.jpg',
-            imageTemplate: BackgroundImageEnum.COVER,
-            sections: []
+            backgroundImage: 'https://cdn.shoplightspeed.com/shops/640016/files/53818311/image.jpg',
+            imageTemplate: BackgroundImageEnum.CONTAIN,
+            sections: [
+                {
+                    title: 'Painting & miniatures',
+                    description: 'Do my best',
+                    template: SectionTemplateEnum.GRID_SHADOW,
+                    cards: [
+                        {
+                            title: 'Футболка Relaxed',
+                            description: 'Relaxed меланж, Футболка с коротким рукавом, можно парочку',
+                            img: 'https://image.12storeez.com/images/750xP_90_out/uploads/images/CATALOG/dresses/106852/6049d4fc73f35-24-02-202153122.jpg',
+                            url:'https://12storeez.com/catalog/t-shirts/futbolka-relaxed-melanz-107302'
+                        },
+                        {
+                            title: 'Бейсболка',
+                            description: 'Карамельная бейсболка с жестким козырьком.',
+                            img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/Accessories/122188/63dd0740ea53d-28-01-20230019-2.jpg',
+                            url:'https://12storeez.com/catalog/bags/womencollection/bejsbolka-122188'
+                        },
+                        {
+                            title: 'Шорты джинсовые',
+                            description: 'Шорты из органического хлопка с отворотами.',
+                            img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/shirts/113820/623a51be53977-17-03-202254988.jpg',
+                            url:'https://12storeez.com/catalog/bruki/womencollection/sorty-dzinsovye-s-otvorotami-113820'
+                        },
+                        {
+                            title: 'Сумка',
+                            description: 'Спортивная теннисная сумка Wilson Team RG 3.',
+                            img: 'https://cdn.sportmaster.ru/upload/resize_cache/iblock/37d/800_800_1/59026310299.jpg',
+                            url:'https://www.sportmaster.ru/product/26409910299/'
+                        },
+                        {
+                            title: 'Мячи',
+                            description: 'Набор мячей Wilson US Open XD TBall',
+                            img: 'https://cdn.sportmaster.ru/upload/resize_cache/iblock/40e/800_800_1/57976040299.jpg',
+                            url:'https://www.sportmaster.ru/product/18263400299/'
+                        },
+                        {
+                            title: 'Коврик',
+                            description: 'Ковры JADE HARMONY. Подходит для ежедневных практик.',
+                            img: 'https://jadeyoga.ru/wp-content/uploads/2021/06/product-main-pic-new.jpg',
+                            url:'https://jadeyoga.ru/product/jade-harmony/'
+                        },
+                        {
+                            title: 'Жилет с молнией',
+                            description: 'Жилет с высоким воротником и широкими проймами.',
+                            img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/top/121928/63d3749aed007-23-01-20230505.jpg',
+                            url:'https://12storeez.com/catalog/trikotaz/womencollection/zilet-s-molniej-121928'
+                        },
+                        {
+                            title: 'Футболка',
+                            description: 'Трикотажная футболка в полоску.',
+                            img: 'https://e930f744-2554-4589-81f4-fda27b4a4a59.selcdn.net/iblock/f8c/f8cbefc9e1946b1a20f6b0e382b280e9/65a99149c894ad87cd9261110642158b.jpg',
+                            url:'https://www.lusio.ru/catalog/lscw_070044_trikotazhnaya_bluza/?pid=115616'
+                        }
+
+                    ]
+                }
+            ]
         }
 
     ]
