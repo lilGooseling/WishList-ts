@@ -176,6 +176,18 @@ export const globalData: IData= {
                     template: SectionTemplateEnum.SOLOSLIDER,
                     cards: [
                         {
+                            title: 'BOTANY',
+                            description: 'Flower Hunting in the Victorian Era',
+                            img: 'https://cf.geekdo-images.com/Xp4Cb-IOZZYDDOxaWBYfFw__imagepage/img/5nTPHdodxoA7HHRSYnlD3BcrOv4=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7477413.jpg',
+                            url:'https://boardgamegeek.com/boardgame/380837/botany'
+                        },
+                        {
+                            title: 'Planted',
+                            description: 'A Game of Nature & Nurture',
+                            img: 'https://cf.geekdo-images.com/w05q02PbXAw64GKtd4H4qg__opengraph/img/-o6-yMcXnIaHKDxWl1NKFFKnVyk=/0x314:2000x1961/fit-in/1200x630/filters:fill(blur):strip_icc()/pic6978684.jpg',
+                            url:'https://boardgamegeek.com/boardgame/365104/planted-game-nature-nurture'
+                        },
+                        {
                             title: 'Wingspan asia',
                             description: 'expansion',
                             img: 'https://images.squarespace-cdn.com/content/v1/5ca03db673304600013d111e/a3da15c5-384b-44f2-9296-12eff02c8e15/Wingspan+Asia+Duet+Mode.jpg',
@@ -241,20 +253,7 @@ export const globalData: IData= {
                             description: 'Ковры JADE HARMONY. Подходит для ежедневных практик.',
                             img: 'https://jadeyoga.ru/wp-content/uploads/2021/06/product-main-pic-new.jpg',
                             url:'https://jadeyoga.ru/product/jade-harmony/'
-                        },
-                        {
-                            title: 'Жилет с молнией',
-                            description: 'Жилет с высоким воротником и широкими проймами.',
-                            img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/top/121928/63d3749aed007-23-01-20230505.jpg',
-                            url:'https://12storeez.com/catalog/trikotaz/womencollection/zilet-s-molniej-121928'
-                        },
-                        {
-                            title: 'Футболка',
-                            description: 'Трикотажная футболка в полоску.',
-                            img: 'https://e930f744-2554-4589-81f4-fda27b4a4a59.selcdn.net/iblock/f8c/f8cbefc9e1946b1a20f6b0e382b280e9/65a99149c894ad87cd9261110642158b.jpg',
-                            url:'https://www.lusio.ru/catalog/lscw_070044_trikotazhnaya_bluza/?pid=115616'
                         }
-
                     ]
                 },
                 {
@@ -340,38 +339,38 @@ export const globalData: IData= {
                 },
                 {
                     title: 'Painting & miniatures',
-                    description: 'Do my best',
+                    description: 'for weekends',
                     template: SectionTemplateEnum.GRID_SHADOW,
                     cards: [
                         {
-                            title: 'Футболка Relaxed',
-                            description: 'Relaxed меланж, Футболка с коротким рукавом, можно парочку',
-                            img: 'https://image.12storeez.com/images/750xP_90_out/uploads/images/CATALOG/dresses/106852/6049d4fc73f35-24-02-202153122.jpg',
-                            url:'https://12storeez.com/catalog/t-shirts/futbolka-relaxed-melanz-107302'
+                            title: 'Белый тополь',
+                            description: 'AK Interactive, для будующего Эндора',
+                            img: 'https://i-modelist.ru/file/i/850/850/a0ff2ec96c2622a4bb316cf25e0e4bc6/10a1c7e3f1673c3e9d73e5243c12b6b7.jpg',
+                            url:'https://i-modelist.ru/goods/226/2415/78792.html'
                         },
                         {
-                            title: 'Бейсболка',
-                            description: 'Карамельная бейсболка с жестким козырьком.',
-                            img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/Accessories/122188/63dd0740ea53d-28-01-20230019-2.jpg',
-                            url:'https://12storeez.com/catalog/bags/womencollection/bejsbolka-122188'
+                            title: 'Клён',
+                            description: 'AK Interactive, для будующего Эндора',
+                            img: 'https://i-modelist.ru/file/i/1200/1200/ad6729ea/2fa0db02b9a6e81cb52a37cc44445440.jpg',
+                            url:'https://i-modelist.ru/goods/226/2415/78786.html'
                         },
                         {
-                            title: 'Шорты джинсовые',
-                            description: 'Шорты из органического хлопка с отворотами.',
-                            img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/shirts/113820/623a51be53977-17-03-202254988.jpg',
-                            url:'https://12storeez.com/catalog/bruki/womencollection/sorty-dzinsovye-s-otvorotami-113820'
+                            title: 'Дуб',
+                            description: 'AK Interactive, для будующего Эндора',
+                            img: 'https://i-modelist.ru/file/i/850/850/7da629bb/e8c29b03375fa5892ca640ae84a67bb1.jpg',
+                            url:'https://i-modelist.ru/goods/226/2415/78789.html'
                         },
                         {
-                            title: 'Сумка',
-                            description: 'Спортивная теннисная сумка Wilson Team RG 3.',
-                            img: 'https://cdn.sportmaster.ru/upload/resize_cache/iblock/37d/800_800_1/59026310299.jpg',
-                            url:'https://www.sportmaster.ru/product/26409910299/'
+                            title: 'Сосна',
+                            description: 'AK Interactive, для будующего Эндора',
+                            img: 'https://i-modelist.ru/file/i/500/500/c6646a0d/535dd1faa3f5d00e234c2b742ac32da7.jpg',
+                            url:'https://i-modelist.ru/goods/226/2415/78785.html'
                         },
                         {
-                            title: 'Мячи',
-                            description: 'Набор мячей Wilson US Open XD TBall',
-                            img: 'https://cdn.sportmaster.ru/upload/resize_cache/iblock/40e/800_800_1/57976040299.jpg',
-                            url:'https://www.sportmaster.ru/product/18263400299/'
+                            title: 'ПАПОРОТНИК',
+                            description: 'MiniWarPaint, РАЗМЕР L',
+                            img: 'https://i-modelist.ru/file/i/640/640/8d5cb430/27cb2f307d3c3b59146a5bac6f220ed8.jpg',
+                            url:'https://i-modelist.ru/goods/226/2508/61763.html'
                         },
                         {
                             title: 'Коврик',
