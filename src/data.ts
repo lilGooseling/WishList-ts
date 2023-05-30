@@ -51,13 +51,13 @@ export const globalData: IData= {
                     cards: [
                         {
                             title: 'Джемпер',
-                            description: 'Джемпер оверсайз из шерсти в полоску всегда полезен',
+                            description: 'Джемпер оверсайз из шерсти в полоску.',
                             img: 'https://e930f744-2554-4589-81f4-fda27b4a4a59.selcdn.net/iblock/3df/3df8967d752201b6e50f9c20a64183ca/bf83c5a8346ba83fce24c19ad8cca576.jpg',
                             url:'https://www.lusio.ru/catalog/lscw_340011_dzhemper/?pid=112366'
                         },
                         {
                             title: 'Джемпер из льна',
-                            description: 'Джемпер из льняной пряжи, натуральной и дышащей, идеальной для тёплого сезона.',
+                            description: 'Джемпер из льняной пряжи для тёплого сезона.',
                             img: 'https://solo-u.ru/upload/iblock/1c7/4b9i8sj3j0pzr6vbqpg9qdsdd1904638.webp',
                             url:'https://solo-u.ru/catalog/vyazanyy_trikotazh/dzhemper_svobodnyy_lnyanoy_195902/'
                         },
@@ -69,7 +69,7 @@ export const globalData: IData= {
                         },
                         {
                             title: 'Сарафан',
-                            description: 'Сарафан из шифона в длине миди. Лёгкая модель для весенних и летних образов.',
+                            description: 'Сарафан из шифона в длине миди. Для лета.',
                             img: 'https://solo-u.ru/upload/iblock/b5e/hoor1ox0vn8ygn8fnb9kd91qg52nzwqh.webp',
                             url:'https://solo-u.ru/catalog/platya_i_sarafany/sarafan_iz_shifona_na_bretelyakh_146311/'
                         },
@@ -87,7 +87,7 @@ export const globalData: IData= {
                         },
                         {
                             title: 'Жилет с молнией',
-                            description: 'Вязаный жилет с высоким воротником и широкими проймами.',
+                            description: 'Вязаный жилет с высоким воротником.',
                             img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/top/121928/63d3749aed007-23-01-20230505.jpg',
                             url:'https://12storeez.com/catalog/trikotaz/womencollection/zilet-s-molniej-121928'
                         },
@@ -105,7 +105,7 @@ export const globalData: IData= {
                         },
                         {
                             title: 'ELMOLU anti ac love mode',
-                            description: 'Успокаивает и увлажняет чувствительную и раздраженную кожу, укрепляет естественный защитный барьер',
+                            description: 'Успокаивает и увлажняет чувствительную кожу.',
                             img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/8/8809420569003_1_q5ehfgids5td6t3p.jpg',
                             url:'https://goldapple.ru/89880300003-anti-ac-serii-love-mode'
                         },
@@ -117,18 +117,18 @@ export const globalData: IData= {
                         },
                         {
                             title: 'ELMOLU pore scaling love mode',
-                            description: 'Маска очищает кожу и поры, повышает эластичность и увлажняет.',
+                            description: 'Маска очищает кожу и поры, повышает эластичность.',
                             img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/8/8809420569010_1_lhyeqli85xnzuges.jpg',
                             url:'https://goldapple.ru/89880300004-pore-scaling-serii-love-mode'
                         },
                         {
                             title: 'GUERLAIN météorites perles',
-                            description: 'Нежный аромат фиалки, неподражаемый и восхитительный!',
+                            description: 'Нежный аромат фиалки!',
                             img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/3/3/3346470416659_1_ml4xicn3bq02i4uf.jpg',
                             url:'https://goldapple.ru/10009-14095400001-meteorites-perles#sku=14095400002'
                         },
                         {
-                            title: 'DR. CEURACLE hyal reyouth hydrogel eye mask',
+                            title: 'DR. CEURACLE hydrogel eye mask',
                             description: 'Гидрогелевые патчи для глаз.',
                             img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/8/8806133614570_1_xhg27m7w37ndaqe9.jpg',
                             url:'https://goldapple.ru/19000012321-hyal-reyouth-hydrogel-eye-mask'
@@ -373,24 +373,17 @@ export const globalData: IData= {
                             url:'https://i-modelist.ru/goods/226/2508/61763.html'
                         },
                         {
-                            title: 'Коврик',
-                            description: 'Ковры JADE HARMONY. Подходит для ежедневных практик.',
-                            img: 'https://jadeyoga.ru/wp-content/uploads/2021/06/product-main-pic-new.jpg',
-                            url:'https://jadeyoga.ru/product/jade-harmony/'
+                            title: 'Gansai Kuretake',
+                            description: 'Набор акварельных красок.',
+                            img: 'https://ir.ozone.ru/s3/multimedia-w/wc700/6058736552.jpg',
+                            url:'https://www.ozon.ru/product/nabor-akvarelnyh-krasok-gansai-tambi-ot-kuretake-36-tsvetov-274602723/?asb=DPNE2uEfPiziegB6STJTcgCzdCFXg2DBHcCLwZHcHkM%253D&asb2=bTk-eflX5v58C5s3XwAAnvAHU9XeZQIKwHWCvj5BarJh5sEZ-67P96cksyDQKp-6&avtc=1&avte=2&avts=1685432412&keywords=%D0%B0%D0%BA%D0%B2%D0%B0%D1%80%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B8+%D0%B8%D0%B7+%D1%8F%D0%BF%D0%BE%D0%BD%D0%B8%D0%B8&sh=viUNDnC28w'
                         },
                         {
-                            title: 'Жилет с молнией',
-                            description: 'Жилет с высоким воротником и широкими проймами.',
-                            img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/top/121928/63d3749aed007-23-01-20230505.jpg',
-                            url:'https://12storeez.com/catalog/trikotaz/womencollection/zilet-s-molniej-121928'
-                        },
-                        {
-                            title: 'Футболка',
-                            description: 'Трикотажная футболка в полоску.',
-                            img: 'https://e930f744-2554-4589-81f4-fda27b4a4a59.selcdn.net/iblock/f8c/f8cbefc9e1946b1a20f6b0e382b280e9/65a99149c894ad87cd9261110642158b.jpg',
-                            url:'https://www.lusio.ru/catalog/lscw_070044_trikotazhnaya_bluza/?pid=115616'
+                            title: 'Pentel Brush',
+                            description: 'Кисть с резервуаром.',
+                            img: 'https://ir.ozone.ru/multimedia/wc700/1011625683.jpg',
+                            url:'https://www.ozon.ru/product/kist-s-rezervuarom-pentel-aquash-brush-tonkaya-10-ml-31371811/?asb=mXCalrmCoFVaNo9ivx4a6M5KP5syr8%252BfRU3dM0qwZWQ%253D&asb2=9CsLzITh0ZsBiKZ09pzbfO3AlcQo4mTMHsDPUx7BsYgwY9faZI8VRC7g5JfGiTXe&avtc=1&avte=2&avts=1685432651&keywords=%D0%9A%D0%B8%D1%81%D1%82%D0%B8+%D1%81+%D1%80%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D1%83%D0%B0%D1%80%D0%BE%D0%BC+%D0%B4%D0%BB%D1%8F+%D0%B2%D0%BE%D0%B4%D1%8B%2C+%D0%BA%D0%B8%D1%81%D1%82%D0%B8+%D1%81+%D0%B5%D0%BC%D0%BA%D0%BE%D1%81%D1%82%D1%8C%D1%8E+%D0%B4%D0%BB%D1%8F+%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F&sh=viUNDrgK6Q'
                         }
-
                     ]
                 }
 
