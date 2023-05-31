@@ -12,7 +12,7 @@ const BackgroundImageConfig = (imageTemplate: BackgroundImageEnum | undefined): 
             };
         case BackgroundImageEnum.COVER:
             return {
-                backgroundAttachment: 'local'
+                backgroundSize: 'cover'
             }
         case BackgroundImageEnum.REPEAT:
             return {
