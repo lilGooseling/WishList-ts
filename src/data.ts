@@ -19,10 +19,10 @@ export const globalData: IData= {
                 backgroundEffect: BackgroundEffectEnum.PARALLAX,
                 cards: [
                     {
-                    title: 'GUCCI moonlight',
-                    description: '«Лунная серенада» – это лавандовая душистая вода.',
-                    img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/3/6/3614227575981_1_v0fl6jcjrlqmilqw.jpg',
-                    url:'https://goldapple.ru/19000004564-the-alchemist-s-garden-moonlight-serenade-acqua-profumata'
+                    title: 'Wood Sage & Sea Salt',
+                    description: 'Jo Malone, Ароматная смесь морской соли, шалфея и семян амбретта.',
+                    img: 'https://goldapple.ru/media/catalog/product/6/9/690251080977_1_maxlddasanxa9950.jpg',
+                    url:'https://www.tsum.ru/product/he00623769-odekolon-wood-sage-sea-salt-100ml-jo-malone-london-bestcvetnyi/'
                 },
                     {
                     title: 'BYREDO bal d\'afrique',
@@ -138,6 +138,8 @@ export const globalData: IData= {
                 {
                     title: 'Bath',
                     description: 'Time to relax',
+                    backgroundImage: 'https://oboi-ma.ru/f/product/7661.jpg',
+                    imageTemplate: BackgroundImageEnum.CONTAIN,
                     template: SectionTemplateEnum.SOLOSLIDER,
                     cards: [
                         {
@@ -173,6 +175,8 @@ export const globalData: IData= {
                     title: 'Boardgames',
                     description: 'Time with family',
                     backgroundColor: '#f5ebe6',
+                    backgroundImage: 'https://oboi-ma.ru/f/product/7673.jpg',
+                    imageTemplate: BackgroundImageEnum.CONTAIN,
                     template: SectionTemplateEnum.SOLOSLIDER,
                     cards: [
                         {
@@ -393,63 +397,174 @@ export const globalData: IData= {
             title: 'Home',
             description: '',
             url: 'home',
-            backgroundImage: 'https://cdn.shoplightspeed.com/shops/640016/files/53818311/image.jpg',
+            backgroundImage: 'https://oboi-ma.ru/f/product/7668.jpg',
             imageTemplate: BackgroundImageEnum.CONTAIN,
             sections: [
                 {
-                    title: 'Painting & miniatures',
-                    description: 'Do my best',
-                    template: SectionTemplateEnum.GRID_SHADOW,
+                    title: 'Textile',
+                    description: 'coziness',
+                    template: SectionTemplateEnum.GRID_STICKER,
                     cards: [
                         {
-                            title: 'Футболка Relaxed',
-                            description: 'Relaxed меланж, Футболка с коротким рукавом, можно парочку',
-                            img: 'https://image.12storeez.com/images/750xP_90_out/uploads/images/CATALOG/dresses/106852/6049d4fc73f35-24-02-202153122.jpg',
-                            url:'https://12storeez.com/catalog/t-shirts/futbolka-relaxed-melanz-107302'
+                            title: 'Одеяло',
+                            description: 'Zara Home Baby, белый',
+                            img: 'https://static.zarahome.net/8/photos4/2023/V/4/1/p/1610/767/251/1610767251_2_3_1.jpg?t=1674657007851',
+                            url:'https://cdek.shopping/p/369427/odeyalo-zara-home-baby-belyi'
                         },
                         {
-                            title: 'Бейсболка',
-                            description: 'Карамельная бейсболка с жестким козырьком.',
-                            img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/Accessories/122188/63dd0740ea53d-28-01-20230019-2.jpg',
-                            url:'https://12storeez.com/catalog/bags/womencollection/bejsbolka-122188'
+                            title: 'Patchwork Сotton',
+                            description: 'Чехол для подушки Zara Home.',
+                            img: 'https://static.zarahome.net/8/photos4/2023/V/4/1/p/1613/007/999/1613007999_2_7_1.jpg?t=1673453479743',
+                            url:'https://cdek.shopping/p/378542/cexol-dlya-dekorativnoi-poduski-zara-home-patchwork-sotton-multikolor'
                         },
                         {
-                            title: 'Шорты джинсовые',
-                            description: 'Шорты из органического хлопка с отворотами.',
-                            img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/shirts/113820/623a51be53977-17-03-202254988.jpg',
-                            url:'https://12storeez.com/catalog/bruki/womencollection/sorty-dzinsovye-s-otvorotami-113820'
+                            title: 'Одеяло лоскутное',
+                            description: 'Zara Home Cotton Patchwork.',
+                            img: 'https://static.zara.net/photos///2023/V/4/1/p/1613/005/999/2/w/1920/1613005999_2_2_1.jpg?ts=1673537946433',
+                            url:'https://cdek.shopping/p/481367/odeyalo-loskutnoe-xlopkovoe-zara-home-cotton-patchwork-multikolor'
                         },
                         {
-                            title: 'Сумка',
-                            description: 'Спортивная теннисная сумка Wilson Team RG 3.',
-                            img: 'https://cdn.sportmaster.ru/upload/resize_cache/iblock/37d/800_800_1/59026310299.jpg',
-                            url:'https://www.sportmaster.ru/product/26409910299/'
+                            title: 'Подушка',
+                            description: 'Декоративная подушка Zara Home Round Floral.',
+                            img: 'https://static.zarahome.net/8/photos4/2023/V/4/1/p/2622/009/727/2622009727_2_4_1.jpg?t=1668074565692',
+                            url:'https://cdek.shopping/p/386715/dekorativnaya-poduska-zara-home-round-floral-vanilnyi'
                         },
                         {
-                            title: 'Мячи',
-                            description: 'Набор мячей Wilson US Open XD TBall',
-                            img: 'https://cdn.sportmaster.ru/upload/resize_cache/iblock/40e/800_800_1/57976040299.jpg',
-                            url:'https://www.sportmaster.ru/product/18263400299/'
+                            title: 'Полотенце',
+                            description: 'Комплект полотенец Zara Home Mini',
+                            img: 'https://static.zarahome.net/8/photos4/2023/V/4/1/p/1609/724/251/1609724251_2_3_1.jpg?t=1674652959234',
+                            url:'https://cdek.shopping/p/369102/komplekt-polotenec-zara-home-mini-3-predmeta-rozovyibelyi'
                         },
                         {
-                            title: 'Коврик',
-                            description: 'Ковры JADE HARMONY. Подходит для ежедневных практик.',
-                            img: 'https://jadeyoga.ru/wp-content/uploads/2021/06/product-main-pic-new.jpg',
-                            url:'https://jadeyoga.ru/product/jade-harmony/'
+                            title: 'Подушка из льна',
+                            description: 'Nobodinoz "Lin Francais Leaf Noisette".',
+                            img: 'https://bunnyhill.ru/upload/iblock/9cc/i2k1dwyx5aq2g3zxtmppnmj8x6oc0hbo/D22LINLEAF-005_1.jpg',
+                            url:'https://bunnyhill.ru/catalog/podushka-iz-lna-nobodinoz-lin-francais-leaf-noisette-korichnevaya-25-kh-35-sm/'
                         },
                         {
-                            title: 'Жилет с молнией',
-                            description: 'Жилет с высоким воротником и широкими проймами.',
-                            img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/top/121928/63d3749aed007-23-01-20230505.jpg',
-                            url:'https://12storeez.com/catalog/trikotaz/womencollection/zilet-s-molniej-121928'
+                            title: 'Подушка',
+                            description: 'Nobodinoz "Sublim Flore", нежность цветов.',
+                            img: 'https://bunnyhill.ru/upload/iblock/fcb/i1lac6x2d5cn3w45hno404zbezzrs7uz/sublim-cushion-20x35-nobodinoz_OB.jpg',
+                            url:'https://bunnyhill.ru/catalog/podushka-dekorativnaya-nobodinoz-sublim-flore-nezhnost-tsvetov-20-x-35-sm/'
                         },
                         {
-                            title: 'Футболка',
-                            description: 'Трикотажная футболка в полоску.',
-                            img: 'https://e930f744-2554-4589-81f4-fda27b4a4a59.selcdn.net/iblock/f8c/f8cbefc9e1946b1a20f6b0e382b280e9/65a99149c894ad87cd9261110642158b.jpg',
-                            url:'https://www.lusio.ru/catalog/lscw_070044_trikotazhnaya_bluza/?pid=115616'
+                            title: 'Балдахин',
+                            description: 'Nobodinoz "Amour Flore", нежность цветов.',
+                            img: 'https://bunnyhill.ru/upload/iblock/051/huwnobdl2669uw4wc8nughwi8i3s0pr2/canopy-amour-250x50-nobodinoz_OC.jpg',
+                            url:'https://bunnyhill.ru/catalog/baldakhin-nobodinoz-amour-flore-nezhnost-tsvetov-250-kh-250-sm/'
+                        },
+                        {
+                            title: 'LUKNO',
+                            description: 'Овечка Мама в корзинке.',
+                            img: 'https://bunnyhill.ru/upload/iblock/94e/wcm7kxl388ps9nk14nwj78x4bpisic32/%D0%BE%D0%B2%D0%B5%D1%87%D0%BA%D0%B8_04.jpg',
+                            url:'https://bunnyhill.ru/catalog/ovechka-lukno-mama-marta-v-korzinke/'
+                        },
+                        {
+                            title: 'LUKNO',
+                            description: 'Зайка "Фея", серия Iskusno.',
+                            img: 'https://bunnyhill.ru/upload/iblock/983/lx9x6gm1vkl8t7jv8b1b7id3a1sfei5v/%D0%B7%D0%B0%D1%8F%D1%86_03.jpg',
+                            url:'https://bunnyhill.ru/catalog/zayka-lukno-starshaya-sestra-feya/'
+                        },
+                        {
+                            title: 'Фартук',
+                            description: 'Фартук с водоотталкивающим покрытием',
+                            img: 'https://www.togas.com/media/catalog/product/cache/536b760c7743b9af85d9cdc069dd9c7b/_/2/_2_3_1_f732.jpg',
+                            url:'https://www.togas.com/ru/fartuk-kelli-1001030081.html'
                         }
-
+                    ]
+                },
+                {
+                    title: 'Tableware',
+                    description: 'best decision',
+                    template: SectionTemplateEnum.GRID_SHADOW,
+                    imageTemplate: BackgroundImageEnum.COVER,
+                    backgroundImage: 'https://images.unsplash.com/photo-1595113316349-9fa4eb24f884?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80',
+                    cards: [
+                        {
+                            title: 'Тарелка',
+                            description: 'Тарелка десертная Мартинелли',
+                            img: 'https://www.togas.com/media/catalog/product/cache/536b760c7743b9af85d9cdc069dd9c7b/M/A/MARTINELLI_COUPLE_PLATE_DESSERT_cc93.jpg',
+                            url:'https://www.togas.com/ru/tarelka-desertnaja-martinelli-sentiment-102400144.html'
+                        },
+                        {
+                            title: 'Тарелка',
+                            description: 'Тарелка суповая Мартинелли',
+                            img: 'https://www.togas.com/media/catalog/product/cache/536b760c7743b9af85d9cdc069dd9c7b/M/A/MARTINELLI_COUPLE_PLATES_LS_DTL_01_b0a2.jpg',
+                            url:'https://www.togas.com/ru/tarelka-supovaja-martinelli-sentiment-102400142.html'
+                        },
+                        {
+                            title: 'Тарелка',
+                            description: 'Тарелка обеденная Мартинелли ',
+                            img: 'https://www.togas.com/media/catalog/product/cache/536b760c7743b9af85d9cdc069dd9c7b/M/A/MARTINELLI_COUPLE_PLATE_B_f53e.jpg',
+                            url:'https://www.togas.com/ru/tarelka-obedennaja-martinelli-sentiment-102400139.html'
+                        },
+                        {
+                            title: 'Чашка',
+                            description: 'Чашка для чая Нарцисс',
+                            img: 'https://www.togas.com/media/catalog/product/cache/536b760c7743b9af85d9cdc069dd9c7b/C/U/CUP_TULIP_LS_VRTCL_c76a.jpg',
+                            url:'https://www.togas.com/ru/chashka-dlja-chaja-narciss-102400057.html'
+                        },
+                        {
+                            title: 'Чашка',
+                            description: 'Чашка для чая Лотос',
+                            img: 'https://www.togas.com/media/catalog/product/cache/536b760c7743b9af85d9cdc069dd9c7b/C/U/CUP_LOTUS_LS_VRTCL_ed03.jpg',
+                            url:'https://www.togas.com/ru/chashka-dlja-chaja-lotos-102400054.html'
+                        },
+                        {
+                            title: 'Стаканы',
+                            description: 'Набор стаканов 4 штуки Ikea',
+                            img: 'https://static.cdek.shopping/images/shopping/fw/525/525/22e5ce4a008c43d3a5fa3458706381e4.jpg',
+                            url:'https://cdek.shopping/p/622878/nabor-stakanov-4-stuki-27-ml-ikea-prozracnyi'
+                        }
+                    ]
+                },
+                {
+                    title: 'Painting & miniatures',
+                    description: 'for weekends',
+                    template: SectionTemplateEnum.GRID_STICKER,
+                    cards: [
+                        {
+                            title: 'Белый тополь',
+                            description: 'AK Interactive, для будующего Эндора',
+                            img: 'https://i-modelist.ru/file/i/850/850/a0ff2ec96c2622a4bb316cf25e0e4bc6/10a1c7e3f1673c3e9d73e5243c12b6b7.jpg',
+                            url:'https://i-modelist.ru/goods/226/2415/78792.html'
+                        },
+                        {
+                            title: 'Клён',
+                            description: 'AK Interactive, для будующего Эндора',
+                            img: 'https://i-modelist.ru/file/i/1200/1200/ad6729ea/2fa0db02b9a6e81cb52a37cc44445440.jpg',
+                            url:'https://i-modelist.ru/goods/226/2415/78786.html'
+                        },
+                        {
+                            title: 'Дуб',
+                            description: 'AK Interactive, для будующего Эндора',
+                            img: 'https://i-modelist.ru/file/i/850/850/7da629bb/e8c29b03375fa5892ca640ae84a67bb1.jpg',
+                            url:'https://i-modelist.ru/goods/226/2415/78789.html'
+                        },
+                        {
+                            title: 'Сосна',
+                            description: 'AK Interactive, для будующего Эндора',
+                            img: 'https://i-modelist.ru/file/i/500/500/c6646a0d/535dd1faa3f5d00e234c2b742ac32da7.jpg',
+                            url:'https://i-modelist.ru/goods/226/2415/78785.html'
+                        },
+                        {
+                            title: 'ПАПОРОТНИК',
+                            description: 'MiniWarPaint, РАЗМЕР L',
+                            img: 'https://i-modelist.ru/file/i/640/640/8d5cb430/27cb2f307d3c3b59146a5bac6f220ed8.jpg',
+                            url:'https://i-modelist.ru/goods/226/2508/61763.html'
+                        },
+                        {
+                            title: 'Gansai Kuretake',
+                            description: 'Набор акварельных красок.',
+                            img: 'https://ir.ozone.ru/s3/multimedia-w/wc700/6058736552.jpg',
+                            url:'https://www.ozon.ru/product/nabor-akvarelnyh-krasok-gansai-tambi-ot-kuretake-36-tsvetov-274602723/?asb=DPNE2uEfPiziegB6STJTcgCzdCFXg2DBHcCLwZHcHkM%253D&asb2=bTk-eflX5v58C5s3XwAAnvAHU9XeZQIKwHWCvj5BarJh5sEZ-67P96cksyDQKp-6&avtc=1&avte=2&avts=1685432412&keywords=%D0%B0%D0%BA%D0%B2%D0%B0%D1%80%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B8+%D0%B8%D0%B7+%D1%8F%D0%BF%D0%BE%D0%BD%D0%B8%D0%B8&sh=viUNDnC28w'
+                        },
+                        {
+                            title: 'Pentel Brush',
+                            description: 'Кисть с резервуаром.',
+                            img: 'https://ir.ozone.ru/multimedia/wc700/1011625683.jpg',
+                            url:'https://www.ozon.ru/product/kist-s-rezervuarom-pentel-aquash-brush-tonkaya-10-ml-31371811/?asb=mXCalrmCoFVaNo9ivx4a6M5KP5syr8%252BfRU3dM0qwZWQ%253D&asb2=9CsLzITh0ZsBiKZ09pzbfO3AlcQo4mTMHsDPUx7BsYgwY9faZI8VRC7g5JfGiTXe&avtc=1&avte=2&avts=1685432651&keywords=%D0%9A%D0%B8%D1%81%D1%82%D0%B8+%D1%81+%D1%80%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D1%83%D0%B0%D1%80%D0%BE%D0%BC+%D0%B4%D0%BB%D1%8F+%D0%B2%D0%BE%D0%B4%D1%8B%2C+%D0%BA%D0%B8%D1%81%D1%82%D0%B8+%D1%81+%D0%B5%D0%BC%D0%BA%D0%BE%D1%81%D1%82%D1%8C%D1%8E+%D0%B4%D0%BB%D1%8F+%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F&sh=viUNDrgK6Q'
+                        }
                     ]
                 }
             ]
