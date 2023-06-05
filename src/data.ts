@@ -470,6 +470,18 @@ export const globalData: IData= {
                             description: 'Фартук с водоотталкивающим покрытием',
                             img: 'https://www.togas.com/media/catalog/product/cache/536b760c7743b9af85d9cdc069dd9c7b/_/2/_2_3_1_f732.jpg',
                             url:'https://www.togas.com/ru/fartuk-kelli-1001030081.html'
+                        },
+                        {
+                            title: 'Платье',
+                            description: 'Платье на запахе/ Nunki',
+                            img: 'https://thumb.tildacdn.com/tild3439-3236-4333-b739-313332636662/-/format/webp/679A15651.jpg',
+                            url:'https://nunki.store/tproduct/1-646581529571-plate-na-zapahe'
+                        },
+                        {
+                            title: 'Топ',
+                            description: 'Топ из муслина / Nunki',
+                            img: 'https://thumb.tildacdn.com/tild6536-3232-4865-a364-303564343432/-/format/webp/679A14031.jpg',
+                            url:'https://nunki.store/tproduct/1-124595616571-top-iz-muslina'
                         }
                     ]
                 },
