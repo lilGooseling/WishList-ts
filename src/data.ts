@@ -472,16 +472,16 @@ export const globalData: IData= {
                             url:'https://www.togas.com/ru/fartuk-kelli-1001030081.html'
                         },
                         {
-                            title: 'Платье',
-                            description: 'Платье на запахе/ Nunki',
-                            img: 'https://thumb.tildacdn.com/tild3439-3236-4333-b739-313332636662/-/format/webp/679A15651.jpg',
-                            url:'https://nunki.store/tproduct/1-646581529571-plate-na-zapahe'
+                            title: 'Свитшот',
+                            description: 'Свитшот Konges Slojd "Lou Almond Milk", миндальное молоко',
+                            img: 'https://bunnyhill.ru/upload/iblock/88a/7kfs091oqjsp5pd933cn7842w9kw83la/LOU_SWEATSHIRT-Blouses-KS3749-ALMOND_MILK-1.jpg',
+                            url:'https://bunnyhill.ru/catalog/svitshot-konges-slojd-lou-mindalnoe-moloko/'
                         },
                         {
-                            title: 'Топ',
-                            description: 'Топ из муслина / Nunki',
-                            img: 'https://thumb.tildacdn.com/tild6536-3232-4865-a364-303564343432/-/format/webp/679A14031.jpg',
-                            url:'https://nunki.store/tproduct/1-124595616571-top-iz-muslina'
+                            title: 'Платье',
+                            description: 'Платье-колокольчик BUG LOVERS, светло-желтое',
+                            img: 'https://bunnyhill.ru/upload/iblock/5de/yoe50kodtg9jp7y3jcghmn79eem0hs5o/100-21-1_3.jpg',
+                            url:'https://bunnyhill.ru/catalog/plate-kolokolchik-bug-lovers-svetlo-zheltoe/'
                         }
                     ]
                 },
@@ -531,39 +531,39 @@ export const globalData: IData= {
                     ]
                 },
                 {
-                    title: 'Painting & miniatures',
-                    description: 'for weekends',
+                    title: 'Decoration',
+                    description: 'Something useful',
                     template: SectionTemplateEnum.GRID_STICKER,
                     cards: [
                         {
-                            title: 'Белый тополь',
-                            description: 'AK Interactive, для будующего Эндора',
-                            img: 'https://i-modelist.ru/file/i/850/850/a0ff2ec96c2622a4bb316cf25e0e4bc6/10a1c7e3f1673c3e9d73e5243c12b6b7.jpg',
-                            url:'https://i-modelist.ru/goods/226/2415/78792.html'
+                            title: 'Мини-футляр',
+                            description: 'Zara Home Floral Design, кремовый/мультиколор',
+                            img: 'https://static.cdek.shopping/images/shopping/0b326962663449008415a14e73621170.jpg',
+                            url:'https://cdek.shopping/p/437468/mini-futlyar-zara-home-floral-design-belyimultikolor'
                         },
                         {
-                            title: 'Клён',
-                            description: 'AK Interactive, для будующего Эндора',
-                            img: 'https://i-modelist.ru/file/i/1200/1200/ad6729ea/2fa0db02b9a6e81cb52a37cc44445440.jpg',
-                            url:'https://i-modelist.ru/goods/226/2415/78786.html'
+                            title: 'Ланч-бокс',
+                            description: 'Monbento, MB Square, sakura pink',
+                            img: 'https://ir.ozone.ru/s3/multimedia-4/c1000/6192313480.jpg',
+                            url:'https://designboom.ru/catalog/product/lanch-boks-mb-square-sakura-pink/'
                         },
                         {
-                            title: 'Дуб',
-                            description: 'AK Interactive, для будующего Эндора',
-                            img: 'https://i-modelist.ru/file/i/850/850/7da629bb/e8c29b03375fa5892ca640ae84a67bb1.jpg',
-                            url:'https://i-modelist.ru/goods/226/2415/78789.html'
+                            title: 'Ланч-бокс',
+                            description: 'Monbento, MB Gram, fox',
+                            img: 'https://cdn1.ozone.ru/s3/multimedia-t/6500301677.jpg',
+                            url:'https://designboom.ru/catalog/product/lanch-boks-mb-gram-fox/'
                         },
                         {
-                            title: 'Сосна',
-                            description: 'AK Interactive, для будующего Эндора',
-                            img: 'https://i-modelist.ru/file/i/500/500/c6646a0d/535dd1faa3f5d00e234c2b742ac32da7.jpg',
-                            url:'https://i-modelist.ru/goods/226/2415/78785.html'
+                            title: 'Мешочек',
+                            description: 'Мешочек сумка для ланч-бокса MB Pochette L с завязочками, flamingo',
+                            img: 'https://ir.ozone.ru/s3/multimedia-i/wc750/6077749218.jpg',
+                            url:'https://designboom.ru/catalog/product/meshochek-dlya-lancha-mb-pochette-l-flamingo/'
                         },
                         {
-                            title: 'ПАПОРОТНИК',
-                            description: 'MiniWarPaint, РАЗМЕР L',
-                            img: 'https://i-modelist.ru/file/i/640/640/8d5cb430/27cb2f307d3c3b59146a5bac6f220ed8.jpg',
-                            url:'https://i-modelist.ru/goods/226/2508/61763.html'
+                            title: 'Термос',
+                            description: 'Термос детский MB Stram 360 мл pink Bunny',
+                            img: 'https://ir.ozone.ru/s3/multimedia-e/wc750/6192314462.jpg',
+                            url:'https://www.ozon.ru/product/termos-detskiy-mb-stram-360-ml-pink-bunny-439723280/?_bctx=CAMQ2I77Dg&asb=4b7J9OyEiINiw4HLBzY0RZyBHmUK9BT7HjudsuDGljTJQ%252BPmHvfjUSQqgfMKChYF&asb2=TowkLExLsjeaJEUPdTv4QxMe5YZcw0gRBKrK4oZs3zkzrHReQ7vbtpH6viNInmzExAIRsl9NdjDgHf7wkRokGiSYmQL7KzgEGIiWLOJ4-plrLEhuCvJXCio_8x9YdOCAokiDqTOTsPHUE5p-0yYwPA&avtc=1&avte=4&avts=1686052708&from_sku=439723277&oos_search=false&sh=viUNDv16UQ'
                         },
                         {
                             title: 'Gansai Kuretake',
