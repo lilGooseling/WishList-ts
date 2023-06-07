@@ -566,16 +566,22 @@ export const globalData: IData= {
                             url:'https://www.ozon.ru/product/termos-detskiy-mb-stram-360-ml-pink-bunny-439723280/?_bctx=CAMQ2I77Dg&asb=4b7J9OyEiINiw4HLBzY0RZyBHmUK9BT7HjudsuDGljTJQ%252BPmHvfjUSQqgfMKChYF&asb2=TowkLExLsjeaJEUPdTv4QxMe5YZcw0gRBKrK4oZs3zkzrHReQ7vbtpH6viNInmzExAIRsl9NdjDgHf7wkRokGiSYmQL7KzgEGIiWLOJ4-plrLEhuCvJXCio_8x9YdOCAokiDqTOTsPHUE5p-0yYwPA&avtc=1&avte=4&avts=1686052708&from_sku=439723277&oos_search=false&sh=viUNDv16UQ'
                         },
                         {
-                            title: 'Gansai Kuretake',
-                            description: 'Набор акварельных красок.',
-                            img: 'https://ir.ozone.ru/s3/multimedia-w/wc700/6058736552.jpg',
-                            url:'https://www.ozon.ru/product/nabor-akvarelnyh-krasok-gansai-tambi-ot-kuretake-36-tsvetov-274602723/?asb=DPNE2uEfPiziegB6STJTcgCzdCFXg2DBHcCLwZHcHkM%253D&asb2=bTk-eflX5v58C5s3XwAAnvAHU9XeZQIKwHWCvj5BarJh5sEZ-67P96cksyDQKp-6&avtc=1&avte=2&avts=1685432412&keywords=%D0%B0%D0%BA%D0%B2%D0%B0%D1%80%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B8+%D0%B8%D0%B7+%D1%8F%D0%BF%D0%BE%D0%BD%D0%B8%D0%B8&sh=viUNDnC28w'
+                            title: 'Блюдо',
+                            description: 'Блюдо сервировочное Williams Oliver Река d35см, дерево',
+                            img: 'https://williams-oliver.ru/image-preview/00010679532_1_10.jpg',
+                            url:'https://williams-oliver.ru/product/bludo-servirovocnoe-williams-et-oliver-reka-d35sm-derevo-00010679532/'
                         },
                         {
-                            title: 'Pentel Brush',
-                            description: 'Кисть с резервуаром.',
-                            img: 'https://ir.ozone.ru/multimedia/wc700/1011625683.jpg',
-                            url:'https://www.ozon.ru/product/kist-s-rezervuarom-pentel-aquash-brush-tonkaya-10-ml-31371811/?asb=mXCalrmCoFVaNo9ivx4a6M5KP5syr8%252BfRU3dM0qwZWQ%253D&asb2=9CsLzITh0ZsBiKZ09pzbfO3AlcQo4mTMHsDPUx7BsYgwY9faZI8VRC7g5JfGiTXe&avtc=1&avte=2&avts=1685432651&keywords=%D0%9A%D0%B8%D1%81%D1%82%D0%B8+%D1%81+%D1%80%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D1%83%D0%B0%D1%80%D0%BE%D0%BC+%D0%B4%D0%BB%D1%8F+%D0%B2%D0%BE%D0%B4%D1%8B%2C+%D0%BA%D0%B8%D1%81%D1%82%D0%B8+%D1%81+%D0%B5%D0%BC%D0%BA%D0%BE%D1%81%D1%82%D1%8C%D1%8E+%D0%B4%D0%BB%D1%8F+%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F&sh=viUNDrgK6Q'
+                            title: 'Доска',
+                            description: 'Доска Williams Oliver Миндаль 34x22x2,5см, дерево',
+                            img: 'https://williams-oliver.ru/image-preview/00010680857_2_10.jpg',
+                            url:'https://williams-oliver.ru/product/doska-razdelocnaa-williams-et-oliver-mindal-34x22x2-5sm-derevo-00010680857/'
+                        },
+                        {
+                            title: 'Форма',
+                            description: 'Форма для выпечки хлеба антипригарная Nordic Ware Naturals, алюминий, кремовая',
+                            img: 'https://williams-oliver.ru/image-preview/00010628615_2_10.jpg',
+                            url:'https://williams-oliver.ru/product/forma-dla-vypecki-hleba-antiprigarnaa-nordic-ware-naturals-23h13h7sm-aluminij-kremovaa-00010628615/'
                         }
                     ]
                 }
