@@ -102,6 +102,13 @@
       color: white;
       font-weight: bold;
       position: relative;
+      transition: all .3s ease;
+
+
+      &:hover{
+        background-color: #876585;
+      }
+
     }
   }
 
