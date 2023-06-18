@@ -81,7 +81,6 @@
       font-size: 20px;
       font-weight: lighter;
       font-style: italic;
-      opacity: 0.9;
       margin-bottom: 24px;
       color: #2f4858;
     }
@@ -94,7 +93,6 @@
       align-items: center;
       justify-content: center;
       background: #c27b7f;
-      opacity: 0.9;
       padding: 10px 20px;
       border-radius: 5px;
       border: none;
@@ -102,11 +100,12 @@
       color: white;
       font-weight: bold;
       position: relative;
-      transition: all .3s ease;
+      transition: all .4s ease;
 
 
       &:hover{
         background-color: #876585;
+        opacity: 0.9;
       }
 
     }
