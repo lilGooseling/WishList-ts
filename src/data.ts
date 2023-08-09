@@ -19,10 +19,10 @@ export const globalData: IData= {
                 backgroundEffect: BackgroundEffectEnum.PARALLAX,
                 cards: [
                     {
-                    title: 'Wood Sage & Sea Salt',
-                    description: 'Jo Malone, Ароматная смесь морской соли, шалфея и семян амбретта.',
-                    img: 'https://goldapple.ru/media/catalog/product/6/9/690251080977_1_maxlddasanxa9950.jpg',
-                    url:'https://www.tsum.ru/product/he00623769-odekolon-wood-sage-sea-salt-100ml-jo-malone-london-bestcvetnyi/'
+                    title: '“Moonlight Serenade”',
+                    description: 'Gucci, «Лунная серенада» – это лавандовая душистая вода.',
+                    img: 'https://pcdn.goldapple.ru/p/p/19000004564/web/696d67416464338dad7cd9d4adf28fullhd.webp',
+                    url:'https://goldapple.ru/19000004564-the-alchemist-s-garden-moonlight-serenade-acqua-profumata'
                 },
                     {
                     title: 'BYREDO bal d\'afrique',
@@ -50,16 +50,16 @@ export const globalData: IData= {
                     imageTemplate: BackgroundImageEnum.COVER,
                     cards: [
                         {
-                            title: 'Джемпер',
-                            description: 'Джемпер оверсайз из шерсти в полоску.',
-                            img: 'https://e930f744-2554-4589-81f4-fda27b4a4a59.selcdn.net/iblock/3df/3df8967d752201b6e50f9c20a64183ca/bf83c5a8346ba83fce24c19ad8cca576.jpg',
-                            url:'https://www.lusio.ru/catalog/lscw_340011_dzhemper/?pid=112366'
+                            title: 'Сарафан',
+                            description: 'Сарафан из шифона в длине миди для весенних и летних образов.',
+                            img: 'https://solo-u.ru/upload/iblock/57d/3vbzgefnwdxonvmu7eadtdyj95ot67r8.webp',
+                            url:'https://solo-u.ru/catalog/platya_i_sarafany/sarafan_iz_shifona_na_bretelyakh_146308/'
                         },
                         {
-                            title: 'Джемпер из льна',
-                            description: 'Джемпер из льняной пряжи для тёплого сезона.',
-                            img: 'https://solo-u.ru/upload/iblock/1c7/4b9i8sj3j0pzr6vbqpg9qdsdd1904638.webp',
-                            url:'https://solo-u.ru/catalog/vyazanyy_trikotazh/dzhemper_svobodnyy_lnyanoy_195902/'
+                            title: 'Сарафан',
+                            description: 'Сарафан из шифона в длине миди для весенних и летних образов.',
+                            img: 'https://solo-u.ru/upload/iblock/500/ftlnyzj2pxxof4dt7fyvpif1924a0q2l.webp',
+                            url:'https://solo-u.ru/catalog/platya_i_sarafany/sarafan_iz_shifona_na_bretelyakh_146309/'
                         },
                         {
                             title: 'Платье миди',
@@ -80,25 +80,43 @@ export const globalData: IData= {
                             url:'https://uniquefabric.ru/good/bluza-s-py-sny-m-rukavom-temno-sinyaya-s-printom-klever'
                         },
                         {
-                            title: 'Рубашка',
-                            description: 'Базовая свободная рубашка с длинным рукавом.',
-                            img: 'https://solo-u.ru/upload/iblock/e47/mipwhvc3jbc5ex54wol7eb82alr41zk8.webp',
-                            url:'https://solo-u.ru/catalog/bluzy_i_rubashki/rubashka_iz_khlopka_s_karmanom_174705/'
+                            title: 'Кардиган',
+                            description: 'Укороченный кардиган с V-образным вырезом.',
+                            img: 'https://solo-u.ru/upload/iblock/9e3/4jfc1dn2uze613ujcjr1tu5g5kwfa5bx.webp',
+                            url:'https://solo-u.ru/catalog/vyazanyy_trikotazh/kardigan_ukorochennyy_iz_viskozy_194603/'
                         },
                         {
-                            title: 'Жилет с молнией',
-                            description: 'Вязаный жилет с высоким воротником.',
-                            img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/top/121928/63d3749aed007-23-01-20230505.jpg',
-                            url:'https://12storeez.com/catalog/trikotaz/womencollection/zilet-s-molniej-121928'
+                            title: 'Брюки',
+                            description: 'Брюки из твила с высокой талией H&M, белые цветы',
+                            img: 'https://static.cdek.shopping/images/shopping/e402e2d0f43546538b055dd935ce26b6.jpg',
+                            url:'https://cdek.shopping/p/282440/bryuki-iz-tvila-s-vysokoi-taliei-hm-belye-cvety'
                         },
                         {
-                            title: 'Футболка',
-                            description: 'Трикотажная футболка в полоску.',
-                            img: 'https://e930f744-2554-4589-81f4-fda27b4a4a59.selcdn.net/iblock/f8c/f8cbefc9e1946b1a20f6b0e382b280e9/65a99149c894ad87cd9261110642158b.jpg',
-                            url:'https://www.lusio.ru/catalog/lscw_070044_trikotazhnaya_bluza/?pid=115616'
+                            title: 'Свитер ',
+                            description: 'Massimo Dutti, Свитер из трикотажа в рубчик, зеленый',
+                            img: 'https://static.cdek.shopping/images/shopping/7akIN178vAegdyxo.webp',
+                            url:'https://cdek.shopping/p/1831306/sviter-iz-trikotaza-v-rubcku-studio-massimo-dutti-zelenyi'
                         },
                         {
-                            title: 'ELMOLU peptide wrinkle love mode',
+                            title: 'Свитер ',
+                            description: 'Свитер из экстратонкого трикотажа Massimo Dutti, кремовый',
+                            img: 'https://static.cdek.shopping/images/shopping/6101lygXIHtRYwJ0.webp',
+                            url:'https://cdek.shopping/p/1831324/sviter-iz-ekstratonkogo-trikotaza-s-v-obraznym-vyrezom-massimo-dutti-kremovyi'
+                        },
+                        {
+                            title: 'Блуза',
+                            description: 'Блуза Massimo Dutti 100% Ramie, голубой',
+                            img: 'https://static.cdek.shopping/images/shopping/8dd920662d434fcfa79e75e7bd397971.jpg',
+                            url:'https://cdek.shopping/p/1225518/bluza-massimo-dutti-100-ramie-goluboi'
+                        },
+                        {
+                            title: 'Юбка',
+                            description: 'Юбка H&M Crêped, белый/голубой.',
+                            img: 'https://static.cdek.shopping/images/shopping/37996ca4aff346f18ef270a861b63e49.jpeg',
+                            url:'https://cdek.shopping/p/1321780/yubka-hm-creped-belyigoluboi'
+                        },
+                        {
+                            title: 'ELMOLU peptide',
                             description: 'Маска повышает эластичность, смягчает и увлажняет кожу.',
                             img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/8/8809420568969_1_ytl2ts88kvxc9x1r.jpg',
                             url:'https://goldapple.ru/89880300001-peptide-wrinkle-serii-love-mode'
@@ -489,8 +507,8 @@ export const globalData: IData= {
                     title: 'Tableware',
                     description: 'best decision',
                     template: SectionTemplateEnum.GRID_SHADOW,
-                    imageTemplate: BackgroundImageEnum.COVER,
-                    backgroundImage: 'https://images.unsplash.com/photo-1595113316349-9fa4eb24f884?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80',
+                    imageTemplate: BackgroundImageEnum.CONTAIN,
+                    backgroundImage: 'https://oboi-ma.ru/f/product/2011.jpg',
                     cards: [
                         {
                             title: 'Тарелка',
