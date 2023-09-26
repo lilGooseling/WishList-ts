@@ -80,40 +80,58 @@ export const globalData: IData= {
                             url:'https://uniquefabric.ru/good/bluza-s-py-sny-m-rukavom-temno-sinyaya-s-printom-klever'
                         },
                         {
+                            title: 'Джемпер',
+                            description: 'Джемпер с вырезом. Очень новогодниц цвет ',
+                            img: 'https://imgcdn.zarina.ru/upload/images/33296/thumb/450_9999/3329609819_70_7.jpg?t=1690270802',
+                            url:'https://zarina.ru/catalog/product/3329609819-70/'
+                        },
+                        {
+                            title: 'Джемпер',
+                            description: 'Джемпер из вискозы, бежевый принт',
+                            img: 'https://imgcdn.zarina.ru/upload/images/33296/thumb/450_9999/3329621835_235_7.jpg?t=1688638872',
+                            url:'https://zarina.ru/catalog/product/3329621835-235/'
+                        },
+                        {
+                            title: 'Свитер ',
+                            description: 'Свитер из вискозы, бежевый. Zarina',
+                            img: 'https://imgcdn.zarina.ru/upload/images/34206/thumb/450_9999/3420602803_62_1.jpg?t=1690557982',
+                            url:'https://zarina.ru/catalog/product/3420602803-62/'
+                        },
+                        {
                             title: 'Кардиган',
-                            description: 'Укороченный кардиган с V-образным вырезом.',
-                            img: 'https://solo-u.ru/upload/iblock/9e3/4jfc1dn2uze613ujcjr1tu5g5kwfa5bx.webp',
-                            url:'https://solo-u.ru/catalog/vyazanyy_trikotazh/kardigan_ukorochennyy_iz_viskozy_194603/'
+                            description: 'Вязаный кардиган, терракот/кирпичный',
+                            img: 'https://imgcdn.zarina.ru/upload/images/33296/thumb/450_9999/3329644867_21_5.jpg?t=1690891817',
+                            url:'https://zarina.ru/catalog/product/3329644867-21/'
                         },
                         {
-                            title: 'Брюки',
-                            description: 'Брюки из твила с высокой талией H&M, белые цветы',
-                            img: 'https://static.cdek.shopping/images/shopping/e402e2d0f43546538b055dd935ce26b6.jpg',
-                            url:'https://cdek.shopping/p/282440/bryuki-iz-tvila-s-vysokoi-taliei-hm-belye-cvety'
+                            title: 'Свитшот',
+                            description: 'Свитшот из хлопка, кремовый/светлый беж',
+                            img: 'https://imgcdn.zarina.ru/upload/images/33285/thumb/450_9999/3328522446_61_6.jpg?t=1690886703',
+                            url:'https://zarina.ru/catalog/product/3328522446-61/'
                         },
                         {
-                            title: 'Свитер ',
-                            description: 'Massimo Dutti, Свитер из трикотажа в рубчик, зеленый',
-                            img: 'https://static.cdek.shopping/images/shopping/7akIN178vAegdyxo.webp',
-                            url:'https://cdek.shopping/p/1831306/sviter-iz-trikotaza-v-rubcku-studio-massimo-dutti-zelenyi'
+                            title: 'Свитер',
+                            description: 'Свитер в рубчик, ваниль',
+                            img: 'https://imgcdn.zarina.ru/upload/images/34206/thumb/450_9999/3420626828_2_7.jpg?t=1690558029',
+                            url:'https://zarina.ru/catalog/product/3420626828-2/'
                         },
                         {
-                            title: 'Свитер ',
-                            description: 'Свитер из экстратонкого трикотажа Massimo Dutti, кремовый',
-                            img: 'https://static.cdek.shopping/images/shopping/6101lygXIHtRYwJ0.webp',
-                            url:'https://cdek.shopping/p/1831324/sviter-iz-ekstratonkogo-trikotaza-s-v-obraznym-vyrezom-massimo-dutti-kremovyi'
+                            title: 'Свитер',
+                            description: 'Женский свитер бежевого цвета',
+                            img: 'https://img-colinsrus.mncdn.com/Assets/Russia/Thumbs/bezhevj_zhen_svyter_125154.jpeg?v=1676584988',
+                            url:'https://www.colins.ru/p/zhenskyj-svyter-bezhevoho-cveta-34412'
                         },
                         {
-                            title: 'Блуза',
-                            description: 'Блуза Massimo Dutti 100% Ramie, голубой',
-                            img: 'https://static.cdek.shopping/images/shopping/8dd920662d434fcfa79e75e7bd397971.jpg',
-                            url:'https://cdek.shopping/p/1225518/bluza-massimo-dutti-100-ramie-goluboi'
+                            title: 'Рубашка',
+                            description: 'Женская рубашка бордового цвета',
+                            img: 'https://img-colinsrus.mncdn.com/Assets/Russia/Thumbs/__151790.jpeg?v=1692289897',
+                            url:'https://www.colins.ru/p/zhenskaya-rubashka-bordovoho-cveta-40111'
                         },
                         {
-                            title: 'Юбка',
-                            description: 'Юбка H&M Crêped, белый/голубой.',
-                            img: 'https://static.cdek.shopping/images/shopping/37996ca4aff346f18ef270a861b63e49.jpeg',
-                            url:'https://cdek.shopping/p/1321780/yubka-hm-creped-belyigoluboi'
+                            title: 'Джемпер',
+                            description: 'Джемпер из вискозы, бежевый.',
+                            img: 'https://imgcdn.zarina.ru/upload/images/33296/thumb/450_9999/3329675875_62_1.jpg?t=1692270359',
+                            url:'https://zarina.ru/catalog/product/3329675875-62/'
                         },
                         {
                             title: 'ELMOLU peptide',
@@ -167,10 +185,16 @@ export const globalData: IData= {
                             url:'https://goldapple.ru/19000070824-bath-bombs-rose'
                         },
                         {
-                            title: 'Tranquillity, Comfort Zone',
-                            description: 'Успокаивающий гель для душа',
-                            img: 'https://vetermagazine.ru/wp-content/uploads/2021/07/uspokaivajushhij-gel-dlja-dusha-tranquility-comfort-zone.jpg',
-                            url:'https://vetermagazine.ru/shop/beauty/for-the-bath/uspokaivajushhij-gel-dlja-dusha-tranquility-comfort-zone/'
+                            title: 'PERLIER, Honey Miel',
+                            description: 'Защитный крем для рук Honey Miel',
+                            img: 'https://www.letu.ru/common/img/uploaded/skuImageFolder/PERL83345EX.jpg',
+                            url:'https://www.letu.ru/product/perlier-zashchitnyi-krem-dlya-ruk-honey-miel/12620'
+                        },
+                        {
+                            title: 'PERLIER, Fresia',
+                            description: 'Защитный крем для рук Honey Miel',
+                            img: 'https://www.letu.ru/common/img/uploaded/skuImageFolder/PER087514EX.jpg',
+                            url:'https://www.letu.ru/product/perlier-krem-dlya-ruk-fresia-hand-cream/46500164'
                         },
                         {
                             title: 'HOSA body wash',
@@ -226,12 +250,6 @@ export const globalData: IData= {
                             description: 'Управляйте своей мастерской',
                             img: 'https://boardgameslv.files.wordpress.com/2022/10/dsc_0096_wood.jpg',
                             url:'https://rusboardgame.ru/product/bron-woodcraft'
-                        },
-                        {
-                            title: 'Hickory Dickory',
-                            description: 'Еще одна игра от Plaid Hat Games',
-                            img: 'https://www.hickorydickorygame.com/photos/Hickory%20Dickory-004.jpg',
-                            url:'https://rusboardgame.ru/'
                         }
                         ]
                 },
@@ -241,40 +259,28 @@ export const globalData: IData= {
                     template: SectionTemplateEnum.GRID_GRADIENT,
                     cards: [
                         {
-                            title: 'Футболка Relaxed',
-                            description: 'Relaxed меланж, Футболка с коротким рукавом, можно парочку',
-                            img: 'https://image.12storeez.com/images/750xP_90_out/uploads/images/CATALOG/dresses/106852/6049d4fc73f35-24-02-202153122.jpg',
-                            url:'https://12storeez.com/catalog/t-shirts/futbolka-relaxed-melanz-107302'
+                            title: 'Футболка из хлопка',
+                            description: 'Футболка с коротким рукавом',
+                            img: 'https://imgcdn.zarina.ru/upload/images/32255/thumb/450_9999/3225501402_1_4.jpg?t=1688139559',
+                            url:'https://zarina.ru/catalog/product/3225501402-1/'
                         },
                         {
-                            title: 'Бейсболка',
-                            description: 'Карамельная бейсболка с жестким козырьком.',
-                            img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/Accessories/122188/63dd0740ea53d-28-01-20230019-2.jpg',
-                            url:'https://12storeez.com/catalog/bags/womencollection/bejsbolka-122188'
+                            title: 'Футболка из хлопка',
+                            description: 'Футболка с коротким рукавом',
+                            img: 'https://imgcdn.zarina.ru/upload/images/32265/thumb/450_9999/3226520421_2_5.jpg?t=1689171196',
+                            url:'https://zarina.ru/catalog/product/3226520421-2/'
                         },
                         {
-                            title: 'Шорты джинсовые',
-                            description: 'Шорты из органического хлопка с отворотами.',
-                            img: 'https://image.12storeez.com/images/800xP_90_out/uploads/images/CATALOG/shirts/113820/623a51be53977-17-03-202254988.jpg',
-                            url:'https://12storeez.com/catalog/bruki/womencollection/sorty-dzinsovye-s-otvorotami-113820'
+                            title: 'Спортивные штаны',
+                            description: 'Штаны коричневого цвета',
+                            img: 'https://img-colinsrus.mncdn.com/Assets/Russia/Thumbs/_cl1065686_147797.jpeg?v=1689248535',
+                            url:'https://www.colins.ru/p/zhenskye-sportyvne-shtan-korychnevoho-cveta-40565'
                         },
                         {
-                            title: 'Сумка',
-                            description: 'Спортивная теннисная сумка Wilson Team RG 3.',
-                            img: 'https://cdn.sportmaster.ru/upload/resize_cache/iblock/37d/800_800_1/59026310299.jpg',
-                            url:'https://www.sportmaster.ru/product/26409910299/'
-                        },
-                        {
-                            title: 'Мячи',
-                            description: 'Набор мячей Wilson US Open XD TBall',
-                            img: 'https://cdn.sportmaster.ru/upload/resize_cache/iblock/40e/800_800_1/57976040299.jpg',
-                            url:'https://www.sportmaster.ru/product/18263400299/'
-                        },
-                        {
-                            title: 'Коврик',
-                            description: 'Ковры JADE HARMONY. Подходит для ежедневных практик.',
-                            img: 'https://jadeyoga.ru/wp-content/uploads/2021/06/product-main-pic-new.jpg',
-                            url:'https://jadeyoga.ru/product/jade-harmony/'
+                            title: 'Коврик бежевый/черный',
+                            description: 'Коврик для йоги и фитнеса MELA',
+                            img: 'https://ir.ozone.ru/s3/multimedia-d/wc1000/6291361117.jpg',
+                            url:'https://www.ozon.ru/product/kovrik-dlya-yogi-i-fitnesa-mela-808380965/?_bctx=CAMQ9I3GKQ&asb=aB9HPv5a30wI7OLhaW%252Bm9yDYDl1LdlkZPqKXIGA8hn8AHHHboXxLUobChfmLXEhJ&asb2=aDomAQPpbCVToXBQTgqtyZwKSOIVE_Ex6pk-z2951ebvQolyC46vmJ2S7Vsz9gX9vVtV-_lnUuIk4c_-Mb2_HgrP1Lqg-wAo5EhXJywIm9R4vxoflExPY8V86kgqYlQPLqdafflowL9o_Z1bbMIMRsAoCMfqBxpjuAnnKshhNsQ&avtc=1&avte=2&avts=1694634289&sh=viUNDv2zOQ'
                         }
                     ]
                 },
@@ -464,12 +470,6 @@ export const globalData: IData= {
                             description: 'Nobodinoz "Sublim Flore", нежность цветов.',
                             img: 'https://bunnyhill.ru/upload/iblock/fcb/i1lac6x2d5cn3w45hno404zbezzrs7uz/sublim-cushion-20x35-nobodinoz_OB.jpg',
                             url:'https://bunnyhill.ru/catalog/podushka-dekorativnaya-nobodinoz-sublim-flore-nezhnost-tsvetov-20-x-35-sm/'
-                        },
-                        {
-                            title: 'Балдахин',
-                            description: 'Nobodinoz "Amour Flore", нежность цветов.',
-                            img: 'https://bunnyhill.ru/upload/iblock/051/huwnobdl2669uw4wc8nughwi8i3s0pr2/canopy-amour-250x50-nobodinoz_OC.jpg',
-                            url:'https://bunnyhill.ru/catalog/baldakhin-nobodinoz-amour-flore-nezhnost-tsvetov-250-kh-250-sm/'
                         },
                         {
                             title: 'LUKNO',
