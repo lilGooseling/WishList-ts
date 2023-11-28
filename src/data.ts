@@ -50,28 +50,28 @@ export const globalData: IData= {
                     imageTemplate: BackgroundImageEnum.COVER,
                     cards: [
                         {
-                            title: 'Сарафан',
-                            description: 'Сарафан из шифона в длине миди для весенних и летних образов.',
-                            img: 'https://solo-u.ru/upload/iblock/57d/3vbzgefnwdxonvmu7eadtdyj95ot67r8.webp',
-                            url:'https://solo-u.ru/catalog/platya_i_sarafany/sarafan_iz_shifona_na_bretelyakh_146308/'
+                            title: 'Джемпер',
+                            description: 'Теплый джемпер прямого силуэта с высоким воротником',
+                            img: 'https://static.snowqueen.ru/img/1000/1500/resizeWebP/catalog/product/I/M/IMG_12664.jpg',
+                            url:'https://snowqueen.ru/product/dzhemper-s-risunkom-675277003'
                         },
                         {
-                            title: 'Сарафан',
-                            description: 'Сарафан из шифона в длине миди для весенних и летних образов.',
-                            img: 'https://solo-u.ru/upload/iblock/500/ftlnyzj2pxxof4dt7fyvpif1924a0q2l.webp',
-                            url:'https://solo-u.ru/catalog/platya_i_sarafany/sarafan_iz_shifona_na_bretelyakh_146309/'
+                            title: 'Джемпер',
+                            description: 'Джемпер темно-зеленого оттенка с вязаным узором',
+                            img: 'https://static.snowqueen.ru/img/1000/1500/resizeWebP/catalog/product/s/l/sl_680464003_680611003-c_2.jpg',
+                            url:'https://snowqueen.ru/product/vjazanyj-dzhemper-680464003'
                         },
                         {
-                            title: 'Платье миди',
-                            description: 'Платье из шифона в длине миди с рукавами ¾.',
-                            img: 'https://solo-u.ru/upload/iblock/49e/tvwu2sb3p77znwgsqbx7oonh4x2psdvx.webp',
-                            url:'https://solo-u.ru/catalog/platya_i_sarafany/plate_midi_s_dekorativnymi_pugovitsami_171505/'
+                            title: 'Джемпер',
+                            description: 'Удлиненный джемпер молочного оттенка с вязаным узором',
+                            img: 'https://static.snowqueen.ru/img/1000/1500/resizeWebP/catalog/product/s/l/sl_675221003_675704003-c_1.jpg',
+                            url:'https://snowqueen.ru/product/vjazanyj-dzhemper-675221003'
                         },
                         {
-                            title: 'Сарафан',
-                            description: 'Сарафан из шифона в длине миди. Для лета.',
-                            img: 'https://solo-u.ru/upload/iblock/b5e/hoor1ox0vn8ygn8fnb9kd91qg52nzwqh.webp',
-                            url:'https://solo-u.ru/catalog/platya_i_sarafany/sarafan_iz_shifona_na_bretelyakh_146311/'
+                            title: 'Шарф',
+                            description: 'Легкий шарф из вискозы и полиэстера с рисунком в клетку',
+                            img: 'https://static.snowqueen.ru/img/1000/1500/resizeWebP/catalog/product/s/r/sr_620006003_1.jpg',
+                            url:'https://snowqueen.ru/product/sharf-v-kletku-620006003'
                         },
                         {
                             title: 'Блуза',
@@ -110,28 +110,16 @@ export const globalData: IData= {
                             url:'https://zarina.ru/catalog/product/3328522446-61/'
                         },
                         {
-                            title: 'Свитер',
-                            description: 'Свитер в рубчик, ваниль',
-                            img: 'https://imgcdn.zarina.ru/upload/images/34206/thumb/450_9999/3420626828_2_7.jpg?t=1690558029',
-                            url:'https://zarina.ru/catalog/product/3420626828-2/'
-                        },
-                        {
-                            title: 'Свитер',
-                            description: 'Женский свитер бежевого цвета',
-                            img: 'https://img-colinsrus.mncdn.com/Assets/Russia/Thumbs/bezhevj_zhen_svyter_125154.jpeg?v=1676584988',
-                            url:'https://www.colins.ru/p/zhenskyj-svyter-bezhevoho-cveta-34412'
+                            title: 'Рубашка',
+                            description: 'Женская рубашка в клетку Trendyol',
+                            img: 'https://a.lmcdn.ru/img600x866/M/P/MP002XW0LUZI_18703710_4_v1_2x.jpg',
+                            url:'https://www.lamoda.ru/p/mp002xw0luzi/clothes-trendyol-rubashka/'
                         },
                         {
                             title: 'Рубашка',
-                            description: 'Женская рубашка бордового цвета',
+                            description: 'Женская рубашка в клетку бордового цвета',
                             img: 'https://img-colinsrus.mncdn.com/Assets/Russia/Thumbs/__151790.jpeg?v=1692289897',
                             url:'https://www.colins.ru/p/zhenskaya-rubashka-bordovoho-cveta-40111'
-                        },
-                        {
-                            title: 'Джемпер',
-                            description: 'Джемпер из вискозы, бежевый.',
-                            img: 'https://imgcdn.zarina.ru/upload/images/33296/thumb/450_9999/3329675875_62_1.jpg?t=1692270359',
-                            url:'https://zarina.ru/catalog/product/3329675875-62/'
                         },
                         {
                             title: 'ELMOLU peptide',
@@ -293,27 +281,21 @@ export const globalData: IData= {
                     cards: [
                         {
                             title: 'Little Women',
-                            description: 'Луиза Мэй Олкотт, Серия Exclusive Classics.',
-                            img: 'https://cdn.img-gorod.ru/310x500/nomenclature/29/250/2925075.jpg',
-                            url:'https://www.chitai-gorod.ru/product/little-women-2925075'
-                        },
-                        {
-                            title: 'Anne of Green Gables',
-                            description: 'L.M. Montgomery, Люси Монтгомери, Серия Wordsworth Classics.',
-                            img: 'https://cdn.img-gorod.ru/310x500/nomenclature/27/248/2724882.jpg',
-                            url:'https://www.chitai-gorod.ru/product/anne-of-green-gables-2724882'
+                            description: 'Луиза Мэй Олкотт, Серия Macmillan Collector`s Library',
+                            img: 'https://img4.labirint.ru/rc/0ddfd708aa5f6dd00376a132503e0e58/363x561q80/books80/795742/cover.jpg?1617517511',
+                            url:'https://www.labirint.ru/books/795742/'
                         },
                         {
                             title: 'The Secret Garden',
-                            description: 'Фрэнсис Ходжсон Бернетт, Серия Collector`s Editions. ',
-                            img: 'https://cdn.img-gorod.ru/310x500/nomenclature/27/248/2724893.jpg',
-                            url:'https://www.chitai-gorod.ru/product/the-secret-garden-2724893'
+                            description: 'Бёрнетт Фрэнсис Ходжсон, Серия Macmillan Collector`s Library',
+                            img: 'https://img3.labirint.ru/rc/f2c54416f01952ade467b03f8836d81b/363x561q80/books91/903015/cover.jpg?1693718708',
+                            url:'https://www.labirint.ru/books/903015/'
                         },
                         {
-                            title: 'The Jungle Book',
-                            description: 'Joseph Kipling, Серия Collector`s Editions.',
-                            img: 'https://cdn.img-gorod.ru/310x500/nomenclature/27/248/2724885.jpg',
-                            url:'https://www.chitai-gorod.ru/product/the-jungle-book-2724885?productShelf=&shelfIndex=0&productIndex=3'
+                            title: 'Anne of Avonlea',
+                            description: 'Монтгомери Люси Мод, Серия Macmillan Collector`s Library',
+                            img: 'https://img4.labirint.ru/rc/e29c6ac45d6064b64b7be8da150ce8ed/363x561q80/books78/774470/cover.jpg?1605957960',
+                            url:'https://www.labirint.ru/books/774470/'
                         },
                         {
                             title: 'The Wind in the Willows',
@@ -323,9 +305,9 @@ export const globalData: IData= {
                         },
                         {
                             title: 'Pride and Prejudice',
-                            description: 'Джейн Остен, Эксмо. ',
-                            img: 'https://cdn.img-gorod.ru/310x500/nomenclature/26/094/2609407.jpg',
-                            url:'https://www.chitai-gorod.ru/product/gordost-i-predubezhdenie-pride-and-prejudice-2609407'
+                            description: 'Джейн Остен, Серия Penguin English Library ',
+                            img: 'https://img3.labirint.ru/rc/10bf3c98c5d430ae6f8ca1bb5c61407c/363x561q80/books89/887529/cover.jpg?1675754724',
+                            url:'https://www.labirint.ru/books/887529/'
                         },
                         {
                             title: 'Little Dorrit',
@@ -334,10 +316,22 @@ export const globalData: IData= {
                             url:'https://www.chitai-gorod.ru/product/little-dorrit-2385597'
                         },
                         {
-                            title: 'Таинственный сад',
-                            description: 'Фрэнсис Ходжсон Бернетт, АСТ.',
-                            img: 'https://cdn.img-gorod.ru/310x500/nomenclature/25/620/2562084.jpg',
-                            url:'https://www.chitai-gorod.ru/product/tainstvennyy-sad-2562084'
+                            title: 'Sense and Sensibility',
+                            description: 'Джейн Остен, Penguin Clothbound Classics',
+                            img: 'https://img4.labirint.ru/rc/38cedd9e17c3121824c850353b780f3e/363x561q80/books89/886960/cover.jpg?1688394319',
+                            url:'https://www.labirint.ru/books/886960/'
+                        },
+                        {
+                            title: 'Tess of the D`Urbervilles',
+                            description: 'Гарди Томас, Penguin Clothbound Classics',
+                            img: 'https://img3.labirint.ru/rc/234efaf4b942a3e0da7d362c01dd99c8/363x561q80/books89/886957/cover.jpg?1688397922',
+                            url:'https://www.labirint.ru/books/886957/'
+                        },
+                        {
+                            title: 'Far from the Madding Crowd',
+                            description: 'Гарди Томас, Penguin Clothbound Classics',
+                            img: 'https://img4.labirint.ru/rc/7c8df4610ef34308136c3f940cd4ad05/363x561q80/books89/887922/cover.jpg?1673965515',
+                            url:'https://www.labirint.ru/books/887922/'
                         },
                         {
                             title: 'Регата Лисьего Леса',
@@ -352,16 +346,34 @@ export const globalData: IData= {
                             url:'https://www.ozon.ru/product/ernest-i-selestina-prazdnik-kazhdyy-den-vensan-gabriel-258606781/?_bctx=CAUQh5qiDQ&asb=QqttJJLddoC2WQd4B18al7kNl%252BRQjvZebeC6IEMzgvs%253D&asb2=Z952oywW3_b5yqWcjYuKAG7pZnTnp9WcJ5SF16aLejc-E7UCPBvePQuXbQgs3Rvu&avtc=1&avte=2&avts=1684930063&sh=viUNDsdEag'
                         },
                         {
-                            title: 'Ботанические сказки',
-                            description: 'Мамин-Сибиряк, Куприн, Андерсен, ЭНАС-КНИГА.',
-                            img: 'https://img3.labirint.ru/rc/95583423e732c13508689de61c7a22dd/363x561q80/books60/599813/cover.png?1664353518',
-                            url:'https://www.labirint.ru/books/599813/'
+                            title: 'Лапин. Сказки на ночь',
+                            description: 'Симбирская Юлия Станиславовна, Манн, Иванов и Фербер',
+                            img: 'https://img3.labirint.ru/rc/401a8a849e3847a0410558c8b2d59d8f/363x561q80/books86/853819/cover.jpg?1694087081',
+                            url:'https://www.labirint.ru/books/853819/'
                         },
                         {
-                            title: 'Книга Нового года и Рождества',
-                            description: 'Нестерова Наталия Петровна, Манн, Иванов и Фербер.',
-                            img: 'https://img3.labirint.ru/rc/ea2cff46e3585742cd23987ed3b7c66e/363x561q80/books46/458915/cover.jpg?1414517146',
-                            url:'https://www.labirint.ru/books/458915/'
+                            title: 'Лапин',
+                            description: 'Симбирская Юлия Станиславовна, Манн, Иванов и Фербер',
+                            img: 'https://img3.labirint.ru/rc/ad592920ba0ad680eed5edce0556f64e/363x561q80/books75/749991/cover.jpg?1649658320',
+                            url:'https://www.labirint.ru/books/749991/'
+                        },
+                        {
+                            title: 'Тильда Яблочное Семечко',
+                            description: 'Шмахтл Андреас Х., Манн, Иванов и Фербер',
+                            img: 'https://img4.labirint.ru/rc/a6b8db7d0b26659c7db15756a62d2e39/363x561q80/books66/655486/cover.png?1575372521',
+                            url:'https://www.labirint.ru/books/655486/'
+                        },
+                        {
+                            title: 'Тильда Яблочное Семечко',
+                            description: 'Шмахтл Андреас Х., Манн, Иванов и Фербер',
+                            img: 'https://img3.labirint.ru/rc/19eb23f9e568b56dbf3a1679a314d7f5/363x561q80/books71/709217/cover.jpg?1567608754',
+                            url:'https://www.labirint.ru/books/709217/'
+                        },
+                        {
+                            title: 'Тильда Яблочное Семечко',
+                            description: 'Шмахтл Андреас Х., Манн, Иванов и Фербер',
+                            img: 'https://img3.labirint.ru/rc/fec301ec16a511973a8f713caec989c4/363x561q80/books79/788279/cover.jpg?1613831109',
+                            url:'https://www.labirint.ru/books/788279/'
                         }
                     ]
                 },
@@ -430,34 +442,28 @@ export const globalData: IData= {
                     template: SectionTemplateEnum.GRID_STICKER,
                     cards: [
                         {
-                            title: 'Одеяло',
-                            description: 'Zara Home Baby, белый',
-                            img: 'https://static.zarahome.net/8/photos4/2023/V/4/1/p/1610/767/251/1610767251_2_3_1.jpg?t=1674657007851',
-                            url:'https://cdek.shopping/p/369427/odeyalo-zara-home-baby-belyi'
+                            title: 'Наволочки',
+                            description: 'Комплект чехлов на подушку Ikea Svardtag Floral Pattern, 50x50 см',
+                            img: 'https://static.cdek.shopping/images/shopping/519efee9507d47f7836187b82ff5b010.jpeg',
+                            url:'https://cdek.shopping/p/3153230/komplekt-cexlov-na-podusku-ikea-svardtag-floral-pattern-50x50-sm-2-predmeta-zeltyi'
                         },
                         {
-                            title: 'Patchwork Сotton',
-                            description: 'Чехол для подушки Zara Home.',
-                            img: 'https://static.zarahome.net/8/photos4/2023/V/4/1/p/1613/007/999/1613007999_2_7_1.jpg?t=1673453479743',
-                            url:'https://cdek.shopping/p/378542/cexol-dlya-dekorativnoi-poduski-zara-home-patchwork-sotton-multikolor'
+                            title: 'Наволочка',
+                            description: 'Декоративная наволочка H&M Home Patterned Floral, зеленый',
+                            img: 'https://static.cdek.shopping/images/shopping/8a21427127d247ceb04d45d279580f6b.jpg',
+                            url:'https://cdek.shopping/p/3219536/dekorativnaya-navolocka-hm-home-patterned-floral-zelenyi'
                         },
                         {
-                            title: 'Одеяло лоскутное',
-                            description: 'Zara Home Cotton Patchwork.',
-                            img: 'https://static.zara.net/photos///2023/V/4/1/p/1613/005/999/2/w/1920/1613005999_2_2_1.jpg?ts=1673537946433',
-                            url:'https://cdek.shopping/p/481367/odeyalo-loskutnoe-xlopkovoe-zara-home-cotton-patchwork-multikolor'
+                            title: 'Чехол',
+                            description: 'Чехол на подушку Zara Home Christmas Cushion Cover',
+                            img: 'https://static.cdek.shopping/images/shopping/44e27dea25b54ce486f9f8fc846d6a43.jpg',
+                            url:'https://cdek.shopping/p/4261070/cexol-na-podusku-zara-home-christmas-cushion-cover-belyi'
                         },
                         {
                             title: 'Подушка',
                             description: 'Декоративная подушка Zara Home Round Floral.',
                             img: 'https://static.zarahome.net/8/photos4/2023/V/4/1/p/2622/009/727/2622009727_2_4_1.jpg?t=1668074565692',
                             url:'https://cdek.shopping/p/386715/dekorativnaya-poduska-zara-home-round-floral-vanilnyi'
-                        },
-                        {
-                            title: 'Полотенце',
-                            description: 'Комплект полотенец Zara Home Mini',
-                            img: 'https://static.zarahome.net/8/photos4/2023/V/4/1/p/1609/724/251/1609724251_2_3_1.jpg?t=1674652959234',
-                            url:'https://cdek.shopping/p/369102/komplekt-polotenec-zara-home-mini-3-predmeta-rozovyibelyi'
                         },
                         {
                             title: 'Подушка из льна',
@@ -578,16 +584,16 @@ export const globalData: IData= {
                             url:'https://designboom.ru/catalog/product/meshochek-dlya-lancha-mb-pochette-l-flamingo/'
                         },
                         {
-                            title: 'Термос',
-                            description: 'Термос детский MB Stram 360 мл pink Bunny',
-                            img: 'https://ir.ozone.ru/s3/multimedia-e/wc750/6192314462.jpg',
-                            url:'https://www.ozon.ru/product/termos-detskiy-mb-stram-360-ml-pink-bunny-439723280/?_bctx=CAMQ2I77Dg&asb=4b7J9OyEiINiw4HLBzY0RZyBHmUK9BT7HjudsuDGljTJQ%252BPmHvfjUSQqgfMKChYF&asb2=TowkLExLsjeaJEUPdTv4QxMe5YZcw0gRBKrK4oZs3zkzrHReQ7vbtpH6viNInmzExAIRsl9NdjDgHf7wkRokGiSYmQL7KzgEGIiWLOJ4-plrLEhuCvJXCio_8x9YdOCAokiDqTOTsPHUE5p-0yYwPA&avtc=1&avte=4&avts=1686052708&from_sku=439723277&oos_search=false&sh=viUNDv16UQ'
+                            title: 'Форма',
+                            description: 'Форма для выпечки, 26х10 см,золотистая, Bakery gold',
+                            img: 'https://www.kuchenland.ru/upload/iblock/3da/h0jnix5xm06zu9onk0w21z2j20d3van5/acd24537_c878_11ed_a052_9440c9a6d57d_6d4ebb20_6412_11ee_a057_eeb30c7a4302.jpg',
+                            url:'https://www.kuchenland.ru/catalog/kukhnya/prigotovlenie-edy-i-napitkov/formy-dlya-vypechki-i-zapekaniya/forma-dlya-vypechki/forma-dlya-vypechki-26kh10-sm-s-otverstiem-silikon-zolotistaya-bakery-gold/'
                         },
                         {
-                            title: 'Блюдо',
-                            description: 'Блюдо сервировочное Williams Oliver Река d35см, дерево',
-                            img: 'https://williams-oliver.ru/image-preview/00010679532_1_10.jpg',
-                            url:'https://williams-oliver.ru/product/bludo-servirovocnoe-williams-et-oliver-reka-d35sm-derevo-00010679532/'
+                            title: 'Форма',
+                            description: 'Форма для выпечки кексов, 26x24 см, 5 отд, силикон, коричневая, Еж',
+                            img: 'https://www.kuchenland.ru/upload/iblock/cbc/xpdm0lco5sry07a2gvzulorx215p5i7g/img_64e0efdbb4a68.jpg',
+                            url:'https://www.kuchenland.ru/catalog/kukhnya/prigotovlenie-edy-i-napitkov/formy-dlya-vypechki-i-zapekaniya/forma-dlya-vypechki/forma-dlya-vypechki-keksov-26x24-sm-5-otd-silikon-korichnevaya-ezh-forest-fantasy/'
                         },
                         {
                             title: 'Доска',
@@ -600,6 +606,90 @@ export const globalData: IData= {
                             description: 'Форма для выпечки хлеба антипригарная Nordic Ware Naturals, алюминий, кремовая',
                             img: 'https://williams-oliver.ru/image-preview/00010628615_2_10.jpg',
                             url:'https://williams-oliver.ru/product/forma-dla-vypecki-hleba-antiprigarnaa-nordic-ware-naturals-23h13h7sm-aluminij-kremovaa-00010628615/'
+                        },
+                        {
+                            title: 'Форма',
+                            description: 'Форма для выпечки кексов, 27x15 см, 2 отд, силикон, оранжевая, Тыква',
+                            img: 'https://www.kuchenland.ru/upload/iblock/2dd/s6wfo862qbq594hdiq6hpljlhz4e0ul4/img_64e0efd098af4.jpg',
+                            url:'https://www.kuchenland.ru/catalog/kukhnya/prigotovlenie-edy-i-napitkov/formy-dlya-vypechki-i-zapekaniya/forma-dlya-vypechki/forma-dlya-vypechki-keksov-27x15-sm-2-otd-silikon-oranzhevaya-tykva-forest-fantasy/'
+                        },
+                        {
+                            title: 'Полотенце',
+                            description: 'Полотенце кухонное, 40х60 см, хлопок, молочное, Утки',
+                            img: 'https://www.kuchenland.ru/upload/iblock/abd/rhsmdo385nrbu1dy9xmxscy3jhf1xv9x/img_64e0cfa9d5407.jpg',
+                            url:'https://www.kuchenland.ru/catalog/kukhnya/tekstil-i-aksessuary-dlya-kukhni/kukhonnye-polotentsa/polotentse-kukhonnoe-40kh60-sm-khlopok-molochnoe-utki-duck/'
+                        },
+                        {
+                            title: 'Полотенце',
+                            description: 'Полотенце кухонное, 40x60 см, 3 шт, хлопок, зеленое, Хвойный лес',
+                            img: 'https://www.kuchenland.ru/upload/iblock/bd0/27005yusm6ixavdgg4enr0pdu18jjst1/4b975b97_c707_11ed_a052_9440c9a6d57d_a76d6440_78ab_11ee_a059_9440c9a6d57d.jpg',
+                            url:'https://www.kuchenland.ru/catalog/kukhnya/tekstil-i-aksessuary-dlya-kukhni/kukhonnye-polotentsa/polotentse-kukhonnoe-40x60-sm-3-sht-khlopok-zelenoe-khvoynyy-les-tree/'
+                        },
+                        {
+                            title: 'Доска',
+                            description: 'Доска разделочная, 30x23 см, дерево, Noble tree',
+                            img: 'https://www.kuchenland.ru/upload/iblock/913/35pg3nh9d8gnf23pvywj230q3uf5bf7c/img_655c61f90193b.jpg',
+                            url:'https://www.kuchenland.ru/catalog/kukhnya/prigotovlenie-edy-i-napitkov/razdelochnye-doski/doska-razdelochnaya-30x23-sm-derevo-noble-tree/'
+                        },
+                        {
+                            title: 'Штамп',
+                            description: 'Пряничные штампы Пчёлкина радость',
+                            img: 'https://static.insales-cdn.com/r/ep56ZPjM7fA/rs:fit:550:550:1/plain/images/products/1/5072/736703440/DSC_3767-3.jpg@webp',
+                            url:'https://www.texturra.ru/product/pryanichnye-shtampy-medovye_novinka'
+                        },
+                        {
+                            title: 'Форма',
+                            description: 'Пряничная форма Жёлудь&листочек',
+                            img: 'https://static.insales-cdn.com/r/yVRZmgtj0o0/rs:fit:550:550:1/plain/images/products/1/5548/479262124/%D0%B6%D0%B5%D0%BB%D1%83%D0%B4%D1%8C_%D0%BB%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%B5%D0%BA.jpg@webp',
+                            url:'https://www.texturra.ru/product/pryanichnaya-doska-zhyoludlistochek-3'
+                        },
+                        {
+                            title: 'Форма',
+                            description: 'Пряничная форма Камелия',
+                            img: 'https://static.insales-cdn.com/r/Y2t_mck3pWU/rs:fit:550:550:1/plain/images/products/1/3680/691056224/14.jpg@webp',
+                            url:'https://www.texturra.ru/product/pryanichnaya-forma-mandala'
+                        },
+                        {
+                            title: 'Штамп',
+                            description: 'Пряничный штамп Прованская роза',
+                            img: 'https://static.insales-cdn.com/r/31qHt5DK8qs/rs:fit:550:550:1/plain/images/products/1/3592/479079944/KAN_5368.jpg@webp',
+                            url:'https://www.texturra.ru/product/shtamp-provanskaya-sentifoliya'
+                        },
+                        {
+                            title: 'Штамп',
+                            description: 'Пряничный штамп Чертополох',
+                            img: 'https://static.insales-cdn.com/r/S1NKqWCLD5Q/rs:fit:550:550:1/plain/images/products/1/6341/507435205/3.jpg@webp',
+                            url:'https://www.texturra.ru/product/pryanichnyy-shtamp-chertopoloh'
+                        },
+                        {
+                            title: 'Пряности',
+                            description: 'Сухие духи для русского пряника',
+                            img: 'https://static.insales-cdn.com/r/uDIXQBAtB6g/rs:fit:550:550:1/plain/images/products/1/5058/468300738/%D0%BC%D0%BE%D0%BD%D1%81%D1%82%D1%80%D0%B8%D0%BA%D0%B8.png@webp',
+                            url:'https://www.texturra.ru/product/smes-pryanostey-russkaya-suhie-duhi'
+                        },
+                        {
+                            title: 'Pumpkin spice',
+                            description: 'Органическая приправа для тыквенного пирога',
+                            img: 'https://ir.ozone.ru/s3/multimedia-4/wc700/6786698764.jpg',
+                            url:'https://www.ozon.ru/product/organicheskaya-priprava-dlya-tykvennogo-piroga-simply-organic-pumpkin-spice-55-g-1220761267/?_bctx=CAMQ1NfOKQ&asb=B8KpmDZ0tia6DU1F9RtRu9YKpHhJrIDe5ONr8yX05jY%253D&asb2=gq9t4eu62yy7gBZoRx2Moi_gIZShKKBdWQ2W_f-WYOWFntakf4NWutl2ncJtZJqp&avtc=1&avte=2&avts=1700566183'
+                        },
+                        {
+                            title: 'Citrus seasoning',
+                            description: 'Simply Organic, Цитрусовая приправа, Без соли',
+                            img: 'https://ir.ozone.ru/s3/multimedia-7/wc700/6065535847.jpg',
+                            url:'https://www.ozon.ru/product/simply-organic-tsitrusovaya-priprava-bez-soli-63-g-270012565/?_bctx=CAMQ1NfOKQ&asb=QtJEMCFsvg4ZEVSLhKtflWXtQz38kjw4oZ4h3%252BFxWKIRWe24lCPdYIGH4qiUJe3S&asb2=18ElGUojO5BPWHXNZwj7ae3SMVQtDF3EP8te4vOA2c_FMhzBRiy_Av7vB1t9WLBYUQrrTAEeKRS-tWHNkMazxsa8pFpBedV8paagM1vMSYs8tlTGVxesm7ZHea4NzoryhLfQGN44nCrQNxQJW5__Nen3hyq8L7vIKsha_U3Mp6U&avtc=1&avte=2&avts=1700566216'
+                        },
+                        {
+                            title: 'Adobo seasoning',
+                            description: 'Simply Organic, Приправа Adobo',
+                            img: 'https://ir.ozone.ru/s3/multimedia-2/wc700/6595729382.jpg',
+                            url:'https://www.ozon.ru/product/simply-organic-priprava-adobo-125-g-903026530/?_bctx=CAMQ1NfOKQ&asb=kJABkkWL0Tnu2BNMViK%252BDYVRSUecRbIKweS6pzB4Geo%253D&asb2=SxcqI9tgERacfPIdlqDI_llgbQNhEfO8r9ISY1OmAfCf_aIVkyZUNNKa2pwJQDnH&avtc=1&avte=2&avts=1700566216'
+                        },
+                        {
+                            title: 'Ceylon cinnamon',
+                            description: 'Simply Organic, приправа Органическая цейлонская корица',
+                            img: 'https://ir.ozone.ru/s3/multimedia-k/wc700/6557973920.jpg',
+                            url:'https://www.ozon.ru/product/simply-organic-priprava-organicheskaya-tseylonskaya-koritsa-ceylon-cinnamon-59gr-864568246/?_bctx=CAMQ1NfOKQ&asb=uMh6PqHsQeMhH2DWes7ZksaoNh2pQtViDSSMBiVGlNQ%253D&asb2=e5Q7x_Ey7WUuyZlCECb7Y4JYBLObkO1H8tp4T4gCYl9fHnw5k9acuWr4CuWzaZEc&avtc=1&avte=2&avts=1700566216'
                         }
                     ]
                 }
