@@ -460,22 +460,22 @@ export const globalData: IData= {
                             url:'https://cdek.shopping/p/4261070/cexol-na-podusku-zara-home-christmas-cushion-cover-belyi'
                         },
                         {
-                            title: 'Подушка',
-                            description: 'Декоративная подушка Zara Home Round Floral.',
-                            img: 'https://static.zarahome.net/8/photos4/2023/V/4/1/p/2622/009/727/2622009727_2_4_1.jpg?t=1668074565692',
-                            url:'https://cdek.shopping/p/386715/dekorativnaya-poduska-zara-home-round-floral-vanilnyi'
+                            title: 'Одеяло',
+                            description: 'MILANCEL Baby Blanket Cute Print. Color: floral',
+                            img: 'https://ae04.alicdn.com/kf/S82ec5ee5b986461aaa45f7a2b8bcb707R.jpg_640x640.jpg',
+                            url:'https://aliexpress.ru/item/1005003717496027.html?sku_id=12000034155458690&spm=a2g2w.productlist.search_results.0.2fa94aa6pobwqv'
                         },
                         {
-                            title: 'Подушка из льна',
-                            description: 'Nobodinoz "Lin Francais Leaf Noisette".',
-                            img: 'https://bunnyhill.ru/upload/iblock/9cc/i2k1dwyx5aq2g3zxtmppnmj8x6oc0hbo/D22LINLEAF-005_1.jpg',
-                            url:'https://bunnyhill.ru/catalog/podushka-iz-lna-nobodinoz-lin-francais-leaf-noisette-korichnevaya-25-kh-35-sm/'
+                            title: 'Кардиган',
+                            description: 'Кардиган детский, рост 130',
+                            img: 'https://ae04.alicdn.com/kf/S2b8bacb1af8c40f49148fc250bfd088do.jpg_640x640.jpg',
+                            url:'https://aliexpress.ru/item/1005001689205237.html?spm=a2g2w.detail.rcmdprod.27.12a91b73RO1D8g&mixer_rcmd_bucket_id=aerabtestalgoRecommendAbV10_controlRu1&ru_algo_pv_id=db047b-476f2e-eca094-7673cc&scenario=pcDetailBottomMoreOtherSeller&sku_id=12000029313547462&traffic_source=recommendation&type_rcmd=core'
                         },
                         {
-                            title: 'Подушка',
-                            description: 'Nobodinoz "Sublim Flore", нежность цветов.',
-                            img: 'https://bunnyhill.ru/upload/iblock/fcb/i1lac6x2d5cn3w45hno404zbezzrs7uz/sublim-cushion-20x35-nobodinoz_OB.jpg',
-                            url:'https://bunnyhill.ru/catalog/podushka-dekorativnaya-nobodinoz-sublim-flore-nezhnost-tsvetov-20-x-35-sm/'
+                            title: 'Туфли',
+                            description: 'Туфли детские, белые или коричневые',
+                            img: 'https://ae04.alicdn.com/kf/S6064d07f388b40e6afc2992a7b8c8d771.jpg_640x640.jpg',
+                            url:'https://aliexpress.ru/item/1005005069352302.html?spm=a2g2w.detail.rcmdprod.25.3b405e27wPcToO&mixer_rcmd_bucket_id=aerabtestalgoRecommendAbV11_controlRu1&ru_algo_pv_id=db047b-476f2e-eca094-cd3b52&scenario=pcDetailBottomMoreOtherSeller&sku_id=12000031515787920&traffic_source=recommendation&type_rcmd=core'
                         },
                         {
                             title: 'LUKNO',
@@ -490,22 +490,46 @@ export const globalData: IData= {
                             url:'https://bunnyhill.ru/catalog/zayka-lukno-starshaya-sestra-feya/'
                         },
                         {
-                            title: 'Фартук',
-                            description: 'Фартук с водоотталкивающим покрытием',
-                            img: 'https://www.togas.com/media/catalog/product/cache/536b760c7743b9af85d9cdc069dd9c7b/_/2/_2_3_1_f732.jpg',
-                            url:'https://www.togas.com/ru/fartuk-kelli-1001030081.html'
+                            title: 'Сумка',
+                            description: 'Сумка для детских вещей',
+                            img: 'https://ae04.alicdn.com/kf/S93530d587ae2485295ee1d3beace3913C.jpg_640x640.jpg',
+                            url:'https://aliexpress.ru/item/1005005241474621.html?spm=a2g2w.detail.rcmdprod.0.184f785f2QYSum&mixer_rcmd_bucket_id=aerabtestalgoRecommendAbV11_controlRu1&ru_algo_pv_id=db047b-40a3c7-fcb176-4ef6ce&scenario=pcDetailBottomMoreThisSeller&sku_id=12000032331713000&traffic_source=recommendation&type_rcmd=core'
                         },
                         {
-                            title: 'Свитшот',
-                            description: 'Свитшот Konges Slojd "Lou Almond Milk", миндальное молоко',
-                            img: 'https://bunnyhill.ru/upload/iblock/88a/7kfs091oqjsp5pd933cn7842w9kw83la/LOU_SWEATSHIRT-Blouses-KS3749-ALMOND_MILK-1.jpg',
-                            url:'https://bunnyhill.ru/catalog/svitshot-konges-slojd-lou-mindalnoe-moloko/'
+                            title: 'Плед',
+                            description: 'Thin Blanket. Color: dream seeking forest',
+                            img: 'https://ae04.alicdn.com/kf/Sc4fe11c323a444a2b4670e476213692cN.jpg_640x640.jpg',
+                            url:'https://aliexpress.ru/item/1005005561146651.html?sku_id=12000033549353023&spm=a2g2w.stores.search_results.4.717b594f0NCC6d'
                         },
                         {
-                            title: 'Платье',
-                            description: 'Платье-колокольчик BUG LOVERS, светло-желтое',
-                            img: 'https://bunnyhill.ru/upload/iblock/5de/yoe50kodtg9jp7y3jcghmn79eem0hs5o/100-21-1_3.jpg',
-                            url:'https://bunnyhill.ru/catalog/plate-kolokolchik-bug-lovers-svetlo-zheltoe/'
+                            title: 'Наволочка',
+                            description: ' Pillowcase Floral Print Cotton Muslin. Color: bunny forest',
+                            img: 'https://ae04.alicdn.com/kf/S22a6c96fae964025ba782c94cc0b364el.jpg_640x640.jpg',
+                            url:'https://aliexpress.ru/item/1005004552251562.html?sku_id=12000031014979595&spm=a2g2w.productlist.search_results.2.3754b324U4AAwK'
+                        },
+                        {
+                            title: 'Рюкзак',
+                            description: 'Rattan Kids Bag. Color: brown',
+                            img: 'https://ae04.alicdn.com/kf/Hd40de2e0890840619fb108dde6759613R.jpg_640x640.jpg',
+                            url:'https://aliexpress.ru/item/4000557971722.html?sku_id=12000026308497702&spm=a2g2w.productlist.search_results.3.58203400IC9PMw'
+                        },
+                        {
+                            title: 'Пижама',
+                            description: 'Детская пижама, рост 130. Color: rose',
+                            img: 'https://ae04.alicdn.com/kf/S51afc422b2654385a8ece11ab8d94c73I.jpg',
+                            url:'https://aliexpress.ru/item/1005005269099089.html?spm=a2g2w.detail.rcmdprod.4.64a925d1EzQPlG&sku_id=12000032426311631'
+                        },
+                        {
+                            title: 'Сумка',
+                            description: 'Детская сумкаю Color: A',
+                            img: 'https://ae04.alicdn.com/kf/S20b20460af26426cadb332d876ccb0ecV.jpg_640x640.jpg',
+                            url:'https://aliexpress.ru/item/1005006103427550.html?sku_id=12000035756599612&spm=a2g2w.productlist.search_results.7.48df762fYEXhOf'
+                        },
+                        {
+                            title: 'Катушки',
+                            description: 'Деревянные катушки для ниток. Color: type 1',
+                            img: 'https://ae04.alicdn.com/kf/H8f821d36a3914d218ce93e825fa000570.jpg',
+                            url:'https://aliexpress.ru/item/1005003648163131.html?sku_id=12000026642073295&spm=a2g2w.productlist.search_results.15.b6185852ayhjge'
                         }
                     ]
                 },
