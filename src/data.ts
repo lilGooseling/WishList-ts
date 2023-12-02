@@ -541,28 +541,28 @@ export const globalData: IData= {
                     backgroundImage: 'https://oboi-ma.ru/f/product/2011.jpg',
                     cards: [
                         {
-                            title: 'Тарелка',
-                            description: 'Тарелка десертная Мартинелли',
-                            img: 'https://www.togas.com/media/catalog/product/cache/536b760c7743b9af85d9cdc069dd9c7b/M/A/MARTINELLI_COUPLE_PLATE_DESSERT_cc93.jpg',
-                            url:'https://www.togas.com/ru/tarelka-desertnaja-martinelli-sentiment-102400144.html'
+                            title: 'Кувшин',
+                            description: 'Mason Cash Heritage кувшин, керамика',
+                            img: 'https://mason-cash.ru/images/thumbnails/550/450/detailed/8/697173e9fbc693dcfcdb6728040c9e86.jpeg',
+                            url:'https://www.wildberries.ru/catalog/39391997/detail.aspx'
                         },
                         {
-                            title: 'Тарелка',
-                            description: 'Тарелка суповая Мартинелли',
-                            img: 'https://www.togas.com/media/catalog/product/cache/536b760c7743b9af85d9cdc069dd9c7b/M/A/MARTINELLI_COUPLE_PLATES_LS_DTL_01_b0a2.jpg',
-                            url:'https://www.togas.com/ru/tarelka-supovaja-martinelli-sentiment-102400142.html'
+                            title: 'Соусник',
+                            description: 'Соусник Mason Cash Heritage, керамика',
+                            img: 'https://avatars.mds.yandex.net/get-mpic/5344223/img_id8599884655929734973.jpeg/600x800',
+                            url:'https://market.yandex.ru/product--kushin-dlia-smeshivaniia-heritage-2-l/1406058712?sponsored=1&sku=101404436241&do-waremd5=vo2Ea0_pLvtZVvl8UtRoog&uniqueId=843636'
                         },
                         {
-                            title: 'Тарелка',
-                            description: 'Тарелка обеденная Мартинелли ',
-                            img: 'https://www.togas.com/media/catalog/product/cache/536b760c7743b9af85d9cdc069dd9c7b/M/A/MARTINELLI_COUPLE_PLATE_B_f53e.jpg',
-                            url:'https://www.togas.com/ru/tarelka-obedennaja-martinelli-sentiment-102400139.html'
+                            title: 'Миска',
+                            description: 'Миска Mason Cash "Ассорти", 200 мл, 4 шт',
+                            img: 'https://ir.ozone.ru/s3/multimedia-m/wc750/6700057798.jpg',
+                            url:'https://www.ozon.ru/product/miska-mason-cash-assorti-200-ml-4-sht-1072074621/?_bctx=CAMQmNzaJA&asb=hCAi3zV3qTWoNtZztkp5xQ%252FMifBi162y7A6uPaPKE0Y%253D&asb2=B3RDCCr7HdMCM3TuI4eDw9PYUz3YZVaPFKcznWD9G7evbXUBn0aMIapK4Yl3r3dc&avtc=1&avte=2&avts=1701344023'
                         },
                         {
-                            title: 'Чашка',
-                            description: 'Чашка для чая Нарцисс',
-                            img: 'https://www.togas.com/media/catalog/product/cache/536b760c7743b9af85d9cdc069dd9c7b/C/U/CUP_TULIP_LS_VRTCL_c76a.jpg',
-                            url:'https://www.togas.com/ru/chashka-dlja-chaja-narciss-102400057.html'
+                            title: 'Миска',
+                            description: 'Набор из 3 мерных чаш мисок Mason Cash',
+                            img: 'https://ir.ozone.ru/s3/multimedia-d/wc1000/6330290077.jpg',
+                            url:'https://www.ozon.ru/product/nabor-iz-3-mernyh-chash-misok-mason-cash-innovative-kitchen-kamennaya-keramika-251107128/?_bctx=CAMQmNzaJA&asb=vcfzNcRU6nvm5tthNTXRxkVjNB3mthDkk6hcm5uE0LY%253D&asb2=nbIbUR8ASGFl5JyysfESAF6Rl3hL5LJJhDRq-8qpW6d1DDa2iNB4rwKFcstisAfu&avtc=1&avte=2&avts=1701344042'
                         },
                         {
                             title: 'Чашка',
