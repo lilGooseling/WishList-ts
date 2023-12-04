@@ -27,7 +27,7 @@ const Section: React.FC<SectionProps> = ({section}) => {
    return <Color backgroundColor={section.backgroundColor}>
        <BackgroundEffect backgroundEffect={section.backgroundEffect} >
            <BackgroundImage backgroundImage={section.backgroundImage} imageTemplate={section.imageTemplate}>
-               <Container fullScreen={[SectionTemplateEnum.GRID_MATERIAL, SectionTemplateEnum.GRID_SHADOW, SectionTemplateEnum.GRID_STICKER, SectionTemplateEnum.GRID_GRADIENT].includes(section.template) ? false : section.fullScreen}>
+               <Container fullScreen={[SectionTemplateEnum.GRID_MATERIAL, SectionTemplateEnum.GRID_SHADOW, SectionTemplateEnum.GRID_STICKER, SectionTemplateEnum.GRID_GRADIENT].includes(section.template) ? false : section.fullScreen} textColor={section.textColor}>
                    {sectionReducer(section)}
                </Container>
            </BackgroundImage>

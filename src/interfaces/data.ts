@@ -25,9 +25,11 @@ export enum SectionTemplateEnum {
     GRID_GRADIENT
 }
 
+
 export interface IData {
     title: string,
     description: string,
+    textColor?: string,
     pages: IPage[]
 }
 
@@ -40,6 +42,7 @@ export interface IPage {
     backgroundColor?: string,
     backgroundImage?: string,
     backgroundEffect?: BackgroundEffectEnum,
+    textColor?: string,
     imageTemplate?: BackgroundImageEnum,
     sections: ISection[]
 
@@ -51,6 +54,7 @@ export interface ISection {
     template: SectionTemplateEnum,
     imageTemplate?: BackgroundImageEnum,
     backgroundEffect?: BackgroundEffectEnum,
+    textColor?: string,
     cards: ICard[],
     fullScreen?: boolean,
     backgroundColor?: string,
@@ -60,6 +64,7 @@ export interface ISection {
 export interface ICard {
     title: string,
     description: string,
+    textColor?: string,
     url: string,
     img: string
 }

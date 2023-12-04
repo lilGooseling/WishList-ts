@@ -8,11 +8,23 @@ interface CardProps {
     sectionTemplate: SectionTemplateEnum
 }
 
+interface ICardStyle {
+    [key: string]: string
+}
+
 const Card: React.FC<CardProps> = ({card, sectionTemplate}) => {
 
     function randomRotate() {
-        const deg = Math.random() * (5- -5) + -5;
-        return 'rotate(' +deg + 'deg)';
+        const deg = Math.random() * (5 - -5) + -5;
+        return 'rotate(' + deg + 'deg)';
+    }
+
+    let dynamicStyles: ICardStyle = {};
+    if (sectionTemplate == SectionTemplateEnum.GRID_STICKER) {
+        dynamicStyles['transform'] = randomRotate();
+    }
+    if (!!card.textColor) {
+        dynamicStyles['color'] = card.textColor;
     }
 
 
@@ -22,7 +34,8 @@ const Card: React.FC<CardProps> = ({card, sectionTemplate}) => {
         [styles.sticker]: sectionTemplate === SectionTemplateEnum.GRID_STICKER,
         [styles.gradient]: sectionTemplate === SectionTemplateEnum.GRID_GRADIENT
     })}
-    style={(sectionTemplate == SectionTemplateEnum.GRID_STICKER ? {transform: randomRotate()} : {})}
+                style={dynamicStyles}
+
     >
         <div className={styles.imgWrap}>
             <div className={styles.img} style={({backgroundImage: `url("${card.img}")`})}/>

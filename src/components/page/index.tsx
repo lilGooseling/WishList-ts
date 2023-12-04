@@ -20,7 +20,7 @@ const Page: React.FC<PageProps> = ({page}) => {
 
     return  <Color backgroundColor={page.backgroundColor}>
             <BackgroundImage backgroundImage={page.backgroundImage} imageTemplate={page.imageTemplate}>
-                <Container fullScreen={page.fullScreen}>
+                <Container fullScreen={page.fullScreen} textColor={page.textColor}>
                     <div className={styles.site_title}>
                         {globalData.title}
                     </div>

@@ -122,12 +122,6 @@ export const globalData: IData= {
                             url:'https://www.colins.ru/p/zhenskaya-rubashka-bordovoho-cveta-40111'
                         },
                         {
-                            title: 'ELMOLU peptide',
-                            description: 'Маска повышает эластичность, смягчает и увлажняет кожу.',
-                            img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/8/8809420568969_1_ytl2ts88kvxc9x1r.jpg',
-                            url:'https://goldapple.ru/89880300001-peptide-wrinkle-serii-love-mode'
-                        },
-                        {
                             title: 'ELMOLU anti ac love mode',
                             description: 'Успокаивает и увлажняет чувствительную кожу.',
                             img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/8/8809420569003_1_q5ehfgids5td6t3p.jpg',
@@ -144,18 +138,6 @@ export const globalData: IData= {
                             description: 'Маска очищает кожу и поры, повышает эластичность.',
                             img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/8/8809420569010_1_lhyeqli85xnzuges.jpg',
                             url:'https://goldapple.ru/89880300004-pore-scaling-serii-love-mode'
-                        },
-                        {
-                            title: 'GUERLAIN météorites perles',
-                            description: 'Нежный аромат фиалки!',
-                            img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/3/3/3346470416659_1_ml4xicn3bq02i4uf.jpg',
-                            url:'https://goldapple.ru/10009-14095400001-meteorites-perles#sku=14095400002'
-                        },
-                        {
-                            title: 'DR. CEURACLE hydrogel eye mask',
-                            description: 'Гидрогелевые патчи для глаз.',
-                            img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/8/8806133614570_1_xhg27m7w37ndaqe9.jpg',
-                            url:'https://goldapple.ru/19000012321-hyal-reyouth-hydrogel-eye-mask'
                         }
                     ]
                 },
@@ -433,6 +415,7 @@ export const globalData: IData= {
             title: 'Home',
             description: '',
             url: 'home',
+            textColor: '#876585',
             backgroundImage: 'https://oboi-ma.ru/f/product/7668.jpg',
             imageTemplate: BackgroundImageEnum.CONTAIN,
             sections: [
@@ -440,9 +423,11 @@ export const globalData: IData= {
                     title: 'Textile',
                     description: 'coziness',
                     template: SectionTemplateEnum.GRID_STICKER,
+                    textColor: '#876585',
                     cards: [
                         {
                             title: 'Наволочки',
+                            textColor: '#876585',
                             description: 'Комплект чехлов на подушку Ikea Svardtag Floral Pattern, 50x50 см',
                             img: 'https://static.cdek.shopping/images/shopping/519efee9507d47f7836187b82ff5b010.jpeg',
                             url:'https://cdek.shopping/p/3153230/komplekt-cexlov-na-podusku-ikea-svardtag-floral-pattern-50x50-sm-2-predmeta-zeltyi'

@@ -5,12 +5,13 @@ import classNames from "classnames";
 
 interface ContainerProps {
     fullScreen?: boolean
-    children: any
+    children: any,
+    textColor?: string
 }
 
-const Container: React.FC<ContainerProps> = ({children, fullScreen = false}) => {
+const Container: React.FC<ContainerProps> = ({children, fullScreen = false, textColor}) => {
 
-    return <div className={classNames(styles.container, {[styles.fullScreen]: fullScreen})}>
+    return <div className={classNames(styles.container, {[styles.fullScreen]: fullScreen})} style={ !!textColor ? {"color":`${textColor}`} : {}}>
         {children}
     </div>
 
