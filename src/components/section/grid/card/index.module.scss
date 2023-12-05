@@ -51,7 +51,6 @@
       vertical-align: middle;
       appearance: none;
       text-decoration: none;
-      font-family: Roboto, Helvetica, Arial, sans-serif;
       font-weight: 500;
       font-size: 0.875rem;
       line-height: 1.75;
@@ -92,7 +91,6 @@
 
     .text{
       padding: 24px;
-      color: #2f4858;
     }
 
     .title{
@@ -165,20 +163,16 @@
     }
 
     .desc {
-      font-family: "Kalam", cursive;
-      font-size: 14px;
-      color: $text-color;
+      font-size: 20px;
       text-align: center;
       margin-bottom: 14px;
     }
 
     .title {
-      margin-bottom: 20px;
+      margin-bottom: 30px;
       margin-top: 1rem;
-      font-family: "Kalam", cursive;
       font-weight: normal;
-      font-size: 20px;
-      color: $text-color;
+      font-size: 25px;
       text-align: center;
     }
 
@@ -241,7 +235,6 @@
     }
 
     .title {
-      font-family: 'Philosopher', sans-serif;
       color: rgba(255,255,255,0.98);
       font-size: 1.4rem;
       margin-bottom: 14px;
@@ -250,7 +243,6 @@
 
     .desc {
       color: #fff;
-      font-family: 'Philosopher', sans-serif;
       font-size: 14px;
       line-height: 150%;
       letter-spacing: 1px;
