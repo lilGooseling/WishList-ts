@@ -2,6 +2,7 @@ import React from 'react';
 import {ICard, SectionTemplateEnum} from "../../../../interfaces/data";
 import styles from './index.module.scss';
 import classNames from "classnames";
+import {fontFamilies} from "../../../fontName/fontFamilies";
 
 interface CardProps {
     card: ICard;
@@ -25,6 +26,9 @@ const Card: React.FC<CardProps> = ({card, sectionTemplate}) => {
     }
     if (!!card.textColor) {
         dynamicStyles['color'] = card.textColor;
+    }
+    if (!!card.font){
+        dynamicStyles['fontFamily'] = fontFamilies(card.font);
     }
 
 

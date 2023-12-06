@@ -9,7 +9,10 @@ interface GridSectionProps {
 }
 
 const GridSection: React.FC<GridSectionProps> = ({section}) => {
-    return <>
+
+
+
+    return <div>
         <Title section={section}/>
         <div className={styles.wrapper}>
 
@@ -17,7 +20,7 @@ const GridSection: React.FC<GridSectionProps> = ({section}) => {
                 <Card card={card} sectionTemplate={section.template}/>
             </div>)}
         </div>
-    </>
+    </div>
 };
 
 

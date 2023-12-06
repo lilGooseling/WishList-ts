@@ -1,17 +1,31 @@
 import React from 'react';
 import styles from './index.module.scss';
 import classNames from "classnames";
+import {TypeOfFontsEnum} from "../../interfaces/data";
+import {fontFamilies} from "../fontName/fontFamilies";
 
 
 interface ContainerProps {
     fullScreen?: boolean
     children: any,
-    textColor?: string
+    textColor?: string,
+    font?: TypeOfFontsEnum
 }
 
-const Container: React.FC<ContainerProps> = ({children, fullScreen = false, textColor}) => {
+interface containerStyle {
+    [key:string]: string
+}
 
-    return <div className={classNames(styles.container, {[styles.fullScreen]: fullScreen})} style={ !!textColor ? {"color":`${textColor}`} : {}}>
+const Container: React.FC<ContainerProps> = ({children, fullScreen = false, textColor, font}) => {
+    const styleObj: containerStyle = {};
+    if (textColor){
+        styleObj['color'] = textColor;
+    }
+    if (font){
+        styleObj['fontFamily'] = fontFamilies(font);
+    }
+
+    return <div className={classNames(styles.container, {[styles.fullScreen]: fullScreen})} style={styleObj}>
         {children}
     </div>
 
