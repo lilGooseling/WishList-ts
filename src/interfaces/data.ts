@@ -25,6 +25,11 @@ export enum SectionTemplateEnum {
     GRID_GRADIENT
 }
 
+export enum TypeOfFontsEnum {
+    CAVEAT = 'Caveat',
+    PHILOSOPHER = 'Philosopher'
+}
+
 
 export interface IData {
     title: string,
@@ -55,6 +60,9 @@ export interface ISection {
     imageTemplate?: BackgroundImageEnum,
     backgroundEffect?: BackgroundEffectEnum,
     textColor?: string,
+    buttonColor?:string;
+    buttonBackgroundColor?:string,
+    font?: TypeOfFontsEnum,
     cards: ICard[],
     fullScreen?: boolean,
     backgroundColor?: string,
@@ -66,5 +74,6 @@ export interface ICard {
     description: string,
     textColor?: string,
     url: string,
-    img: string
+    img: string,
+    font?: TypeOfFontsEnum,
 }

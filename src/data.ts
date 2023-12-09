@@ -17,10 +17,14 @@ export const globalData: IData = {
             description: '',
             url: 'beauty',
             backgroundColor: '#f5ebe6',
+            textColor: '#2f4858',
             backgroundEffect: BackgroundEffectEnum.PARALLAX,
             sections: [{
                 title: 'Fragrance',
                 description: 'Love it',
+                textColor: '#2f4858',
+                buttonColor: '#f5ebe6',
+                buttonBackgroundColor: '#c27b7f',
                 template: SectionTemplateEnum.GRID_MATERIAL,
                 imageTemplate: BackgroundImageEnum.COVER,
                 backgroundEffect: BackgroundEffectEnum.PARALLAX,
@@ -59,6 +63,8 @@ export const globalData: IData = {
                     template: SectionTemplateEnum.GRID_SHADOW,
                     imageTemplate: BackgroundImageEnum.COVER,
                     font: TypeOfFontsEnum.PHILOSOPHER,
+                    textColor: '#2f4858',
+                    buttonColor: '#c27b7f',
                     cards: [
                         {
                             title: 'Джемпер',
@@ -140,7 +146,7 @@ export const globalData: IData = {
                         },
                         {
                             title: 'ELMOLU energy boosting love mode',
-                            description: 'Маска питает и глубоко увлажняет кожу, придаёт ей сияние.',
+                            description: 'Маска питает и  увлажняет кожу, придаёт ей сияние.',
                             img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/8/8809420568983_1_6qodzlejil0fy7lq.jpg',
                             url: 'https://goldapple.ru/89880300005-energy-boosting-serii-love-mode'
                         },
@@ -159,7 +165,9 @@ export const globalData: IData = {
                     imageTemplate: BackgroundImageEnum.CONTAIN,
                     template: SectionTemplateEnum.SOLOSLIDER,
                     font: TypeOfFontsEnum.PHILOSOPHER,
-                    textColor: '#876585',
+                    textColor: '#2f4858',
+                    buttonBackgroundColor: '#c27b7f',
+                    buttonColor: '#f5ebe6',
                     cards: [
                         {
                             title: 'NOTEM bath bombs',
@@ -167,26 +175,27 @@ export const globalData: IData = {
                             img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/4/6/4673734888372_1_ejfbctlrc83lyins.jpg',
                             url: 'https://goldapple.ru/19000070824-bath-bombs-rose',
                             font: TypeOfFontsEnum.PHILOSOPHER,
-                            textColor: '#876585'
+                            textColor: '#2f4858'
                         },
                         {
-                            title: 'PERLIER, Honey Miel',
-                            description: 'Защитный крем для рук Honey Miel',
-                            img: 'https://www.letu.ru/common/img/uploaded/skuImageFolder/PERL83345EX.jpg',
-                            url: 'https://www.letu.ru/product/perlier-zashchitnyi-krem-dlya-ruk-honey-miel/12620'
+                            title: 'Очищающее масло для умывания Иммортель',
+                            description: 'Это для примера. Можно дарить все что угодно из Локситан',
+                            img: 'https://4a466cb6-dfc4-4731-b4dd-5dbbdc464e18.selcdn.net/iblock/76f/76fb391b61332a65c33e587099c832db/e51de05597f82dfe2ff4ddac179576b6.png',
+                            url: 'https://www.loccitane.ru/new/ochishchenie-i-tonizirovanie/ochishchayushchee_maslo_dlya_umyvaniya_immortel_200_ml_1/'
                         },
                         {
-                            title: 'PERLIER, Fresia',
-                            description: 'Защитный крем для рук Honey Miel',
-                            img: 'https://www.letu.ru/common/img/uploaded/skuImageFolder/PER087514EX.jpg',
-                            url: 'https://www.letu.ru/product/perlier-krem-dlya-ruk-fresia-hand-cream/46500164'
+                            title: 'Бальзам для кожи вокруг глаз',
+                            description: 'Драгоценный Иммортель 15 мл',
+                            img: 'https://4a466cb6-dfc4-4731-b4dd-5dbbdc464e18.selcdn.net/iblock/b0e/b0ecdafe06036ecf56ab37ab636680b1/178e205e043582a6d40b7fa17db6f01b.png',
+                            url: 'https://www.loccitane.ru/catalog/lico/ukhod-za-zonoy-vokrug-glaz/balzam_dlya_kozhi_vokrug_glaz_dragotsennyy_immortel_15_ml_1/'
                         },
                         {
                             title: 'HOSA body wash',
                             description: 'Нежный гель для душа HOSA',
                             img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/8/8809051282036_1_2gvkbetdarmhtaqn.jpg',
                             url: 'https://goldapple.ru/89860200002-body-wash'
-                        }]
+                        }
+                        ]
                 }
 
             ]
@@ -205,6 +214,9 @@ export const globalData: IData = {
                     backgroundImage: 'https://oboi-ma.ru/f/product/7673.jpg',
                     imageTemplate: BackgroundImageEnum.CONTAIN,
                     template: SectionTemplateEnum.SOLOSLIDER,
+                    textColor: 'rgb(122, 62, 19)',
+                    buttonColor: 'rgb(241, 226, 197)',
+                    buttonBackgroundColor: 'rgb(122, 62, 19)',
                     cards: [
                         {
                             title: 'BOTANY',
@@ -242,6 +254,8 @@ export const globalData: IData = {
                     title: 'Sport',
                     description: 'Do my best',
                     template: SectionTemplateEnum.GRID_GRADIENT,
+                    buttonBackgroundColor:'#876585',
+                    buttonColor: '#f5ebe6',
                     cards: [
                         {
                             title: 'Футболка из хлопка',
@@ -276,6 +290,7 @@ export const globalData: IData = {
                     imageTemplate: BackgroundImageEnum.CONTAIN,
                     font: TypeOfFontsEnum.CAVEAT,
                     textColor: '#2f4858',
+                    buttonColor: '#876585',
                     backgroundImage: 'https://cdn.shopify.com/s/files/1/3097/3722/products/media_cd68dfd7-4450-4b9b-8c63-e1252cf98287_1200x1200.jpg?v=1683718058',
                     cards: [
                         {
@@ -380,6 +395,8 @@ export const globalData: IData = {
                     title: 'Painting & miniatures',
                     description: 'for weekends',
                     template: SectionTemplateEnum.GRID_SHADOW,
+                    textColor: '#2f4858',
+                    buttonColor: '#876585',
                     cards: [
                         {
                             title: 'Белый тополь',
@@ -584,8 +601,9 @@ export const globalData: IData = {
                 {
                     title: 'Decoration',
                     description: 'Something useful',
-                    template: SectionTemplateEnum.GRID_STICKER,
+                    template: SectionTemplateEnum.GRID_GRADIENT,
                     font: TypeOfFontsEnum.CAVEAT,
+                    buttonColor: 'green',
                     cards: [
                         {
                             title: 'Мини-футляр',
