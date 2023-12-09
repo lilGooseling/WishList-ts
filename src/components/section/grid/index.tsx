@@ -17,7 +17,7 @@ const GridSection: React.FC<GridSectionProps> = ({section}) => {
         <div className={styles.wrapper}>
 
             {section.cards.map(card => <div className={styles.cardHolder} key={card.title}>
-                <Card card={card} sectionTemplate={section.template}/>
+                <Card card={card} sectionTemplate={section.template} buttonColor={section.buttonColor} buttonBackgroundColor={section.buttonBackgroundColor}/>
             </div>)}
         </div>
     </div>

@@ -9,6 +9,7 @@ interface ContainerProps {
     fullScreen?: boolean
     children: any,
     textColor?: string,
+    buttonColor?:string,
     font?: TypeOfFontsEnum
 }
 
@@ -16,14 +17,16 @@ interface containerStyle {
     [key:string]: string
 }
 
-const Container: React.FC<ContainerProps> = ({children, fullScreen = false, textColor, font}) => {
+const Container: React.FC<ContainerProps> = ({children, fullScreen = false, textColor, font, }) => {
     const styleObj: containerStyle = {};
     if (textColor){
         styleObj['color'] = textColor;
     }
-    if (font){
+    if (font) {
         styleObj['fontFamily'] = fontFamilies(font);
     }
+
+
 
     return <div className={classNames(styles.container, {[styles.fullScreen]: fullScreen})} style={styleObj}>
         {children}

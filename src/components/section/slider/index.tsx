@@ -38,18 +38,25 @@ const SliderSection: React.FC<SliderSectionProps> = ({section}) => {
             <Slider {...settings}>
                 {section.cards.map(card => {
                     let dynamicStyles: IStyle = {};
+                    let dynamicButtonStyle: IStyle = {};
                     if (!!card.textColor) {
                         dynamicStyles['color'] = card.textColor;
                     }
                     if (!!card.font){
                         dynamicStyles['fontFamily'] = fontFamilies(card.font);
                     }
+                    if (section.buttonColor){
+                        dynamicButtonStyle['color'] = section.buttonColor
+                    }
+                    if (section.buttonBackgroundColor){
+                        dynamicButtonStyle['background'] = section.buttonBackgroundColor
+                    }
                     return <div key={card.title} className={styles.cardWrapper}>
                         <div className={styles.cardHolder} style={dynamicStyles}>
                             <div className={styles.left}>
                                 <div className={styles.cardTitle}>{card.title}</div>
                                 <div className={styles.cardDesc}>{card.description}</div>
-                                <a className={styles.button} href={card.url} target={'_blank'} rel={'nofollow'}>
+                                <a className={styles.button} href={card.url} target={'_blank'} rel={'nofollow'} style={dynamicButtonStyle}>
                                     Перейти
                                 </a>
                             </div>
