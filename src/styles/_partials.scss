@@ -1,8 +1,29 @@
 /* Цвета */
 $main_color: #c27b7f;
+$new-color: #32464f;
+$back-color: #f8f3ed;
 $second-color: #f5ebe6;
 $text-color: #2f4858;
 $third-color: #876585;
+//green
+$forth-color: rgb(13, 31,12);
+$fifth-color: rgb(0, 116,27);
+$six-color: rgb(201, 216, 203);
+//red
+$seventh-color: rgb(62,43,43);
+$eight-color: rgb(238,0,0);
+$ninth-color: rgb(221, 201, 183);
+$tenth-color: rgb(255, 74, 158);
+//yellow&orange
+$eleventh-color: rgb(255, 201, 58);
+$twelve-color: rgb(122, 62, 19);
+$thirteen-color: rgb(255, 140, 43);
+$fifteenth-color: rgb(241, 226, 197);
+//blue
+$sixteenth-color: rgb(58, 82, 93);
+$seventeenth-color: rgb(0, 56, 177);
+$eighteenth-color: rgb(217,222, 226);
+
 
 /* Массив (map) с начальными и конечными точками каждого шага адаптива */
 $breakpoints-map: (
