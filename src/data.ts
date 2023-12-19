@@ -13,18 +13,20 @@ export const globalData: IData = {
     pages: [
         {
             title: 'Beauty&Wellness',
+            titleTextColor:'rgb(62,43,43)',
             type: PageTypeEnum.LEFT,
             description: '',
             url: 'beauty',
-            backgroundColor: '#f5ebe6',
-            textColor: '#2f4858',
+            backgroundColor: 'rgb(221, 201, 183)',
+            descriptionTextColor:'rgb(62,43,43)',
+            menuTextColor: 'rgb(62,43,43)',
             backgroundEffect: BackgroundEffectEnum.PARALLAX,
             sections: [{
                 title: 'Fragrance',
                 description: 'Love it',
-                textColor: '#2f4858',
+                textColor: 'rgb(62,43,43)',
                 buttonColor: '#f5ebe6',
-                buttonBackgroundColor: '#c27b7f',
+                buttonBackgroundColor: 'rgb(62,43,43)',
                 template: SectionTemplateEnum.GRID_MATERIAL,
                 imageTemplate: BackgroundImageEnum.COVER,
                 backgroundEffect: BackgroundEffectEnum.PARALLAX,
@@ -63,7 +65,7 @@ export const globalData: IData = {
                     template: SectionTemplateEnum.GRID_SHADOW,
                     imageTemplate: BackgroundImageEnum.COVER,
                     font: TypeOfFontsEnum.PHILOSOPHER,
-                    textColor: '#2f4858',
+                    textColor: 'rgb(62,43,43)',
                     buttonColor: '#c27b7f',
                     cards: [
                         {
@@ -203,7 +205,11 @@ export const globalData: IData = {
         {
             title: 'Hobby & inspiration ',
             type: PageTypeEnum.LEFT,
-            backgroundColor: '#f5ebe6',
+            backgroundColor: 'rgb(241, 226, 197)',
+            textColor:'rgb(62,43,43)',
+            descriptionTextColor:'rgb(62,43,43)',
+            titleTextColor:'rgb(62,43,43)',
+            menuTextColor: 'rgb(62,43,43)',
             description: '',
             url: 'hobby',
             sections: [
@@ -214,9 +220,9 @@ export const globalData: IData = {
                     backgroundImage: 'https://oboi-ma.ru/f/product/7673.jpg',
                     imageTemplate: BackgroundImageEnum.CONTAIN,
                     template: SectionTemplateEnum.SOLOSLIDER,
-                    textColor: 'rgb(122, 62, 19)',
+                    textColor: 'rgb(62,43,43)',
                     buttonColor: 'rgb(241, 226, 197)',
-                    buttonBackgroundColor: 'rgb(122, 62, 19)',
+                    buttonBackgroundColor: 'rgb(62,43,43)',
                     cards: [
                         {
                             title: 'BOTANY',
@@ -253,8 +259,9 @@ export const globalData: IData = {
                 {
                     title: 'Sport',
                     description: 'Do my best',
+                    textColor: 'rgb(62,43,43)',
                     template: SectionTemplateEnum.GRID_GRADIENT,
-                    buttonBackgroundColor:'#876585',
+                    buttonBackgroundColor:'rgb(62,43,43)',
                     buttonColor: '#f5ebe6',
                     cards: [
                         {
@@ -289,9 +296,9 @@ export const globalData: IData = {
                     template: SectionTemplateEnum.GRID_STICKER,
                     imageTemplate: BackgroundImageEnum.CONTAIN,
                     font: TypeOfFontsEnum.CAVEAT,
-                    textColor: '#2f4858',
-                    buttonColor: '#876585',
-                    backgroundImage: 'https://cdn.shopify.com/s/files/1/3097/3722/products/media_cd68dfd7-4450-4b9b-8c63-e1252cf98287_1200x1200.jpg?v=1683718058',
+                    textColor: 'rgb(62,43,43)',
+                    buttonColor: 'rgb(13, 31,12)',
+                    backgroundImage: 'https://www.etoffe.com/421008/boscobel-oak-wallpaper-cole-and-son.jpg',
                     cards: [
                         {
                             title: 'Little Women',
@@ -395,8 +402,8 @@ export const globalData: IData = {
                     title: 'Painting & miniatures',
                     description: 'for weekends',
                     template: SectionTemplateEnum.GRID_SHADOW,
-                    textColor: '#2f4858',
-                    buttonColor: '#876585',
+                    textColor: 'rgb(62,43,43)',
+                    buttonColor: 'rgb(13, 31,12)',
                     cards: [
                         {
                             title: 'Белый тополь',
@@ -450,6 +457,9 @@ export const globalData: IData = {
             description: '',
             url: 'home',
             textColor: '#876585',
+            descriptionTextColor:'#2f4858',
+            titleTextColor:'#2f4858',
+            menuTextColor: '#2f4858',
             backgroundImage: 'https://oboi-ma.ru/f/product/7668.jpg',
             imageTemplate: BackgroundImageEnum.CONTAIN,
             sections: [

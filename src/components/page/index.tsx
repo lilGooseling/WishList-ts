@@ -20,14 +20,14 @@ const Page: React.FC<PageProps> = ({page}) => {
 
     return  <Color backgroundColor={page.backgroundColor}>
             <BackgroundImage backgroundImage={page.backgroundImage} imageTemplate={page.imageTemplate}>
-                <Container fullScreen={page.fullScreen} textColor={page.textColor}>
-                    <div className={styles.site_title}>
+                <Container fullScreen={page.fullScreen} font={page.font} textColor={page.textColor}>
+                    <div className={styles.site_title} style={{color: page.titleTextColor || '#000000'}}>
                         {globalData.title}
                     </div>
-                    <div className={styles.site_description}>
+                    <div className={styles.site_description} style={{color: page.descriptionTextColor|| '#000000'}}>
                         {globalData.description}
                     </div>
-                    <Menu/>
+                    <Menu fontColor={page.menuTextColor}/>
                     <div className={classNames(styles.title, {
                         [styles.left]: pageType === PageTypeEnum.LEFT,
                         [styles.right]: pageType === PageTypeEnum.RIGHT,

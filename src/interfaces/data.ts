@@ -35,6 +35,7 @@ export interface IData {
     title: string,
     description: string,
     textColor?: string,
+    font?: TypeOfFontsEnum,
     pages: IPage[]
 }
 
@@ -47,7 +48,11 @@ export interface IPage {
     backgroundColor?: string,
     backgroundImage?: string,
     backgroundEffect?: BackgroundEffectEnum,
+    font?: TypeOfFontsEnum,
     textColor?: string,
+    titleTextColor?: string,
+    descriptionTextColor?: string,
+    menuTextColor?: string,
     imageTemplate?: BackgroundImageEnum,
     sections: ISection[]
 
