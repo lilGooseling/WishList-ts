@@ -66,7 +66,7 @@ export const globalData: IData = {
                     imageTemplate: BackgroundImageEnum.COVER,
                     font: TypeOfFontsEnum.PHILOSOPHER,
                     textColor: 'rgb(62,43,43)',
-                    buttonColor: '#c27b7f',
+                    buttonColor: 'rgb(13, 31,12)',
                     cards: [
                         {
                             title: 'Джемпер',
@@ -167,8 +167,8 @@ export const globalData: IData = {
                     imageTemplate: BackgroundImageEnum.CONTAIN,
                     template: SectionTemplateEnum.SOLOSLIDER,
                     font: TypeOfFontsEnum.PHILOSOPHER,
-                    textColor: '#2f4858',
-                    buttonBackgroundColor: '#c27b7f',
+                    textColor: 'rgb(62,43,43)',
+                    buttonBackgroundColor: 'rgb(62,43,43)',
                     buttonColor: '#f5ebe6',
                     cards: [
                         {
@@ -177,7 +177,7 @@ export const globalData: IData = {
                             img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/4/6/4673734888372_1_ejfbctlrc83lyins.jpg',
                             url: 'https://goldapple.ru/19000070824-bath-bombs-rose',
                             font: TypeOfFontsEnum.PHILOSOPHER,
-                            textColor: '#2f4858'
+                            textColor: 'rgb(62,43,43)'
                         },
                         {
                             title: 'Очищающее масло для умывания Иммортель',
@@ -222,7 +222,7 @@ export const globalData: IData = {
                     template: SectionTemplateEnum.SOLOSLIDER,
                     textColor: 'rgb(62,43,43)',
                     buttonColor: 'rgb(241, 226, 197)',
-                    buttonBackgroundColor: 'rgb(62,43,43)',
+                    buttonBackgroundColor: '#6d0003',
                     cards: [
                         {
                             title: 'BOTANY',
@@ -261,7 +261,8 @@ export const globalData: IData = {
                     description: 'Do my best',
                     textColor: 'rgb(62,43,43)',
                     template: SectionTemplateEnum.GRID_GRADIENT,
-                    buttonBackgroundColor:'rgb(62,43,43)',
+                    font: TypeOfFontsEnum.PHILOSOPHER,
+                    buttonBackgroundColor:'#6d0003',
                     buttonColor: '#f5ebe6',
                     cards: [
                         {
@@ -283,7 +284,7 @@ export const globalData: IData = {
                             url: 'https://www.colins.ru/p/zhenskye-sportyvne-shtan-korychnevoho-cveta-40565'
                         },
                         {
-                            title: 'Коврик бежевый/черный',
+                            title: 'Коврик бежевый',
                             description: 'Коврик для йоги и фитнеса MELA',
                             img: 'https://ir.ozone.ru/s3/multimedia-d/wc1000/6291361117.jpg',
                             url: 'https://www.ozon.ru/product/kovrik-dlya-yogi-i-fitnesa-mela-808380965/?_bctx=CAMQ9I3GKQ&asb=aB9HPv5a30wI7OLhaW%252Bm9yDYDl1LdlkZPqKXIGA8hn8AHHHboXxLUobChfmLXEhJ&asb2=aDomAQPpbCVToXBQTgqtyZwKSOIVE_Ex6pk-z2951ebvQolyC46vmJ2S7Vsz9gX9vVtV-_lnUuIk4c_-Mb2_HgrP1Lqg-wAo5EhXJywIm9R4vxoflExPY8V86kgqYlQPLqdafflowL9o_Z1bbMIMRsAoCMfqBxpjuAnnKshhNsQ&avtc=1&avte=2&avts=1694634289&sh=viUNDv2zOQ'
@@ -297,7 +298,7 @@ export const globalData: IData = {
                     imageTemplate: BackgroundImageEnum.CONTAIN,
                     font: TypeOfFontsEnum.CAVEAT,
                     textColor: 'rgb(62,43,43)',
-                    buttonColor: 'rgb(13, 31,12)',
+                    buttonColor: '#6d0003',
                     backgroundImage: 'https://www.etoffe.com/421008/boscobel-oak-wallpaper-cole-and-son.jpg',
                     cards: [
                         {
@@ -402,8 +403,9 @@ export const globalData: IData = {
                     title: 'Painting & miniatures',
                     description: 'for weekends',
                     template: SectionTemplateEnum.GRID_SHADOW,
+                    font: TypeOfFontsEnum.PHILOSOPHER,
                     textColor: 'rgb(62,43,43)',
-                    buttonColor: 'rgb(13, 31,12)',
+                    buttonColor: '#6d0003',
                     cards: [
                         {
                             title: 'Белый тополь',
@@ -453,22 +455,23 @@ export const globalData: IData = {
             ]
         },
         {
-            title: 'Home',
+            title: 'Home & family',
             description: '',
             url: 'home',
-            textColor: '#876585',
-            descriptionTextColor:'#2f4858',
-            titleTextColor:'#2f4858',
-            menuTextColor: '#2f4858',
-            backgroundImage: 'https://oboi-ma.ru/f/product/7668.jpg',
+            textColor: 'rgb(62,43,43)',
+            descriptionTextColor:'rgb(62,43,43)',
+            titleTextColor:'rgb(62,43,43)',
+            menuTextColor: 'rgb(62,43,43)',
+            backgroundImage: 'https://oboi-ma.ru/f/product/116_3012.jpg',
             imageTemplate: BackgroundImageEnum.CONTAIN,
             sections: [
                 {
                     title: 'Textile',
                     description: 'coziness',
                     template: SectionTemplateEnum.GRID_STICKER,
-                    textColor: '#876585',
+                    textColor: 'rgb(62,43,43)',
                     font: TypeOfFontsEnum.CAVEAT,
+                    buttonColor: '#876585',
                     cards: [
                         {
                             title: 'Наволочки',
@@ -568,7 +571,9 @@ export const globalData: IData = {
                     description: 'best decision',
                     template: SectionTemplateEnum.GRID_SHADOW,
                     imageTemplate: BackgroundImageEnum.CONTAIN,
-                    backgroundImage: 'https://oboi-ma.ru/f/product/2011.jpg',
+                    backgroundColor: '#f5ebe6',
+                    textColor: 'rgb(62,43,43)',
+                    buttonColor: '#876585',
                     cards: [
                         {
                             title: 'Кувшин',
@@ -611,9 +616,10 @@ export const globalData: IData = {
                 {
                     title: 'Decoration',
                     description: 'Something useful',
-                    template: SectionTemplateEnum.GRID_GRADIENT,
+                    template: SectionTemplateEnum.GRID_STICKER,
                     font: TypeOfFontsEnum.CAVEAT,
-                    buttonColor: 'green',
+                    textColor: 'rgb(62,43,43)',
+                    buttonColor: '#876585',
                     cards: [
                         {
                             title: 'Мини-футляр',

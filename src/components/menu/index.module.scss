@@ -1,5 +1,5 @@
 .active {
-  color: #c27b7f !important;
+  color: #6d0003 !important;
 }
 
 .menu {
@@ -7,18 +7,24 @@
   align-items: center;
   justify-content: center;
   padding: 8px;
-  margin-bottom: 50px;
-
+  margin-bottom: 80px;
 
 
   .link {
     padding-right: 8px;
     margin-right: 8px;
     margin-bottom: 5px;
+    letter-spacing: 0.06em;
+
+    .link:hover::after {
+        content: "";
+        color: #ad995c;
+      }
+
 
     >*{
       font-size: 22px !important;
-      color: #2f4858; ;
+      font-weight: bold;
     }
 
   }
