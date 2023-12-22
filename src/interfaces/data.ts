@@ -53,6 +53,7 @@ export interface IPage {
     titleTextColor?: string,
     descriptionTextColor?: string,
     menuTextColor?: string,
+    menuActiveTextColor?: string,
     imageTemplate?: BackgroundImageEnum,
     sections: ISection[]
 

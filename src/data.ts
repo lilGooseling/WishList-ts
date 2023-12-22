@@ -13,6 +13,7 @@ export const globalData: IData = {
     pages: [
         {
             title: 'Beauty&Wellness',
+            menuActiveTextColor:'#6d0003',
             titleTextColor:'rgb(62,43,43)',
             type: PageTypeEnum.LEFT,
             description: '',
