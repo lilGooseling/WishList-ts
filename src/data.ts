@@ -142,22 +142,16 @@ export const globalData: IData = {
                             url: 'https://www.colins.ru/p/zhenskaya-rubashka-bordovoho-cveta-40111'
                         },
                         {
-                            title: 'ELMOLU anti ac love mode',
-                            description: 'Успокаивает и увлажняет чувствительную кожу.',
-                            img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/8/8809420569003_1_q5ehfgids5td6t3p.jpg',
-                            url: 'https://goldapple.ru/89880300003-anti-ac-serii-love-mode'
+                            title: 'Свитшот',
+                            description: 'Свитшот с воротником с воланом и английской вышивкой',
+                            img: 'https://cdn.laredoute.com/products/3/2/0/32032afb1d0ff2ffff5fd1cb4a27694a.jpg?width=1200&dpr=1',
+                            url: 'https://www.laredoute.ru/ppdp/prod-350265491.aspx#searchkeyword=%D1%81%D0%B2%D0%B8%D1%82%D1%88%D0%BE%D1%82%20%D1%81%20%D0%B2%D0%BE%D1%80%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%BC%20%D1%81%20%D0%B2%D0%BE%D0%BB%D0%B0%D0%BD%D0%BE%D0%BC&shoppingtool=search'
                         },
                         {
-                            title: 'ELMOLU energy boosting love mode',
-                            description: 'Маска питает и  увлажняет кожу, придаёт ей сияние.',
-                            img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/8/8809420568983_1_6qodzlejil0fy7lq.jpg',
-                            url: 'https://goldapple.ru/89880300005-energy-boosting-serii-love-mode'
-                        },
-                        {
-                            title: 'ELMOLU pore scaling love mode',
-                            description: 'Маска очищает кожу и поры, повышает эластичность.',
-                            img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/8/8809420569010_1_lhyeqli85xnzuges.jpg',
-                            url: 'https://goldapple.ru/89880300004-pore-scaling-serii-love-mode'
+                            title: 'Блузка',
+                            description: 'Блузка с круглым вырезом, кружевная вставка',
+                            img: 'https://cdn.laredoute.com/products/2/6/b/26b901b84110b12a7c3afcb86b6cfba4.jpg?width=1200&dpr=1',
+                            url: 'https://www.laredoute.ru/ppdp/prod-350224315.aspx#searchkeyword=%d0%b1%d0%bb%d1%83%d0%b7%d0%ba%d0%b0%20%d1%81%20%d0%ba%d1%80%d1%83%d0%b3%d0%bb%d1%8b%d0%bc%20%d0%b2%d1%8b%d1%80%d0%b5%d0%b7%d0%be%d0%bc%d0%b1%20%d0%ba%d1%80%d1%83%d0%b6%d0%b5%d0%b2%d0%bd%d0%b0%d1%8f%20%d0%b2%d1%81%d1%82%d0%b0%d0%b2%d0%ba%d0%b0'
                         }
                     ]
                 },
@@ -181,23 +175,43 @@ export const globalData: IData = {
                             textColor: 'rgb(62,43,43)'
                         },
                         {
-                            title: 'Очищающее масло для умывания Иммортель',
-                            description: 'Это для примера. Можно дарить все что угодно из Локситан',
-                            img: 'https://4a466cb6-dfc4-4731-b4dd-5dbbdc464e18.selcdn.net/iblock/76f/76fb391b61332a65c33e587099c832db/e51de05597f82dfe2ff4ddac179576b6.png',
-                            url: 'https://www.loccitane.ru/new/ochishchenie-i-tonizirovanie/ochishchayushchee_maslo_dlya_umyvaniya_immortel_200_ml_1/'
+                            title: 'ELMOLU anti ac love mode',
+                            description: 'Успокаивает и увлажняет чувствительную кожу.',
+                            img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/8/8809420569003_1_q5ehfgids5td6t3p.jpg',
+                            url: 'https://goldapple.ru/89880300003-anti-ac-serii-love-mode'
                         },
                         {
-                            title: 'Бальзам для кожи вокруг глаз',
-                            description: 'Драгоценный Иммортель 15 мл',
-                            img: 'https://4a466cb6-dfc4-4731-b4dd-5dbbdc464e18.selcdn.net/iblock/b0e/b0ecdafe06036ecf56ab37ab636680b1/178e205e043582a6d40b7fa17db6f01b.png',
-                            url: 'https://www.loccitane.ru/catalog/lico/ukhod-za-zonoy-vokrug-glaz/balzam_dlya_kozhi_vokrug_glaz_dragotsennyy_immortel_15_ml_1/'
+                            title: 'ELMOLU energy boosting love mode',
+                            description: 'Маска питает и  увлажняет кожу, придаёт ей сияние.',
+                            img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/8/8809420568983_1_6qodzlejil0fy7lq.jpg',
+                            url: 'https://goldapple.ru/89880300005-energy-boosting-serii-love-mode'
+                        },
+
+                        {
+                            title: 'ELMOLU pore scaling love mode',
+                            description: 'Маска очищает кожу и поры, повышает эластичность.',
+                            img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/8/8809420569010_1_lhyeqli85xnzuges.jpg',
+                            url: 'https://goldapple.ru/89880300004-pore-scaling-serii-love-mode'
                         },
                         {
                             title: 'HOSA body wash',
                             description: 'Нежный гель для душа HOSA',
                             img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/8/8809051282036_1_2gvkbetdarmhtaqn.jpg',
                             url: 'https://goldapple.ru/89860200002-body-wash'
+                        },
+                        {
+                            title: 'ALTEREGO ITALY filler',
+                            description: 'Восстанавливающий и уплотняющий кондиционирующий крем',
+                            img: 'https://pcdn.goldapple.ru/p/p/19000208584/web/696d674d61696e8dbc66dbabcb518.jpg',
+                            url: 'https://goldapple.ru/19000208583-filler'
+                        },
+                        {
+                            title: 'ALTEREGO ITALY energizing shampoo',
+                            description: 'Шампунь направленного действия специально разработан для восстановления упругости и сопротивляемости слабых ломких волос',
+                            img: 'https://pcdn.goldapple.ru/p/p/19760321352/imgmain.jpg',
+                            url: 'https://goldapple.ru/19760321352-energizing-shampoo'
                         }
+
                         ]
                 }
 
@@ -261,7 +275,7 @@ export const globalData: IData = {
                     title: 'Sport',
                     description: 'Do my best',
                     textColor: 'rgb(62,43,43)',
-                    template: SectionTemplateEnum.GRID_GRADIENT,
+                    template: SectionTemplateEnum.GRID_MATERIAL,
                     font: TypeOfFontsEnum.PHILOSOPHER,
                     buttonBackgroundColor:'#6d0003',
                     buttonColor: '#f5ebe6',
@@ -403,10 +417,11 @@ export const globalData: IData = {
                 {
                     title: 'Painting & miniatures',
                     description: 'for weekends',
-                    template: SectionTemplateEnum.GRID_SHADOW,
+                    template: SectionTemplateEnum.GRID_MATERIAL,
                     font: TypeOfFontsEnum.PHILOSOPHER,
                     textColor: 'rgb(62,43,43)',
-                    buttonColor: '#6d0003',
+                    buttonBackgroundColor: '#6d0003',
+                    buttonColor: '#f5ebe6',
                     cards: [
                         {
                             title: 'Белый тополь',
@@ -433,7 +448,7 @@ export const globalData: IData = {
                             url: 'https://i-modelist.ru/goods/226/2415/78785.html'
                         },
                         {
-                            title: 'ПАПОРОТНИК',
+                            title: 'Папоротник',
                             description: 'MiniWarPaint, РАЗМЕР L',
                             img: 'https://i-modelist.ru/file/i/640/640/8d5cb430/27cb2f307d3c3b59146a5bac6f220ed8.jpg',
                             url: 'https://i-modelist.ru/goods/226/2508/61763.html'
@@ -486,6 +501,12 @@ export const globalData: IData = {
                             description: 'Декоративная наволочка H&M Home Patterned Floral, зеленый',
                             img: 'https://static.cdek.shopping/images/shopping/8a21427127d247ceb04d45d279580f6b.jpg',
                             url: 'https://cdek.shopping/p/3219536/dekorativnaya-navolocka-hm-home-patterned-floral-zelenyi'
+                        },
+                        {
+                            title: 'Чехол',
+                            description: 'Чехол на подушку 45 x 45 см, Emeline, разноцветный',
+                            img: 'https://cdn.laredoute.com/products/2/7/f/27f3775a32a981d3bfac5f429b692d25.jpg?width=1200&dpr=1',
+                            url: 'https://www.laredoute.ru/ppdp/prod-350318376.aspx#searchkeyword=%D1%87%D0%B5%D1%85%D0%BE%D0%BB%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D1%83%D1%88%D0%BA%D1%83%20emeline&shoppingtool=search'
                         },
                         {
                             title: 'Чехол',
