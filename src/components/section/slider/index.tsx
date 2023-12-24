@@ -27,7 +27,7 @@ const SliderSection: React.FC<SliderSectionProps> = ({section}) => {
         dynamicStyles['fontFamily'] = fontFamilies(section.font);
     }
 
-    return <div style={dynamicStyles}>
+    return <div className={styles.wrap} style={dynamicStyles}>
         <div className={styles.title}>{section.title}</div>
         <div className={styles.description}>{section.description}</div>
         <div className={classNames(styles.slider, {
