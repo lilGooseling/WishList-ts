@@ -112,12 +112,6 @@ export const globalData: IData = {
                             url: 'https://zarina.ru/catalog/product/3329621835-235/'
                         },
                         {
-                            title: 'Свитер ',
-                            description: 'Свитер из вискозы, бежевый. Zarina',
-                            img: 'https://imgcdn.zarina.ru/upload/images/34206/thumb/450_9999/3420602803_62_1.jpg?t=1690557982',
-                            url: 'https://zarina.ru/catalog/product/3420602803-62/'
-                        },
-                        {
                             title: 'Кардиган',
                             description: 'Вязаный кардиган, терракот/кирпичный',
                             img: 'https://imgcdn.zarina.ru/upload/images/33296/thumb/450_9999/3329644867_21_5.jpg?t=1690891817',
@@ -136,12 +130,6 @@ export const globalData: IData = {
                             url: 'https://www.lamoda.ru/p/mp002xw0luzi/clothes-trendyol-rubashka/'
                         },
                         {
-                            title: 'Рубашка',
-                            description: 'Женская рубашка в клетку бордового цвета',
-                            img: 'https://img-colinsrus.mncdn.com/Assets/Russia/Thumbs/__151790.jpeg?v=1692289897',
-                            url: 'https://www.colins.ru/p/zhenskaya-rubashka-bordovoho-cveta-40111'
-                        },
-                        {
                             title: 'Свитшот',
                             description: 'Свитшот с воротником с воланом и английской вышивкой',
                             img: 'https://cdn.laredoute.com/products/3/2/0/32032afb1d0ff2ffff5fd1cb4a27694a.jpg?width=1200&dpr=1',
@@ -152,6 +140,36 @@ export const globalData: IData = {
                             description: 'Блузка с круглым вырезом, кружевная вставка',
                             img: 'https://cdn.laredoute.com/products/2/6/b/26b901b84110b12a7c3afcb86b6cfba4.jpg?width=1200&dpr=1',
                             url: 'https://www.laredoute.ru/ppdp/prod-350224315.aspx#searchkeyword=%d0%b1%d0%bb%d1%83%d0%b7%d0%ba%d0%b0%20%d1%81%20%d0%ba%d1%80%d1%83%d0%b3%d0%bb%d1%8b%d0%bc%20%d0%b2%d1%8b%d1%80%d0%b5%d0%b7%d0%be%d0%bc%d0%b1%20%d0%ba%d1%80%d1%83%d0%b6%d0%b5%d0%b2%d0%bd%d0%b0%d1%8f%20%d0%b2%d1%81%d1%82%d0%b0%d0%b2%d0%ba%d0%b0'
+                        },
+                        {
+                            title: 'Кардиган',
+                            description: 'Женский вязаный кардиган',
+                            img: 'https://ae04.alicdn.com/kf/S70f5ae4913ec4eeca505f72dfcc49fe3m.png_640x640.jpg',
+                            url: 'https://aliexpress.ru/item/1005004896841593.html?spm=a2g2w.detail.rcmdprod.8.cef53b00UQgXrJ&mixer_rcmd_bucket_id=aerabtestalgoRecommendAbV14_controlRu2.aerabtestalgoRecommendKazanV3_controlRu1&ru_algo_pv_id=d67a87-40a3c7-fcb176-e82e06&scenario=pcDetailBottomMoreThisSeller&sku_id=12000030935202132&traffic_source=recommendation&type_rcmd=core'
+                        },
+                        {
+                            title: 'Жилет',
+                            description: 'Вязаный жилет без рукавов',
+                            img: 'https://ae04.alicdn.com/kf/S5f6ffbe163154d389da40721e53857d5T.png_640x640.jpg',
+                            url: 'https://aliexpress.ru/item/1005001849209263.html?spm=a2g2w.detail.rcmdprod.27.cef53b00UQgXrJ&mixer_rcmd_bucket_id=aerabtestalgoRecommendAbV14_controlRu2.aerabtestalgoRecommendKazanV3_controlRu1&ru_algo_pv_id=d67a87-476f2e-eca094-19027b&scenario=pcDetailBottomMoreOtherSeller&sku_id=12000017844898454&traffic_source=recommendation&type_rcmd=core'
+                        },
+                        {
+                            title: 'Брюки',
+                            description: 'Брюки домашние из хлопка',
+                            img: 'https://ae04.alicdn.com/kf/S2f10494494194a5fa8080844daeece02M.jpg_640x640.jpg',
+                            url: 'https://aliexpress.ru/item/1005006225728373.html?sku_id=12000036361586636&spm=a2g2w.stores.search_results.16.429d6b84Wjd7E5'
+                        },
+                        {
+                            title: 'Пижама',
+                            description: 'Пижама женская хлопковая',
+                            img: 'https://ae04.alicdn.com/kf/S518b205253fc45ecb031e6bc3e57d0e8g.jpg',
+                            url: 'https://aliexpress.ru/item/1005005576702372.html?sku_id=12000033613659961&spm=a2g2w.productlist.search_results.0.38df6e30FSXLN9'
+                        },
+                        {
+                            title: 'Пижама',
+                            description: 'Женский пижамный комплект',
+                            img: 'https://ae04.alicdn.com/kf/S1590fa20de624a53b2fb65e07c28481ev.jpg_640x640.jpg',
+                            url: 'https://aliexpress.ru/item/1005006191052915.html?spm=a2g2w.detail.rcmdprod.16.4681465cBe3P4S&mixer_rcmd_bucket_id=aerabtestalgoRecommendAbV14_controlRu2.aerabtestalgoRecommendKazanV3_controlRu1&ru_algo_pv_id=d67a87-476f2e-eca094-d2daa7&scenario=pcDetailBottomMoreOtherSeller&sku_id=12000036202585524&traffic_source=recommendation&type_rcmd=core'
                         }
                     ]
                 },
@@ -220,7 +238,7 @@ export const globalData: IData = {
         {
             title: 'Hobby & inspiration ',
             type: PageTypeEnum.LEFT,
-            backgroundColor: 'rgb(241, 226, 197)',
+            backgroundColor: 'rgb(231, 216, 199)',
             textColor:'rgb(62,43,43)',
             descriptionTextColor:'rgb(62,43,43)',
             titleTextColor:'rgb(62,43,43)',
@@ -585,6 +603,54 @@ export const globalData: IData = {
                             description: 'Деревянные катушки для ниток. Color: type 1',
                             img: 'https://ae04.alicdn.com/kf/H8f821d36a3914d218ce93e825fa000570.jpg',
                             url: 'https://aliexpress.ru/item/1005003648163131.html?sku_id=12000026642073295&spm=a2g2w.productlist.search_results.15.b6185852ayhjge'
+                        },
+                        {
+                            title: 'Джинсы детские',
+                            description: 'Джинсовая верхняя одежда для девочек, 120',
+                            img: 'https://ae04.alicdn.com/kf/S8808064ec73a4768b38c65c1e1af2ce2B.jpg_640x640.jpg',
+                            url: 'https://aliexpress.ru/item/1005006049675197.html?spm=a2g2w.detail.rcmdprod.28.7495424cKDxqss&mixer_rcmd_bucket_id=aerabtestalgoRecommendAbV14_controlRu2.aerabtestalgoRecommendKazanV3_controlRu1&ru_algo_pv_id=d67a87-476f2e-eca094-752bfb&scenario=pcDetailBottomMoreOtherSeller&sku_id=12000035491340346&traffic_source=recommendation&type_rcmd=core'
+                        },
+                        {
+                            title: 'Комбинезон',
+                            description: 'Комбинезон детский, темно зеленый, 120см',
+                            img: 'https://ae04.alicdn.com/kf/Sb7d8c5314fb74e1da576b3232af1b080G.jpg_640x640.jpg',
+                            url: 'https://aliexpress.ru/item/1005006248501903.html?sku_id=12000036461676450&spm=a2g2w.stores.search_results.6.2c7f6243tobeYL'
+                        },
+                        {
+                            title: 'Платье',
+                            description: 'Осенне-зимнее платье для девочек, 120см',
+                            img: 'https://ae04.alicdn.com/kf/S5bb37f2911394b0083a0615473ec16a8D.jpg_640x640.jpg',
+                            url: 'https://aliexpress.ru/item/1005006186827174.html?spm=a2g2w.detail.rcmdprod.4.401d543eAMeXee&mixer_rcmd_bucket_id=aerabtestalgoRecommendAbV14_controlRu2.aerabtestalgoRecommendKazanV3_controlRu1&ru_algo_pv_id=d67a87-40a3c7-fcb176-a32e66&scenario=pcDetailBottomMoreThisSeller&sku_id=12000036185088379&traffic_source=recommendation&type_rcmd=core'
+                        },
+                        {
+                            title: 'Платье',
+                            description: 'Платье с милым принтом и длинным рукавом, 120см',
+                            img: 'https://ae04.alicdn.com/kf/S98e763c939ad4943936edd6295d92b77W.jpg_640x640.jpg',
+                            url: 'https://aliexpress.ru/item/1005005745272362.html?sku_id=12000034193847044&spm=a2g2w.stores.search_results.1.143d6dceA0FSFb'
+                        },
+                        {
+                            title: 'Жилет',
+                            description: 'Детский жилет на утином пуху, 120см',
+                            img: 'https://ae04.alicdn.com/kf/S650d3e83f7534d0293f206ecf8c995c24.jpg',
+                            url: 'https://aliexpress.ru/item/1005006011900120.html?sku_id=12000035313439786&spm=a2g2w.stores.search_results.3.143d6dceA0FSFb'
+                        },
+                        {
+                            title: 'Свитер и брюки',
+                            description: 'Детский трикотажный пуловер и брюки, 120см',
+                            img: 'https://ae04.alicdn.com/kf/S33a99cd1590146fa9f4af690713a54faB.jpg_640x640.jpg',
+                            url: 'https://aliexpress.ru/item/1005004844495598.html?spm=a2g2w.detail.rcmdprod.24.21c72caeA7doFE&mixer_rcmd_bucket_id=aerabtestalgoRecommendAbV14_controlRu2.aerabtestalgoRecommendKazanV3_controlRu1&ru_algo_pv_id=d67a87-476f2e-eca094-dcbedc&scenario=pcDetailBottomMoreOtherSeller&sku_id=12000030715598282&traffic_source=recommendation&type_rcmd=core'
+                        },
+                        {
+                            title: 'Платье',
+                            description: 'Платье зимнее рождественское , 120см',
+                            img: 'https://ae04.alicdn.com/kf/S6a4856b9672b42989da2d0b43c666dacK.jpg_640x640.jpg',
+                            url: 'https://aliexpress.ru/item/1005006295226190.html?sku_id=12000036646405464&spm=a2g2w.stores.search_results.9.45c76243wdyFaF'
+                        },
+                        {
+                            title: 'Брюки',
+                            description: 'Брюки с цветочным принтом, 120см',
+                            img: 'https://ae04.alicdn.com/kf/S5833dce674de4d4bae090baaf7e7792d6.jpg_640x640.jpg',
+                            url: 'https://aliexpress.ru/item/1005006049078073.html?sku_id=12000035488806446&spm=a2g2w.stores.search_results.6.143d6dceA0FSFb'
                         }
                     ]
                 },
