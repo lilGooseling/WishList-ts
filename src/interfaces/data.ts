@@ -39,6 +39,7 @@ export interface IData {
     pages: IPage[]
 }
 
+
 export interface IPage {
     title: string,
     type?: PageTypeEnum,
