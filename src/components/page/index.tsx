@@ -27,7 +27,7 @@ const Page: React.FC<PageProps> = ({page}) => {
                     <div className={styles.site_description} style={{color: page.descriptionTextColor|| '#000000'}}>
                         {globalData.description}
                     </div>
-                    <Menu fontColor={page.menuTextColor}/>
+                    <Menu fontColor={page.menuTextColor} menuActiveTextColor={page.menuActiveTextColor}/>
                     <div className={classNames(styles.title, {
                         [styles.left]: pageType === PageTypeEnum.LEFT,
                         [styles.right]: pageType === PageTypeEnum.RIGHT,

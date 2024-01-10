@@ -60,6 +60,7 @@ export interface IPage {
 
 }
 
+
 export interface ISection {
     title: string,
     description: string,
