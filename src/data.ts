@@ -18,6 +18,7 @@ export const globalData: IData = {
             type: PageTypeEnum.LEFT,
             description: '',
             url: 'beauty',
+            textColor: 'rgb(62,43,43)',
             backgroundColor: 'rgb(221, 201, 183)',
             descriptionTextColor:'rgb(62,43,43)',
             menuTextColor: 'rgb(62,43,43)',
@@ -36,7 +37,7 @@ export const globalData: IData = {
                     {
                         title: '“Moonlight Serenade”',
                         description: 'Gucci, «Лунная серенада» – это лавандовая душистая вода.',
-                        img: 'https://pcdn.goldapple.ru/p/p/19000004564/web/696d67416464338dad7cd9d4adf28fullhd.webp',
+                        img: 'https://pcdn.goldapple.ru/p/p/19000004564/web/696d67416464338dbe9bb437e21b7fullhd.webp',
                         url: 'https://goldapple.ru/19000004564-the-alchemist-s-garden-moonlight-serenade-acqua-profumata',
                         font: TypeOfFontsEnum.PHILOSOPHER
                     },
@@ -48,10 +49,10 @@ export const globalData: IData = {
                         font: TypeOfFontsEnum.PHILOSOPHER
                     },
                     {
-                        title: 'LE LABO neroli 36',
-                        description: 'Масло нероли — одно из названий эссенции цветков апельсина. ',
-                        img: 'https://goldapple.ru/media/catalog/product/cache/fb5d06f7acfb2f26f85333624ccbfb5e/8/1/811901022974_1_bnevadsf8c78vjyx.jpg',
-                        url: 'https://goldapple.ru/11466-19000012709-neroli-36'
+                        title: 'PENHALIGON\'S',
+                        description: 'Ветви цветущих лип и свежий всплеск яркой лаванды. ',
+                        img: 'https://st.tsum.com/static/verstkaio/50000414-mobile/01be87c344abdf193f885e7a7443c329.jpg',
+                        url: 'https://goldapple.ru/19000147700-highgrove-bouquet'
                     },
                     {
                         title: 'PENHALIGON\'S LUNA',
@@ -170,6 +171,18 @@ export const globalData: IData = {
                             description: 'Женский пижамный комплект',
                             img: 'https://ae04.alicdn.com/kf/S1590fa20de624a53b2fb65e07c28481ev.jpg_640x640.jpg',
                             url: 'https://aliexpress.ru/item/1005006191052915.html?spm=a2g2w.detail.rcmdprod.16.4681465cBe3P4S&mixer_rcmd_bucket_id=aerabtestalgoRecommendAbV14_controlRu2.aerabtestalgoRecommendKazanV3_controlRu1&ru_algo_pv_id=d67a87-476f2e-eca094-d2daa7&scenario=pcDetailBottomMoreOtherSeller&sku_id=12000036202585524&traffic_source=recommendation&type_rcmd=core'
+                        },
+                        {
+                            title: 'Рубашка',
+                            description: 'Рубашка женская хлопковая',
+                            img: 'https://ae04.alicdn.com/kf/Sbbf73e501da743799b5d61084449e2104.png',
+                            url: 'https://aliexpress.ru/item/1005006167811124.html?spm=a2g2w.detail.rcmdprod.3.5a2d1ef7bKvRq3&mixer_rcmd_bucket_id=aerabtestalgoRecommendAbV14_controlRu1.aerabtestalgoRecommendKazanV3_controlRU1&ru_algo_pv_id=db047b-476f2e-eca094-c6c04c&scenario=pcDetailBottomMoreOtherSeller&sku_id=12000036083957180&traffic_source=recommendation&type_rcmd=core'
+                        },
+                        {
+                            title: 'Платье',
+                            description: 'Платье хлопковое',
+                            img: 'https://ae04.alicdn.com/kf/Hb4df79837f0d4ecb90418e3cb4332f70H.jpg',
+                            url: 'https://aliexpress.ru/item/1005001344477827.html?spm=a2g2w.detail.rcmdprod.18.51c018f5IVpOUT&mixer_rcmd_bucket_id=aerabtestalgoRecommendAbV14_controlRu1.aerabtestalgoRecommendKazanV3_controlRU1&ru_algo_pv_id=db047b-476f2e-eca094-2abe70&scenario=pcDetailBottomMoreOtherSeller&sku_id=12000015763531384&traffic_source=recommendation&type_rcmd=core'
                         }
                     ]
                 },
@@ -509,7 +522,6 @@ export const globalData: IData = {
                     cards: [
                         {
                             title: 'Наволочки',
-                            textColor: '#876585',
                             description: 'Комплект чехлов на подушку Ikea Svardtag Floral Pattern, 50x50 см',
                             img: 'https://static.cdek.shopping/images/shopping/519efee9507d47f7836187b82ff5b010.jpeg',
                             url: 'https://cdek.shopping/p/3153230/komplekt-cexlov-na-podusku-ikea-svardtag-floral-pattern-50x50-sm-2-predmeta-zeltyi'
