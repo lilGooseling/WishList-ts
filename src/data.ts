@@ -89,12 +89,6 @@ export const globalData: IData = {
                             url: 'https://snowqueen.ru/product/vjazanyj-dzhemper-675221003'
                         },
                         {
-                            title: 'Шарф',
-                            description: 'Легкий шарф из вискозы и полиэстера с рисунком в клетку',
-                            img: 'https://static.snowqueen.ru/img/1000/1500/resizeWebP/catalog/product/s/r/sr_620006003_1.jpg',
-                            url: 'https://snowqueen.ru/product/sharf-v-kletku-620006003'
-                        },
-                        {
                             title: 'Блуза',
                             description: 'Блуза с пышным рукавом темно-синяя с принтом клевер',
                             img: 'https://uniquefabric.ru/loaded/goods/images/thumbs/7fc15b665cd57e2cec065ad1ba085bec.webp',
@@ -107,22 +101,10 @@ export const globalData: IData = {
                             url: 'https://zarina.ru/catalog/product/3329609819-70/'
                         },
                         {
-                            title: 'Джемпер',
-                            description: 'Джемпер из вискозы, бежевый принт',
-                            img: 'https://imgcdn.zarina.ru/upload/images/33296/thumb/450_9999/3329621835_235_7.jpg?t=1688638872',
-                            url: 'https://zarina.ru/catalog/product/3329621835-235/'
-                        },
-                        {
                             title: 'Кардиган',
                             description: 'Вязаный кардиган, терракот/кирпичный',
                             img: 'https://imgcdn.zarina.ru/upload/images/33296/thumb/450_9999/3329644867_21_5.jpg?t=1690891817',
                             url: 'https://zarina.ru/catalog/product/3329644867-21/'
-                        },
-                        {
-                            title: 'Свитшот',
-                            description: 'Свитшот из хлопка, кремовый/светлый беж',
-                            img: 'https://imgcdn.zarina.ru/upload/images/33285/thumb/450_9999/3328522446_61_6.jpg?t=1690886703',
-                            url: 'https://zarina.ru/catalog/product/3328522446-61/'
                         },
                         {
                             title: 'Рубашка',
@@ -138,7 +120,7 @@ export const globalData: IData = {
                         },
                         {
                             title: 'Блузка',
-                            description: 'Блузка с круглым вырезом, кружевная вставка',
+                            description: 'Блузка с круглым вырезом',
                             img: 'https://cdn.laredoute.com/products/2/6/b/26b901b84110b12a7c3afcb86b6cfba4.jpg?width=1200&dpr=1',
                             url: 'https://www.laredoute.ru/ppdp/prod-350224315.aspx#searchkeyword=%d0%b1%d0%bb%d1%83%d0%b7%d0%ba%d0%b0%20%d1%81%20%d0%ba%d1%80%d1%83%d0%b3%d0%bb%d1%8b%d0%bc%20%d0%b2%d1%8b%d1%80%d0%b5%d0%b7%d0%be%d0%bc%d0%b1%20%d0%ba%d1%80%d1%83%d0%b6%d0%b5%d0%b2%d0%bd%d0%b0%d1%8f%20%d0%b2%d1%81%d1%82%d0%b0%d0%b2%d0%ba%d0%b0'
                         },
@@ -183,6 +165,54 @@ export const globalData: IData = {
                             description: 'Платье хлопковое',
                             img: 'https://ae04.alicdn.com/kf/Hb4df79837f0d4ecb90418e3cb4332f70H.jpg',
                             url: 'https://aliexpress.ru/item/1005001344477827.html?spm=a2g2w.detail.rcmdprod.18.51c018f5IVpOUT&mixer_rcmd_bucket_id=aerabtestalgoRecommendAbV14_controlRu1.aerabtestalgoRecommendKazanV3_controlRU1&ru_algo_pv_id=db047b-476f2e-eca094-2abe70&scenario=pcDetailBottomMoreOtherSeller&sku_id=12000015763531384&traffic_source=recommendation&type_rcmd=core'
+                        },
+                        {
+                            title: 'Футболка',
+                            description: 'Футболка Signature',
+                            img: 'https://cdn.laredoute.com/products/e/c/5/ec5d393ef0636652a186691a69b1e632.jpg?width=1200&dpr=1',
+                            url: 'https://www.laredoute.ru/ppdp/prod-350049259.aspx?dim1=1#shoppingtool=treestructureguidednavigation'
+                        },
+                        {
+                            title: 'Блузка',
+                            description: 'Блузка однотонная',
+                            img: 'https://cdn.laredoute.com/products/0/8/e/08e91c74a98c752a5ed17b311e04d51c.jpg?width=1200&dpr=1',
+                            url: 'https://www.laredoute.ru/ppdp/prod-350049708.aspx?dim1=1#shoppingtool=treestructureguidednavigation'
+                        },
+                        {
+                            title: 'Футболка',
+                            description: 'Футболка с V-образным вырезом',
+                            img: 'https://cdn.laredoute.com/products/8/f/f/8ff5f01b56d04f726769bf0c865cca64.jpg?width=1200&dpr=1',
+                            url: 'https://www.laredoute.ru/ppdp/prod-350294181.aspx#shoppingtool=treestructureguidednavigation'
+                        },
+                        {
+                            title: 'Футболка',
+                            description: 'Футболка с короткими рукавами',
+                            img: 'https://cdn.laredoute.com/products/d/4/4/d4443112494b2afe4e4eb7e124a798a1.jpg?width=1200&dpr=1',
+                            url: 'https://www.laredoute.ru/ppdp/prod-350306983.aspx?dim1=2#shoppingtool=treestructureguidednavigation'
+                        },
+                        {
+                            title: 'Футболка',
+                            description: 'Футболка с цветочным принтом',
+                            img: 'https://cdn.laredoute.com/products/3/c/c/3cce55694273f6edb96bd96b007f991d.jpg?width=1200&dpr=1',
+                            url: 'https://www.laredoute.ru/ppdp/prod-350294070.aspx#shoppingtool=treestructureguidednavigation'
+                        },
+                        {
+                            title: 'Рубашка',
+                            description: 'Рубашка с короткими рукавами',
+                            img: 'https://cdn.laredoute.com/products/3/3/8/33887933459266dd975f53a091abfc28.jpg?width=1200&dpr=1',
+                            url: 'https://www.laredoute.ru/ppdp/prod-350314080.aspx#shoppingtool=brandpage'
+                        },
+                        {
+                            title: 'Блузка',
+                            description: 'Блузка с круглым вырезом',
+                            img: 'https://cdn.laredoute.com/products/c/7/5/c75fcc9fd402e69b3577ffc394107f6c.jpg?width=1200&dpr=1',
+                            url: 'https://www.laredoute.ru/ppdp/prod-350294046.aspx#shoppingtool=brandpage'
+                        },
+                        {
+                            title: 'Блузка',
+                            description: 'Блузка с V-образным вырезом',
+                            img: 'https://cdn.laredoute.com/products/3/3/a/33af961e0b0869c0cb947cc170109931.jpg?width=1200&dpr=1',
+                            url: 'https://www.laredoute.ru/ppdp/prod-350314181.aspx#shoppingtool=brandpage'
                         }
                     ]
                 },
