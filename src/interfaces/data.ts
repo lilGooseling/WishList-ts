@@ -10,6 +10,13 @@ export enum BackgroundImageEnum {
     REPEAT
 }
 
+export enum ImageStyleEnum {
+    TOP_RIGHT,
+    TOP_LEFT,
+    BOTTOM_RIGHT,
+    BOTTOM_LEFT
+}
+
 export enum BackgroundEffectEnum {
     PARALLAX
 }

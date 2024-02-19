@@ -842,18 +842,6 @@ export const globalData: IData = {
                             url: 'https://www.texturra.ru/product/pryanichnaya-forma-mandala'
                         },
                         {
-                            title: 'Штамп',
-                            description: 'Пряничный штамп Прованская роза',
-                            img: 'https://static.insales-cdn.com/r/31qHt5DK8qs/rs:fit:550:550:1/plain/images/products/1/3592/479079944/KAN_5368.jpg@webp',
-                            url: 'https://www.texturra.ru/product/shtamp-provanskaya-sentifoliya'
-                        },
-                        {
-                            title: 'Штамп',
-                            description: 'Пряничный штамп Чертополох',
-                            img: 'https://static.insales-cdn.com/r/S1NKqWCLD5Q/rs:fit:550:550:1/plain/images/products/1/6341/507435205/3.jpg@webp',
-                            url: 'https://www.texturra.ru/product/pryanichnyy-shtamp-chertopoloh'
-                        },
-                        {
                             title: 'Пряности',
                             description: 'Сухие духи для русского пряника',
                             img: 'https://static.insales-cdn.com/r/uDIXQBAtB6g/rs:fit:550:550:1/plain/images/products/1/5058/468300738/%D0%BC%D0%BE%D0%BD%D1%81%D1%82%D1%80%D0%B8%D0%BA%D0%B8.png@webp',
