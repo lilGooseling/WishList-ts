@@ -16,13 +16,13 @@ const Title: React.FC<TitleProps> = ({section}) => {
             [styles.shadow]: section.template === SectionTemplateEnum.GRID_SHADOW,
             [styles.sticker]: section.template === SectionTemplateEnum.GRID_STICKER,
             [styles.gradient]: section.template === SectionTemplateEnum.GRID_GRADIENT
-        })}>{section.title}</div>
+        })} style={({color: `${section.titleTextColor ? section.titleTextColor : '#000000'}`})}>{section.title}</div>
         <div className={classNames(styles.desc, {
             [styles.material]: section.template === SectionTemplateEnum.GRID_MATERIAL,
             [styles.shadow]: section.template === SectionTemplateEnum.GRID_SHADOW,
             [styles.sticker]: section.template === SectionTemplateEnum.GRID_STICKER,
             [styles.gradient]: section.template === SectionTemplateEnum.GRID_GRADIENT
-        })}>{section.description}</div>
+        })} style={({color: `${section.descriptionTextColor ? section.descriptionTextColor : '#000000'}`})}>{section.description}</div>
         <div className={classNames(styles.divider)}></div>
         
     </div>

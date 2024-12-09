@@ -70,7 +70,9 @@ export interface IPage {
 
 export interface ISection {
     title: string,
+    titleTextColor?: string
     description: string,
+    descriptionTextColor?: string,
     template: SectionTemplateEnum,
     imageTemplate?: BackgroundImageEnum,
     backgroundEffect?: BackgroundEffectEnum,

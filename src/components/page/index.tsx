@@ -35,6 +35,13 @@ const Page: React.FC<PageProps> = ({page}) => {
                     })}>
                         {page.title}
                     </div>
+                    <div className={classNames(styles.description, {
+                        [styles.left]: pageType === PageTypeEnum.LEFT,
+                        [styles.right]: pageType === PageTypeEnum.RIGHT,
+                        [styles.center]: pageType === PageTypeEnum.CENTER,
+                    })}>
+                        {page.description}
+                    </div>
                 </Container>
                 {page.sections.map(section => <Section section={section} key={section.title}/>)}
             </BackgroundImage>

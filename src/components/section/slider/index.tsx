@@ -28,8 +28,8 @@ const SliderSection: React.FC<SliderSectionProps> = ({section}) => {
     }
 
     return <div className={styles.wrap} style={dynamicStyles}>
-        <div className={styles.title}>{section.title}</div>
-        <div className={styles.description}>{section.description}</div>
+        <div className={styles.title} style={({color: `${section.titleTextColor ? section.titleTextColor : '#000000'}`})}>{section.title}</div>
+        <div className={styles.description} style={({color: `${section.descriptionTextColor ? section.descriptionTextColor : '#000000'}`})}>{section.description}</div>
         <div className={classNames(styles.slider, {
             [styles.solo]: section.template === SectionTemplateEnum.SOLOSLIDER,
             [styles.duo]: section.template === SectionTemplateEnum.DUOSLIDER,
