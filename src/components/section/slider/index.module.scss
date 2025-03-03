@@ -126,6 +126,7 @@
     }
   }
 
+
   @include respond-to(lg, lg) {
     width: 100%;
   }
@@ -140,5 +141,10 @@
 
   @include respond-to(xs, xs) {
     width: 100%;
+    flex-direction: column-reverse;
+
+    .left{
+      width: 100%!important;
+    }
   }
 }

@@ -1,3 +1,5 @@
+@import '../../styles/_partials';
+@import '../../styles/_mixins';
 
 .title{
   font-size: 54px;
@@ -52,6 +54,13 @@
   font-size: 94px;
   font-weight: bold;
   margin-bottom: 8px;
+
+  @include respond-to(xs, xs) {
+    font-size: 32px;
+  }
+  @include respond-to(sm, sm) {
+    font-size: 48px;
+  }
 }
 
 .site_description {
@@ -59,4 +68,13 @@
   font-style: italic;
   margin-bottom: 28px;
   text-align: center;
+
+  @include respond-to(xs, xs) {
+    font-size: 24px;
+    word-break: break-all;
+  }
+  @include respond-to(sm, sm) {
+    font-size: 32px;
+    word-break: break-all;
+  }
 }
